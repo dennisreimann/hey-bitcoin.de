@@ -1,17 +1,17 @@
 {
-  "name": "bitcoin-start",
+  "name": "hey-bitcoin.de",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Bitcoin Starter Guide",
   "author": "Dennis Reimann <mail@dennisreimann.de> (https://dennisreimann.de)",
-  "homepage": "https://github.com/dennisreimann/bitcoin-start",
-  "bugs": "https://github.com/dennisreimann/bitcoin-start/issues",
+  "homepage": "https://github.com/hey-bitcoin-de/hey-bitcoin.de",
+  "bugs": "https://github.com/hey-bitcoin-de/hey-bitcoin.de/issues",
   "funding": {
-    "url": "https://dennisreimann.de/donate.html"
+    "url": "https://d11n.net/donate.html"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/dennisreimann/bitcoin-start.git"
+    "url": "ssh://git@github.com/hey-bitcoin-de/hey-bitcoin.de.git"
   },
   "keywords": [
     "bitcoin"

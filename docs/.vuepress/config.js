@@ -14,7 +14,7 @@ module.exports = {
       { text: 'FAQ', link: '/faq' },
       { text: 'Links', link: '/links' }
     ],
-    repo: 'dennisreimann/bitcoin-start',
+    repo: 'hey-bitcoin-de/hey-bitcoin.de',
     sidebar: 'auto'
   }
 }
