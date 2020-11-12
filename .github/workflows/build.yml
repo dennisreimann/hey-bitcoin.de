@@ -31,6 +31,13 @@ jobs:
       - name: Build
         run: npm run build
       # Deploy, limited to the master branch
+      - name: Predeploy
+        if: success() && github.ref == 'refs/heads/master'
+        run: |
+          # https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
+          touch docs/.vuepress/dist/.nojekyll
+          # https://help.github.com/en/articles/managing-a-custom-domain-for-your-github-pages-site
+          echo hey-bitcoin.de > docs/.vuepress/dist/CNAME
       - name: Deploy
         if: success() && github.ref == 'refs/heads/master'
         uses: maxheld83/ghpages@v0.2.1
