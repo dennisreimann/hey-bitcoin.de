@@ -1,6 +1,6 @@
 ---
-prev: ./README
-next: ./intermediate
+prev: ./
+next: ./intermediate.md
 ---
 
 # Auf Los geht's los

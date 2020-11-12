@@ -1,6 +1,6 @@
 ---
-prev: ./beginner
-next: ./advanced
+prev: ./beginner.md
+next: ./advanced.md
 ---
 
 # Zwischenschritt

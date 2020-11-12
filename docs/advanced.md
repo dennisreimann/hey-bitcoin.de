@@ -1,5 +1,5 @@
 ---
-prev: ./intermediate
+prev: ./intermediate.md
 next: false
 ---
 
@@ -14,8 +14,6 @@ Privatsphäre
 ## 2. CoinJoin
 
 ## 3. Lightning
-
-
 
 ## 4. P2P-Börsen
 

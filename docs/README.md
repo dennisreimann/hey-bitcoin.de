@@ -1,6 +1,6 @@
 ---
 prev: false
-next: ./beginner
+next: ./beginner.md
 ---
 
 # Bitcoin Starter Guide
@@ -17,7 +17,7 @@ Es ist eine Sammlung von Anregungen und Tipps, die ich aus meiner Erfahrung weit
 Womit wir schon beim meiner Meinung nach wichtigsten Punkt sind:
 Wie du auch am Titel erkennst, wirst du hier nur Infos zu Bitcoin finden.
 Meiner Erfahrung nach lässt sich der gesamte Bereich mit einem Satz zusammenfassen:
-Es gibt Bitcoin – und [Shitcoins](./faq#was-ist-mit-allen-anderen-coins).
+Es gibt Bitcoin – und [Shitcoins](./faq.md#was-ist-mit-allen-anderen-coins).
 
 Darüber hinaus solltest du keine der hier genannten Informationen als allgemeingültig ansehen.
 Getreu dem Bitcoiner-Motto "Vertraue nicht, überprüfe!" solltest du deinen eigenen Weg finden.
