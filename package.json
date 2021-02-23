@@ -2,7 +2,7 @@
   "name": "hey-bitcoin.de",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "Bitcoin Starter Guide",
+  "description": "Hey Bitcoin",
   "author": "Dennis Reimann <mail@dennisreimann.de> (https://dennisreimann.de)",
   "homepage": "https://github.com/dennisreimann/hey-bitcoin.de",
   "bugs": "https://github.com/dennisreimann/hey-bitcoin.de/issues",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/hey-bitcoin-de/hey-bitcoin.de.git"
+    "url": "ssh://git@github.com/dennisreimann/hey-bitcoin.de.git"
   },
   "keywords": [
     "bitcoin"

@@ -1,20 +1,20 @@
 module.exports = {
-  title: 'Bitcoin Starter Guide',
-  description: 'Bitcoin Starter Guide',
+  title: 'Hey Bitcoin!',
+  description: 'Bitcoin Beratung und Entwicklung',
   themeConfig: {
     logo: '/bitcoin.svg',
     nav: [
-      {
-        text: 'Guide', items: [
-          { text: 'Einstieg', link: '/beginner' },
-          { text: 'Zwischenschritt', link: '/intermediate' },
-          { text: 'Fortgeschritten', link: '/advanced' }
-        ]
-      },
-      { text: 'FAQ', link: '/faq' },
+      // {
+      //   text: 'Guide', items: [
+      //     { text: 'Einstieg', link: '/beginner' },
+      //     { text: 'Zwischenschritt', link: '/intermediate' },
+      //     { text: 'Fortgeschritten', link: '/advanced' }
+      //   ]
+      // },
+      // { text: 'FAQ', link: '/faq' },
       { text: 'Links', link: '/links' }
     ],
-    repo: 'hey-bitcoin-de/hey-bitcoin.de',
-    sidebar: 'auto'
+    sidebar: 'auto',
+    search: false
   }
 }
