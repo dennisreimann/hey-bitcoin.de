@@ -4,8 +4,8 @@
   "license": "MIT",
   "description": "Bitcoin Starter Guide",
   "author": "Dennis Reimann <mail@dennisreimann.de> (https://dennisreimann.de)",
-  "homepage": "https://github.com/hey-bitcoin-de/hey-bitcoin.de",
-  "bugs": "https://github.com/hey-bitcoin-de/hey-bitcoin.de/issues",
+  "homepage": "https://github.com/dennisreimann/hey-bitcoin.de",
+  "bugs": "https://github.com/dennisreimann/hey-bitcoin.de/issues",
   "funding": {
     "url": "https://d11n.net/donate.html"
   },
@@ -25,7 +25,7 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "1.7.1",
+    "vuepress": "1.8.2",
     "vuepress-plugin-clean-urls": "1.1.2"
   }
 }
