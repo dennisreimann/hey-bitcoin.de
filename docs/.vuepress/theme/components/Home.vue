@@ -60,6 +60,19 @@
       />
     </p>
 
+    <div class="info">
+      <p>Seit ich 2017 angefangen habe, mich tiefergehend mit dem Thema zu beschäftigen lässt es mich nicht mehr los.
+        Mittlerweile ist Bitcoin mein Vollzeit-Job und ich helfe bei mehreren Open Source Projekten in diesem Bereich.
+        Hauptsächlich arbeite ich dabei mit an <a href="https://btcpayserver.org" target="_blank" rel="noopener noreferrer">BTCPay
+        Server</a>, einer Plattform die Verkäufern das Empfangen von Bitcoin-Zahlungen ermöglicht.</p>
+      <p>Da Bitcoin für mich mehr als nur der Job ist, bin ich zusammen mit vier Freunden Teil von
+        <a href="https://einundzwanzig.space" target="_blank" rel="noopener noreferrer">Einundzwanzig</a>, dem Bitcoin-Podcast:
+        Einmal in der Woche besprechen wir die aktuellen Geschehnisse in Bitcoin und verwandten Themen.
+        Daneben produzieren wir zusätzlich Interviews und weitere Inhalte, um das Wissen unter die Leute zu bringen.
+        In unserem <a href="https://einundzwanzig.shop/" target="_blank" rel="noopener noreferrer">Online-Shop</a> verkaufen wir
+        Fanartikel und akzeptieren nur hartes Geld. 😉</p>
+    </div>
+
     <div class="footer">
       <p v-if="data.footer">{{ data.footer }}</p>
       <p>Dennis Reimann | <a href="https://dennisreimann.de/kontakt.html" target="_blank">Kontakt &amp; Impressum</a></p>
@@ -122,7 +135,6 @@ export default {
     font-size 1.2rem
     color #fff
     background-color $accentColor
-    margin-bottom 1.5rem
     padding 0.8rem 1.6rem
     border-radius 4px
     transition background-color .1s ease
@@ -130,11 +142,16 @@ export default {
     border-bottom 1px solid darken($accentColor, 10%)
     &:hover
       background-color lighten($accentColor, 10%)
+  p
+    max-width 47em
+    margin-left auto
+    margin-right auto
+  .info,
   .features
     border-top 1px solid $borderColor
-    border-bottom 1px solid $borderColor
     padding 1.2rem 0
-    margin 2.5rem 0
+    margin 2.5rem 0 .5rem
+  .features
     display flex
     flex-wrap wrap
     align-items flex-start
@@ -153,8 +170,8 @@ export default {
     p
       color lighten($textColor, 25%)
   .footer
-    padding 2.5rem
     border-top 1px solid $borderColor
+    padding 2.5rem
     text-align center
     color lighten($textColor, 25%)
 
