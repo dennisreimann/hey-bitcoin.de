@@ -11,7 +11,7 @@ features:
   link: test
 - title: Bitcoin verdienen
   details: Mit dem härtesten und knappesten Geld bezahlt werden fühlt sich gut an. Ich zeig dir wie es geht und wie die Buchhaltung funktioniert. 💸🤓
-footer: Bitcoin · Lightning Network · Persönliche Souveränität · Privatsphäre · Datensicherheit
+footer: Bitcoin · Lightning Network · Persönliche Souveränität · Privatsphäre · Datensicherheit · Self-Hosting
 ---
 Hey! Ich bin Dennis, freiberuflicher Softwareentwickler und begeisterter Bitcoiner.
 

@@ -75,7 +75,11 @@
 
     <div class="footer">
       <p v-if="data.footer">{{ data.footer }}</p>
-      <p>Dennis Reimann | <a href="https://dennisreimann.de/kontakt.html" target="_blank">Kontakt &amp; Impressum</a></p>
+      <p>
+        <a href="mailto:mail@dennisreimann.de?subject=Hey Bitcoin">Dennis Reimann</a> ·
+        <a href="https://dennisreimann.de/dennisreimann.asc">PGP Pubkey (<small><code>F768 60F8 449D 2F39</code></small>)</a> ·
+        <a href="https://dennisreimann.de/kontakt.html" target="_blank">Impressum</a>
+      </p>
     </div>
   </main>
 </template>
