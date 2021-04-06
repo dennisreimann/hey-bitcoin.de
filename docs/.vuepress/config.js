@@ -1,26 +1,64 @@
+const extractDescription = text => {
+  if (!text) return
+  const paragraph = text.match(/^[A-Za-z].*(?:\n[A-Za-z].*)*/m)
+  return paragraph ? paragraph.toString().replace(/[\*\_\(\)\[\]]/g, '') : null
+}
+
+const baseUrl = 'https://hey-bitcoin.de'
+const pageSuffix = '/'
+
 module.exports = {
   title: 'Hey Bitcoin!',
   description: 'Bitcoin Beratung und Entwicklung',
+  plugins: [
+    ['seo', {
+      siteTitle: (_, $site) => $site.title,
+      title: $page => $page.title,
+      description: $page => $page.frontmatter.description || extractDescription($page._strippedContent),
+      author: (_, $site) => ({ name: 'Dennis', twitter: '_d11n_' }),
+      tags: $page => ($page.frontmatter.tags || ['Bitcoin', 'Beratung', 'Entwicklung', 'BTCPay Server', 'Bitcoin verdienen']),
+      twitterCard: _ => 'summary',
+      type: $page => 'article',
+      url: (_, $site, path) => `${baseUrl}${path.replace('.html', pageSuffix)}`,
+      image: ($page, $site) => `${baseUrl}/card.png`
+    }],
+    ['clean-urls', {
+      normalSuffix: pageSuffix,
+      indexSuffix: pageSuffix,
+      notFoundPath: '/404.html',
+    }],
+    ['code-copy', {
+      color: '#8F979E',
+      backgroundTransition: false,
+      staticIcon: true,
+      successText: 'Kopiert!'
+    }],
+    ['sitemap', {
+      hostname: baseUrl,
+      exclude: ['/404.html']
+    }],
+    ['@vuepress/back-to-top'],
+    ['@vuepress/medium-zoom']
+  ],
+  markdown: {
+    pageSuffix
+  },
   themeConfig: {
+    domain: baseUrl,
     logo: '/bitcoin.svg',
+    search: false,
+    smoothScroll: true,
     nav: [
-      // {
-      //   text: 'Guide', items: [
-      //     { text: 'Einstieg', link: '/beginner' },
-      //     { text: 'Zwischenschritt', link: '/intermediate' },
-      //     { text: 'Fortgeschritten', link: '/advanced' }
-      //   ]
-      // },
-      // { text: 'FAQ', link: '/faq' },
+      { text: 'Anleitungen', link: '/anleitung/index' },
       { text: 'Links', link: '/links' }
     ],
-    sidebar: 'auto',
-    search: false,
-    smoothScroll: true
+    sidebar: {
+      '/anleitung/': [
+        'software-verifizieren/'
+      ]
+    }
   },
   locales: {
-    // The key is the path for the locale to be nested under.
-    // As a special case, the default locale can use '/' as its path.
     '/': {
       lang: 'de-DE'
     }

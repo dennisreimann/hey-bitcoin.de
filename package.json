@@ -25,7 +25,12 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "1.8.2",
+    "@vuepress/plugin-medium-zoom": "1.8.2",
     "vuepress": "1.8.2",
-    "vuepress-plugin-clean-urls": "1.1.2"
+    "vuepress-plugin-clean-urls": "1.1.2",
+    "vuepress-plugin-code-copy": "1.0.6",
+    "vuepress-plugin-seo": "0.1.4",
+    "vuepress-plugin-sitemap": "2.3.1"
   }
 }
