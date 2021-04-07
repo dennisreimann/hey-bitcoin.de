@@ -104,7 +104,7 @@ Primary key fingerprint: 2260 E482 8888 2C76 AFAA  319D 67A2 B160 F74D B275
 ```
 
 Wichtig ist dabei der Teil `Good signature from "Marko Bencun <marko@shiftcrypto.ch>"`.
-Die Warnung und der Zusatz `[unknown]` erscheinen, da der Schlüssel in GPG unbestätigt sind.
+Die Warnung und der Zusatz `[unknown]` erscheinen, da der Schlüssel in GPG unbestätigt ist.
 Dies wäre ein zusätzlicher Schritt, bei dem du bestätigst, dass du diesen Schlüssel auch sicher vom Hersteller direkt bekommen hast.
 Die Software kann unabhängig davon installiert werden, da du nun sichergestellt hast, dass sie vom Hersteller signiert wurde.
 
