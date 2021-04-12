@@ -49,14 +49,20 @@ module.exports = {
     search: false,
     smoothScroll: true,
     nav: [
-      { text: 'Anleitungen', link: '/anleitung/index' },
-      { text: 'Links', link: '/links' }
+      { text: 'Anleitungen', link: '/anleitung/' },
+      { text: 'Fragen und Antworten', link: '/faq/' },
+      { text: 'Glossar', link: '/glossar/' },
+      { text: 'Links', link: '/links/' }
     ],
-    sidebar: {
-      '/anleitung/': [
-        'software-verifizieren/'
-      ]
-    }
+    sidebar: [
+      {
+        title: 'Anleitungen',
+        collapsable: false,
+        children: [
+          '/anleitung/software-verifizieren/'
+        ]
+      }
+    ]
   },
   locales: {
     '/': {
