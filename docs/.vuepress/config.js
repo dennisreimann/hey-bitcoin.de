@@ -41,6 +41,9 @@ module.exports = {
     ['@vuepress/medium-zoom']
   ],
   markdown: {
+    extendMarkdown(md) {
+      md.use(require('markdown-it-abbr'))
+    },
     pageSuffix
   },
   themeConfig: {
