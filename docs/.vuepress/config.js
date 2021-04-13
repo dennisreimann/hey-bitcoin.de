@@ -62,6 +62,7 @@ module.exports = {
         title: 'Anleitungen',
         collapsable: false,
         children: [
+          '/anleitung/deine-ersten-satoshis/',
           '/anleitung/software-verifizieren/'
         ]
       }

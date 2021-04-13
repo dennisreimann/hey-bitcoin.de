@@ -67,4 +67,4 @@ Dabei handelt es sich um die Untereinheit eines bitcoin:
 So wie ein Euro in 100 Cent unterteilbar ist, steht ein bitcoin für 100.000.000 Millionen Satoshis.
 Dies bietet als EInheit genug Teilbarkeit, um damit auch bei ggf. massiver Wertsteigerung in der Zukunft gut umgehen zu können.
 
-Das bedeutet auch, dass du nicht "einen ganzen bitcoin" kaufen musst, sondern Satoshis stapeln kannst, bis du ihn dann irgendwann zusammengespart hast.
+Das bedeutet auch, dass du nicht "einen ganzen bitcoin" kaufen musst, sondern [Satoshis stapeln](/anleitung/deine-ersten-satoshis/) kannst, bis du ihn dann irgendwann zusammengespart hast.
