@@ -68,3 +68,16 @@ So wie ein Euro in 100 Cent unterteilbar ist, steht ein bitcoin für 100.000.000
 Dies bietet als EInheit genug Teilbarkeit, um damit auch bei ggf. massiver Wertsteigerung in der Zukunft gut umgehen zu können.
 
 Das bedeutet auch, dass du nicht "einen ganzen bitcoin" kaufen musst, sondern [Satoshis stapeln](/anleitung/deine-ersten-satoshis/) kannst, bis du ihn dann irgendwann zusammengespart hast.
+
+## Wo sind meine bitcoins gespeichert?
+
+Die meisten Leute denken zunächst, dass ihre bitcoins wie andere Daten auch auf ihrer Festplatte gespeichert sind.
+Das stimmt nicht wirklich, denn das Wissen darüber, welcher Adresse wie viele bitcoins gehören liegt in der Blockchain.
+Die Blockchain ist das öffentliche Grundbuch, in das jede Transaktion hineingeschrieben wird.
+Jeder kann diese Daten einsehen und prüfen, beispielsweise mit dem eigenen Bitcoin-Node oder einem Block Explorer.
+Jeder Bitcoin-Node hat eine Kopie der Blockchain, mit der die Gültigkeit neuer Transaktionen verifiziert wird.
+
+Damit du eine gültige Transaktion erstellen und mit deine bitcoins versenden kannst, benötigst du deinen [privaten Schlüssel](./glossar/#private-key-und-seed-phrase).
+Allein dieser Schlüssel gibt dir Zugriff auf deine Coins und er ist daher das, was deine bitcoins ausmacht:
+Verlierst du den privaten Schlüssel, sind deine Coins zwar nicht direkt verloren; du wirst sie jedoch nicht mehr versenden können, was dann praktisch dem Verlust entspricht.
+Die Frage ist daher also eher, ob dein privater Schlüssel sicher abgelegt ist – was wiederum ein Thema für sich ist.

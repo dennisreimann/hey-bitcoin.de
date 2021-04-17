@@ -51,3 +51,24 @@ Sie werden aus dem Markt gedrängt oder ferngehalten, da sie die Anforderungen o
 
 Leider sehen wir in dem Zusammenhang zunehmend große Leaks persönlicher Daten (bspw. [Ledger](https://www.blocktrainer.de/ledger-leak-infos/)), sowie eine schleichende Ausweitung von Überwachung, Kontrolle und Zensur.
 Dies ist umso bedauerlicher, da es keine handfesten Belege dafür gibt, dass diese Maßnahmen die ursprünglichen Probleme effektiv bekämpfen.
+
+## Cost Averaging und Stacking Sats
+
+Der "Preis" schwankt teilweise stark, dennoch ist bitcoin über längere Zeit betrachtet bisher eine sehr gute Sparoption.
+Die Durchschnittspreismethode ist eine Strategie, die den Effekt der Preisvolatilität reduziert:
+Man erstelt einen (bestenfalls automatisierten) Investmentplan und kauft in regelmäßigen Abständen einen festen Betrag, der der gewünschten Sparquote entspricht.
+So baut man kontinuierlich und in Ruhe sein bitcoin-Guthaben auf, ohne nervös auf die Preisentwicklung zu schauen und seine Zeit mit dem Suchen optimaler Kaufzeitpunkte zu verschwenden.
+
+Das einfache [Satoshis](./faq/#was-sind-satoshis) stapeln klingt erstmal wenig sexy.
+Da dieser Ansatz aber gut und verlässlich funktioniert, hat sich daraus das Meme ["Bleib bescheiden, staple Satoshis"](https://twitter.com/matt_odell/status/1117222441867194374) gebildet.
+Die beste Option zum Ausgleich der Schwankungen ist historisch gesehen ein tägliches oder wöchentliches Intervall.
+Auf [dieser Website](https://dcabtc.com/) kannst du mit eigenen Zahlen ein wenig rumprobieren.
+
+## UTXO: Unspent Transaction Output
+
+In Bitcoin gibt es keine Konten und auch kein Konzept eines Benutzers, dem so ein Konto gehören könnte.
+Stattdessen gibt es "unausgegebene Transaktionsergebnisse":
+Jede Transaktion hat sogenannte Inputs (das Geld was versendet wird) und Outputs (die neue Verteilung des versendeten Geldes).
+Vereinfacht und bildlich kann man sagen, dass durch eine Transaktion die Inputs in neue bitcoins umgeschmolzen werden:
+Die Anzahl Satoshis bleibt dabei gleich, aber die Verteilung auf die in der Transaktion involvierten Adressen ändert sich.
+Dabei stehen die in den Inputs versendeten Satoshis nach der Bestätigung einer Transaktion dann selbst wieder als unausgegebene Transaktionsergebnisse dem Besitzer der Empfängeradresse als Inputs für seine nächste Transaktion zur Verfügung.
