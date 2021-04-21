@@ -1,8 +1,8 @@
 # Anleitungen
 
-## Auf in den Kaninchenbau
+## Deine ersten Satoshis
 
-- [Deine ersten Satoshis](./deine-ersten-satoshis/)
+- [Bitcoin kaufen: Was muss ich beachten?](./bitcoin-kaufen-was-beachten/)
 
 ## Technisches
 

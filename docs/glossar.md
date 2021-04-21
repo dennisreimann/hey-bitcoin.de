@@ -8,16 +8,16 @@ Ein paar Begriffserklärungen, weil mittlerweile auch viele englische Bezeichnun
 
 ## Wallet
 
-Eine Wallet ist eine App, mit der du deine [bitcoins](./faq/#wieso-bitcoin-und-bitcoin) verwalten kannst.
-Du kannst dein Guthaben und Transaktionen sehen, sowie bitcoin senden und empfangen.
-Wallets sind quasi bitcoin Banking-Apps und es gibt sie für Handys und Computer.
+Eine Wallet ist eine App, mit der du deine Bitcoins verwalten kannst.
+Du kannst dein Guthaben und Transaktionen sehen, sowie Bitcoin senden und empfangen.
+Wallets sind quasi Bitcoin-Banking-Apps und es gibt sie für Handys und Computer.
 
 Obwohl Wallet übersetzt Geldbörse bedeutet, gleicht ihre eigentliche Funktion mehr einem Schlüsselbund:
-Die Wallet verwaltet deine kryptografischen Schlüssel, die dir Zugang zu deinen bitcoins geben.
+Die Wallet verwaltet deine kryptografischen Schlüssel, die dir Zugang zu deinen Bitcoins geben.
 
 ## Private Key und Seed Phrase
 
-Der private Schlüssel ist die Grundlage für den Zugriff auf deine bitcoins.
+Der private Schlüssel ist die Grundlage für den Zugriff auf deine Bitcoins.
 Es ist die sensibelste Information und du solltest ihn möglichst sicher aufbewahren.
 Die Seed Phrase ist eine menschenlesliche Entsprechung des privaten Schlüssels.
 Es ist die in 24 bzw. 12 Wörter kodierte Form des Schlüssels, die dir auch ein einfacheres analoges Backup ermöglicht.
@@ -52,23 +52,11 @@ Sie werden aus dem Markt gedrängt oder ferngehalten, da sie die Anforderungen o
 Leider sehen wir in dem Zusammenhang zunehmend große Leaks persönlicher Daten (bspw. [Ledger](https://www.blocktrainer.de/ledger-leak-infos/)), sowie eine schleichende Ausweitung von Überwachung, Kontrolle und Zensur.
 Dies ist umso bedauerlicher, da es keine handfesten Belege dafür gibt, dass diese Maßnahmen die ursprünglichen Probleme effektiv bekämpfen.
 
-## Cost Averaging und Stacking Sats
-
-Der "Preis" schwankt teilweise stark, dennoch ist bitcoin über längere Zeit betrachtet bisher eine sehr gute Sparoption.
-Die Durchschnittspreismethode ist eine Strategie, die den Effekt der Preisvolatilität reduziert:
-Man erstelt einen (bestenfalls automatisierten) Investmentplan und kauft in regelmäßigen Abständen einen festen Betrag, der der gewünschten Sparquote entspricht.
-So baut man kontinuierlich und in Ruhe sein bitcoin-Guthaben auf, ohne nervös auf die Preisentwicklung zu schauen und seine Zeit mit dem Suchen optimaler Kaufzeitpunkte zu verschwenden.
-
-Das einfache [Satoshis](./faq/#was-sind-satoshis) stapeln klingt erstmal wenig sexy.
-Da dieser Ansatz aber gut und verlässlich funktioniert, hat sich daraus das Meme ["Bleib bescheiden, staple Satoshis"](https://twitter.com/matt_odell/status/1117222441867194374) gebildet.
-Die beste Option zum Ausgleich der Schwankungen ist historisch gesehen ein tägliches oder wöchentliches Intervall.
-Auf [dieser Website](https://dcabtc.com/) kannst du mit eigenen Zahlen ein wenig rumprobieren.
-
 ## UTXO: Unspent Transaction Output
 
 In Bitcoin gibt es keine Konten und auch kein Konzept eines Benutzers, dem so ein Konto gehören könnte.
 Stattdessen gibt es "unausgegebene Transaktionsergebnisse":
 Jede Transaktion hat sogenannte Inputs (das Geld was versendet wird) und Outputs (die neue Verteilung des versendeten Geldes).
-Vereinfacht und bildlich kann man sagen, dass durch eine Transaktion die Inputs in neue bitcoins umgeschmolzen werden:
+Vereinfacht und bildlich kann man sagen, dass durch eine Transaktion die Inputs in neue Bitcoins umgeschmolzen werden:
 Die Anzahl Satoshis bleibt dabei gleich, aber die Verteilung auf die in der Transaktion involvierten Adressen ändert sich.
 Dabei stehen die in den Inputs versendeten Satoshis nach der Bestätigung einer Transaktion dann selbst wieder als unausgegebene Transaktionsergebnisse dem Besitzer der Empfängeradresse als Inputs für seine nächste Transaktion zur Verfügung.

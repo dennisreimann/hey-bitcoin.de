@@ -53,31 +53,17 @@ Oftmals treten solche Projekte vor Beginn einer neuen Hypephase zu Tage:
 - 2017: ICOs – Initial Coin Offerings, öffentliche Finanzierungsphase neuer Tokenprojekte, oftmals basierend auf Ethereum
 - 2021: NTFs – Non-Fungible Token, digitale Sammlerstücke, deren Einzigartigkeit und Handel über "Blockchain" gewährleistet wird
 
-Meine persönlich Meinung: Der absolute Großteil der Altcoins und Token-Projekte ist schlichtweg Betrug mit dem Ziel bitcoins einzusammeln.
+Meine persönlich Meinung: Der absolute Großteil der Altcoins und Token-Projekte ist schlichtweg Betrug mit dem Ziel Bitcoins einzusammeln.
 
-## Wieso "Bitcoin" und "bitcoin"?
+## Wo sind meine Bitcoins gespeichert?
 
-Der Unterschied in der schreibweise ist schnell erklärt:
-Das großgeschriebene "Bitcoin" wird verwendet, wenn es um das System, die Technik und das Netzwerk ansich geht.
-Im Bezug auf die Währung wird in der Regel die kleingeschriebene Form "bitcoin" genutzt.
-
-## Was sind "Satoshis"?
-
-Dabei handelt es sich um die Untereinheit eines bitcoin:
-So wie ein Euro in 100 Cent unterteilbar ist, steht ein bitcoin für 100.000.000 Millionen Satoshis.
-Dies bietet als EInheit genug Teilbarkeit, um damit auch bei ggf. massiver Wertsteigerung in der Zukunft gut umgehen zu können.
-
-Das bedeutet auch, dass du nicht "einen ganzen bitcoin" kaufen musst, sondern [Satoshis stapeln](/anleitung/deine-ersten-satoshis/) kannst, bis du ihn dann irgendwann zusammengespart hast.
-
-## Wo sind meine bitcoins gespeichert?
-
-Die meisten Leute denken zunächst, dass ihre bitcoins wie andere Daten auch auf ihrer Festplatte gespeichert sind.
-Das stimmt nicht wirklich, denn das Wissen darüber, welcher Adresse wie viele bitcoins gehören liegt in der Blockchain.
+Die meisten Leute denken zunächst, dass ihre Bitcoins wie andere Daten auch auf ihrer Festplatte gespeichert sind.
+Das stimmt nicht wirklich, denn das Wissen darüber, welcher Adresse wie viele Bitcoins gehören liegt in der Blockchain.
 Die Blockchain ist das öffentliche Grundbuch, in das jede Transaktion hineingeschrieben wird.
 Jeder kann diese Daten einsehen und prüfen, beispielsweise mit dem eigenen Bitcoin-Node oder einem Block Explorer.
 Jeder Bitcoin-Node hat eine Kopie der Blockchain, mit der die Gültigkeit neuer Transaktionen verifiziert wird.
 
-Damit du eine gültige Transaktion erstellen und mit deine bitcoins versenden kannst, benötigst du deinen [privaten Schlüssel](./glossar/#private-key-und-seed-phrase).
-Allein dieser Schlüssel gibt dir Zugriff auf deine Coins und er ist daher das, was deine bitcoins ausmacht:
+Damit du eine gültige Transaktion erstellen und mit deine Bitcoins versenden kannst, benötigst du deinen [privaten Schlüssel](./glossar/#private-key-und-seed-phrase).
+Allein dieser Schlüssel gibt dir Zugriff auf deine Coins und er ist daher das, was deine Bitcoins ausmacht:
 Verlierst du den privaten Schlüssel, sind deine Coins zwar nicht direkt verloren; du wirst sie jedoch nicht mehr versenden können, was dann praktisch dem Verlust entspricht.
 Die Frage ist daher also eher, ob dein privater Schlüssel sicher abgelegt ist – was wiederum ein Thema für sich ist.

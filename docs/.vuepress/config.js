@@ -62,7 +62,7 @@ module.exports = {
         title: 'Anleitungen',
         collapsable: false,
         children: [
-          '/anleitung/deine-ersten-satoshis/',
+          '/anleitung/bitcoin-kaufen-was-beachten/',
           '/anleitung/software-verifizieren/'
         ]
       }
