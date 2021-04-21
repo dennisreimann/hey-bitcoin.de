@@ -14,6 +14,8 @@ Wallets sind quasi Bitcoin-Banking-Apps und es gibt sie für Handys und Computer
 
 Obwohl Wallet übersetzt Geldbörse bedeutet, gleicht ihre eigentliche Funktion mehr einem Schlüsselbund:
 Die Wallet verwaltet deine kryptografischen Schlüssel, die dir Zugang zu deinen Bitcoins geben.
+Darüber hinaus übernimmt sie die Kommunikation mit dem Bitcoin-Netzwerk:
+Die Wallet prüft und signiert deine Adressen und empfängt und sendet Transaktionen.
 
 ## Private Key und Seed Phrase
 
@@ -23,8 +25,21 @@ Die Seed Phrase ist eine menschenlesliche Entsprechung des privaten Schlüssels.
 Es ist die in 24 bzw. 12 Wörter kodierte Form des Schlüssels, die dir auch ein einfacheres analoges Backup ermöglicht.
 
 Man sagt auch "not your keys, not your coins": Wenn du den Schlüssel nicht hast, sind es nicht deine Coins.
-Wer den privaten Schlüssel hält,s hat auch den Zugriff und nur mit dem privaten Schlüssel lassen sich Transaktionen tätigen.
-Womit wir direkt beim nächsten Punkt wären …
+Wer den privaten Schlüssel hält, hat auch den Zugriff und nur mit dem privaten Schlüssel lassen sich Transaktionen tätigen.
+
+## Passphrase
+
+Die Passphrase ist ein optionales Feature, welches als zusätzlicher Sicherheitsfaktor genutzt werden kann:
+Es ist ein 25. Zusatzwort für deine Seed Phrase, mit dem du eine neue Wallet von deinem Seed ableitest.
+Du kannst damit deinen Seed als Basis nehmen, ihn in mehrere "Konten" aufteilen und die Passphrase als Passwort nutzen.
+Passphrases solltest du getrennt von deinem Seed aufbewahren und sichern.
+
+## Adressen und Signaturen
+
+Von deinem privaten Schlüssel werden Adressen abgeleitet, mit denen du Bitcoin empfangen kannst.
+Mit dem privaten Schlüssel kannst du ebenso Signaturen für diese Adressen erstellen.
+Die Signatur ist der Beweis, dass dir die Adresse gehört – du benötigst sie, wenn du Bitcoin versenden möchtest.
+Das Erstellen von Adressen und Signatur übernimmt deine Wallet.
 
 ## Custodial und Non-Custodial
 
