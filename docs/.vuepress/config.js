@@ -1,3 +1,6 @@
+const { resolve } = require('path')
+const preprocessMarkdown = resolve(__dirname, 'preprocessMarkdown')
+
 const extractDescription = text => {
   if (!text) return
   const paragraph = text.match(/^[A-Za-z].*(?:\n[A-Za-z].*)*/m)
@@ -40,6 +43,14 @@ module.exports = {
     ['@vuepress/back-to-top'],
     ['@vuepress/medium-zoom']
   ],
+  chainWebpack(config) {
+    config.module
+      .rule('md')
+      .test(/\.md$/)
+      .use(preprocessMarkdown)
+      .loader(preprocessMarkdown)
+      .end()
+  },
   markdown: {
     extendMarkdown(md) {
       md.use(require('markdown-it-abbr'))
@@ -63,6 +74,7 @@ module.exports = {
         collapsable: false,
         children: [
           '/anleitung/bitcoin-kaufen-was-beachten/',
+          '/anleitung/bitcoin-fullnode-raspberry-pi-4/',
           '/anleitung/software-verifizieren/'
         ]
       }
