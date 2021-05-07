@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bitcoin Fullnode mit dem Raspberry Pi 4 | Hey Bitcoin!</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="Bitcoin Beratung und Entwicklung">
+    <meta property="og:site_name" content="Hey Bitcoin!">
+    <meta property="og:title" content="Bitcoin Fullnode mit dem Raspberry Pi 4">
+    <meta property="og:description" content="Was du für einen Bitcoin Fullnode mit dem Raspberry Pi 4 brauchst und wie du die Einzelteile zusammensetzt.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://hey-bitcoin.de/anleitung/bitcoin-fullnode-raspberry-pi-4/">
+    <meta property="og:image" content="https://hey-bitcoin.de/card.png">
+    <meta name="twitter:title" content="Bitcoin Fullnode mit dem Raspberry Pi 4">
+    <meta name="twitter:description" content="Was du für einen Bitcoin Fullnode mit dem Raspberry Pi 4 brauchst und wie du die Einzelteile zusammensetzt.">
+    <meta name="twitter:url" content="https://hey-bitcoin.de/anleitung/bitcoin-fullnode-raspberry-pi-4/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://hey-bitcoin.de/card.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Dennis">
+    <meta name="twitter:creator" content="_d11n_">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Bitcoin, Beratung, Entwicklung, BTCPay Server, Bitcoin verdienen">
+    <meta property="article:tag" content="Bitcoin">
+    
+    <link rel="preload" href="/assets/css/0.styles.9bd47033.css" as="style"><link rel="preload" href="/assets/js/app.229ba609.js" as="script"><link rel="preload" href="/assets/js/2.47b47fad.js" as="script"><link rel="preload" href="/assets/js/10.11b81975.js" as="script"><link rel="prefetch" href="/assets/js/11.45cb3524.js"><link rel="prefetch" href="/assets/js/12.3d20485b.js"><link rel="prefetch" href="/assets/js/13.a41b87dc.js"><link rel="prefetch" href="/assets/js/14.d27b637a.js"><link rel="prefetch" href="/assets/js/15.6e2c8313.js"><link rel="prefetch" href="/assets/js/3.48a903ea.js"><link rel="prefetch" href="/assets/js/4.ec8277d2.js"><link rel="prefetch" href="/assets/js/5.d836078a.js"><link rel="prefetch" href="/assets/js/6.abcab9ec.js"><link rel="prefetch" href="/assets/js/7.7dbba9ca.js"><link rel="prefetch" href="/assets/js/8.28f024e1.js"><link rel="prefetch" href="/assets/js/9.459ed9f1.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.9bd47033.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/bitcoin.svg" alt="Hey Bitcoin!" class="logo"> <span class="site-name can-hide">Hey Bitcoin!</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/anleitung/" class="nav-link router-link-active">
+  Anleitungen
+</a></div><div class="nav-item"><a href="/faq/" class="nav-link">
+  Fragen und Antworten
+</a></div><div class="nav-item"><a href="/glossar/" class="nav-link">
+  Glossar
+</a></div><div class="nav-item"><a href="/links/" class="nav-link">
+  Links
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/anleitung/" class="nav-link router-link-active">
+  Anleitungen
+</a></div><div class="nav-item"><a href="/faq/" class="nav-link">
+  Fragen und Antworten
+</a></div><div class="nav-item"><a href="/glossar/" class="nav-link">
+  Glossar
+</a></div><div class="nav-item"><a href="/links/" class="nav-link">
+  Links
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Anleitungen</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/anleitung/bitcoin-kaufen-was-beachten/" class="sidebar-link">Bitcoin kaufen: Was muss ich beachten?</a></li><li><a href="/anleitung/bitcoin-fullnode-raspberry-pi-4/" aria-current="page" class="active sidebar-link">Bitcoin Fullnode mit dem Raspberry Pi 4</a></li><li><a href="/anleitung/software-verifizieren/" class="sidebar-link">Software verifizieren</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="bitcoin-fullnode-mit-dem-raspberry-pi-4"><a href="#bitcoin-fullnode-mit-dem-raspberry-pi-4" class="header-anchor">#</a> Bitcoin Fullnode mit dem Raspberry Pi 4</h1> <p>Was du für einen Bitcoin Fullnode mit dem Raspberry Pi 4 brauchst und wie du die Einzelteile zusammensetzt.</p> <a href="https://youtube.com/watch?v=pWJFFLpElT0" data-id="pWJFFLpElT0" class="ytEmbed" style="background-image:url(https://img.youtube.com/vi/pWJFFLpElT0/hqdefault.jpg);"><iframe title="YouTube" data-src="https://www.youtube-nocookie.com/embed/pWJFFLpElT0?&amp;autoplay=1&amp;autohide=1&amp;modestbranding=1&amp;color=white&amp;rel=0" frameborder="0" allow="autoplay;encrypted-media;picture-in-picture" allowfullscreen="allowfullscreen"></iframe></a> <p>Einkaufsliste:</p> <ul><li><a href="https://amzn.to/2PgXg4X" target="_blank" rel="noopener noreferrer">Raspberry Pi 4 mit 4GB RAM<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://amzn.to/3tMGlGz" target="_blank" rel="noopener noreferrer">Netzteil für Raspberry Pi 4<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://amzn.to/32IG2Rc" target="_blank" rel="noopener noreferrer">SanDisk Extreme Pro 32GB microSDHC<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://amzn.to/2PkAeKE" target="_blank" rel="noopener noreferrer">SanDisk Ultra 3D 1 TB SSD<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://amzn.to/3nnz7Gz" target="_blank" rel="noopener noreferrer">Inateck Festplattengehäuse<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <p>Beim Gehäuse gibt es mehrere gute Optionen, je nachdem was dir gefällt:</p> <ul><li><a href="https://amzn.to/3tNJUfG" target="_blank" rel="noopener noreferrer">Aluminium Passiv-Kühlung<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://amzn.to/3tN66Gx" target="_blank" rel="noopener noreferrer">FLIRC Aluminium Case<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://amzn.to/3dJWjM4" target="_blank" rel="noopener noreferrer">Transparent mit Lüfter und Kühlkörper<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/anleitung/bitcoin-kaufen-was-beachten/" class="prev">
+        Bitcoin kaufen: Was muss ich beachten?
+      </a></span> <span class="next"><a href="/anleitung/software-verifizieren/">
+        Software verifizieren
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.229ba609.js" defer></script><script src="/assets/js/2.47b47fad.js" defer></script><script src="/assets/js/10.11b81975.js" defer></script>
+  </body>
+</html>
