@@ -2,7 +2,7 @@
 
 Was du für einen Bitcoin Fullnode mit dem Raspberry Pi 4 brauchst und wie du die Einzelteile zusammensetzt.
 
-[![Bitcoin Fullnode mit dem Raspberry Pi 4](./bitcoin-fullnode-raspberry-pi-4.png "Bitcoin Fullnode mit dem Raspberry Pi 4")](https://youtube.com/watch?v=xQNAVhuOz2Y)
+[![Bitcoin Fullnode mit dem Raspberry Pi 4](./bitcoin-fullnode-raspberry-pi-4.png "Bitcoin Fullnode mit dem Raspberry Pi 4")](https://youtube.com/watch?v=pWJFFLpElT0)
 
 Einkaufsliste:
 - [Raspberry Pi 4 mit 4GB RAM](https://amzn.to/2PgXg4X)
