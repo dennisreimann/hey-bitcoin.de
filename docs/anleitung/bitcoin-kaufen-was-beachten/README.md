@@ -68,9 +68,9 @@ Wenn du beispielsweise nur die Registrierung für den Kauf geringer Beträge abs
 In diesem Fall würde ich dir die Börse [Kraken](https://www.kraken.com/) empfehlen:
 Dort werden zwar auch einige Shitcoins angeboten, Kraken macht ansonsten aber einen guten Eindruck und hat im Vergleich zu anderen Börsen faire Gebühren.
 
-Solltest du möglichst schnell einsteigen und vor allem Sats stapeln wollen, dann sieh dir [Relai](https://relai.ch) an:
+Solltest du möglichst schnell einsteigen und vor allem Sats stapeln wollen, dann sieh dir [Pocket](https://pocketbitcoin.com/) an:
 Dort zahlst du zwar höhere Gebühren, durchläufst aber einen leichtgewichtigen KYC-Prozess und hast die ersten Satoshis relativ schnell in der eigenen Wallet.
-Du überweist den Betrag für den du Bitcoin kaufen möchtest und sie schicken dir die Sats in deine Relai-Handywallet.
+Du überweist den Betrag für den du Bitcoin kaufen möchtest und sie schicken dir die Sats an deine Wallet-Adresse.
 Die Registrierung läuft dabei über deine Bankverbindung.
 
 ### Dezentrale Börsen
