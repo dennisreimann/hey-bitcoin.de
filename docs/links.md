@@ -21,7 +21,7 @@ Glücklicherweise gibt es auch im deutschprachigen Raum einige Podcasts mit rege
 
 Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du diese hier:
 
-- [Gefährliches Halbwissen: Bitcoin](https://halbwissen.co/2020/03/03/bitcoin-mit-dennis-reimann/)
+- [Gefährliches Halbwissen: Bitcoin](/files/ghw-103-bitcoin.mp3)
 - [Mises Karma: Bitcoin und die Österreichische Schule](https://miseskarma.de/podcast/episode-34-bitcoin-und-die-oesterreichische-schule-im-gespraech-mit-markus-und-dennis/)
 - [Mises Karma: Bitcoin als faires Geldsystem](https://miseskarma.de/podcast/episode-68-bitcoin-als-faires-geldsystem-im-gespraech-mit-dennis-fabio-und-markus/)
 - [Bitcoin im Turm: BTCPay Server](https://bitcoin-im-turm.zencast.website/episodes/btcpayserver-mit-dennis-reimann)
