@@ -1,7 +1,6 @@
-const { resolve } = require('path')
-const preprocessMarkdown = resolve(__dirname, 'preprocessMarkdown')
+const { path } = require('@vuepress/utils')
 
-const extractDescription = text => {
+const extractDescription = (text) => {
   if (!text) return
   const paragraph = text.match(/^[A-Za-z].*(?:\n[A-Za-z].*)*/m)
   return paragraph ? paragraph.toString().replace(/[\*\_\(\)\[\]]/g, '') : null
@@ -14,59 +13,59 @@ module.exports = {
   title: 'Hey Bitcoin!',
   description: 'Bitcoin Beratung und Entwicklung',
   plugins: [
-    ['seo', {
-      siteTitle: (_, $site) => $site.title,
-      title: $page => $page.title,
-      description: $page => $page.frontmatter.description || extractDescription($page._strippedContent),
-      author: (_, $site) => ({ name: 'Dennis', twitter: '_d11n_' }),
-      tags: $page => ($page.frontmatter.tags || ['Bitcoin', 'Beratung', 'Entwicklung', 'BTCPay Server', 'Bitcoin verdienen']),
-      twitterCard: _ => 'summary',
-      type: $page => 'article',
-      url: (_, $site, path) => `${baseUrl}${path.replace('.html', pageSuffix)}`,
-      image: ($page, $site) => `${baseUrl}/card.png`
-    }],
-    ['clean-urls', {
-      normalSuffix: pageSuffix,
-      indexSuffix: pageSuffix,
-      notFoundPath: '/404.html',
-    }],
-    ['code-copy', {
-      color: '#8F979E',
-      backgroundTransition: false,
-      staticIcon: true,
-      successText: 'Kopiert!'
-    }],
-    ['sitemap', {
-      hostname: baseUrl,
-      exclude: ['/404.html']
-    }],
-    ['@vuepress/back-to-top'],
-    ['@vuepress/medium-zoom']
+    [
+      'seo',
+      {
+        siteTitle: (_, $site) => $site.title,
+        title: ($page) => $page.title,
+        description: ($page) =>
+          $page.frontmatter.description ||
+          extractDescription($page._strippedContent),
+        author: (_, $site) => ({ name: 'Dennis', twitter: '_d11n_' }),
+        tags: ($page) =>
+          $page.frontmatter.tags || [
+            'Bitcoin',
+            'Beratung',
+            'Entwicklung',
+            'BTCPay Server',
+            'Bitcoin verdienen',
+          ],
+        twitterCard: (_) => 'summary',
+        type: ($page) => 'article',
+        url: (_, $site, path) =>
+          `${baseUrl}${path.replace('.html', pageSuffix)}`,
+        image: ($page, $site) => `${baseUrl}/card.png`,
+      },
+    ],
+    [
+      'clean-urls',
+      {
+        normalSuffix: pageSuffix,
+        indexSuffix: pageSuffix,
+        notFoundPath: '/404.html',
+      },
+    ],
+    [
+      'sitemap',
+      {
+        hostname: baseUrl,
+        exclude: ['/404.html'],
+      },
+    ],
   ],
-  chainWebpack(config) {
-    config.module
-      .rule('md')
-      .test(/\.md$/)
-      .use(preprocessMarkdown)
-      .loader(preprocessMarkdown)
-      .end()
+  extendsMarkdown(md) {
+    md.use(require('markdown-it-abbr'))
   },
-  markdown: {
-    extendMarkdown(md) {
-      md.use(require('markdown-it-abbr'))
-    },
-    pageSuffix
-  },
+  theme: path.resolve(__dirname, 'theme'),
   themeConfig: {
-    domain: baseUrl,
     logo: '/bitcoin.svg',
-    search: false,
-    smoothScroll: true,
-    nav: [
+    contributors: false,
+    lastUpdated: false,
+    navbar: [
       { text: 'Anleitungen', link: '/anleitung/' },
       { text: 'Fragen und Antworten', link: '/faq/' },
       { text: 'Glossar', link: '/glossar/' },
-      { text: 'Links', link: '/links/' }
+      { text: 'Links', link: '/links/' },
     ],
     sidebar: [
       {
@@ -75,14 +74,14 @@ module.exports = {
         children: [
           '/anleitung/bitcoin-kaufen-was-beachten/',
           '/anleitung/bitcoin-fullnode-raspberry-pi-4/',
-          '/anleitung/software-verifizieren/'
-        ]
-      }
-    ]
+          '/anleitung/software-verifizieren/',
+        ],
+      },
+    ],
   },
   locales: {
     '/': {
-      lang: 'de-DE'
-    }
-  }
+      lang: 'de-DE',
+    },
+  },
 }

@@ -25,13 +25,16 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "1.9.7",
-    "@vuepress/plugin-medium-zoom": "1.9.7",
+    "@vuepress/plugin-back-to-top": "2.0.0-beta.35",
+    "@vuepress/plugin-medium-zoom": "2.0.0-beta.35",
     "markdown-it-abbr": "1.0.4",
-    "vuepress": "1.9.7",
+    "vuepress": "2.0.0-beta.35",
     "vuepress-plugin-clean-urls": "1.1.2",
-    "vuepress-plugin-code-copy": "1.0.6",
     "vuepress-plugin-seo": "0.2.0",
     "vuepress-plugin-sitemap": "2.3.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }

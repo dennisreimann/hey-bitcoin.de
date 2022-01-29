@@ -1,7 +1,5 @@
 ---
 home: true
-heroText: Hey Bitcoin!
-metaTitle: Hey Bitcoin! Beratung und Entwicklung
 actionText: Schreib mir eine E-Mail →
 actionLink: "mailto:mail@dennisreimann.de?subject=Hey Bitcoin"
 features:

@@ -1,3 +1,9 @@
+const { path } = require('@vuepress/utils')
+
 module.exports = {
-  extend: '@vuepress/theme-default'
+  name: 'vuepress-theme-hey-bitcoin',
+  extends: '@vuepress/theme-default',
+  alias: {
+    '@theme/Home.vue': path.resolve(__dirname, 'components/Home.vue'),
+  },
 }
