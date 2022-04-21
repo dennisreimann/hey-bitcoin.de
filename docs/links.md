@@ -15,8 +15,11 @@ Selbst bin ich großer Podcast-Fan und halte sie für die beste Art auf dem Lauf
 Glücklicherweise gibt es auch im deutschprachigen Raum einige Podcasts mit regelmäßigen Episoden:
 
 - [Einundzwanzig](https://einundzwanzig.space/) – unser Podcast, muss ich erwähnen, sonst gibt es Ärger mit den Kollegen
-- [Honigdachs](https://coinspondent.de/honigdachs-der-bitcoin-podcast-aus-leipzig/) – sympathische Unterhaltungen von drei Bitcoin-Urgesteinen aus Leipzig
 - [Bitcoin verstehen](https://anchor.fm/bitcoinverstehenpodcast) – einsteigerfreundlicher Podcast mit vielen Erklärungsepisoden
+- [Die Bitcoin Lesestunde](https://anchor.fm/aprycotmedia) – Die besten Bitcoin-Artikel im Hörformat
+- [Nodesignal](https://nodesignal.space/) – von Bitcoinern für Bitcoiner
+- [Powering Bitcoin](https://anchor.fm/poweringbitcoin) – Podcast rund um die Themen Energie und Bitcoin
+- [Honigdachs](https://coinspondent.de/honigdachs-der-bitcoin-podcast-aus-leipzig/) – sympathische Unterhaltungen von drei Bitcoin-Urgesteinen aus Leipzig
 - [Mises Karma](https://miseskarma.de/) – Podcast rund um die Lehren der Österreichischen Nationalökonomie
 
 Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du diese hier:
@@ -25,6 +28,14 @@ Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du 
 - [Mises Karma: Bitcoin und die Österreichische Schule](https://miseskarma.de/podcast/episode-34-bitcoin-und-die-oesterreichische-schule-im-gespraech-mit-markus-und-dennis/)
 - [Mises Karma: Bitcoin als faires Geldsystem](https://miseskarma.de/podcast/episode-68-bitcoin-als-faires-geldsystem-im-gespraech-mit-dennis-fabio-und-markus/)
 - [Bitcoin im Turm: BTCPay Server](https://bitcoin-im-turm.zencast.website/episodes/btcpayserver-mit-dennis-reimann)
+- [How I met my money: "Es verändert einen komplett"- Insiderwissen aus der Bitcoin-Community](https://t.co/WCZ8HytlXB)
+- [Pleb's Taverne: Selbstsouveränität durch Open-Source](https://anchor.fm/plebs-taverne/episodes/Episode-14---Selbstsouvernitt-durch-Open-Source-728541-e1g6o76)
+
+Englische Podcast, bei denen ich zu Gast seien durfte:
+
+- [Bitcoin OP_UXUI #3 - Dennis Reimann, BTCPay Contributor, UI Engineer](https://anchor.fm/bitcoinopuxui/episodes/Bitcoin-OP_UXUI---Episode-03---Dennis-Reimann--BTCPay-contributor--UI-engineer-eh0bg3/a-a2ocbnv)
+- [Block Digest: LNbank/BTCPay](https://www.youtube.com/watch?v=FtteK-HJuX0)
+- [The Kevin Rooke Show: BTCPay Server, Lightning Merchants, & Value 4 Value](https://anchor.fm/kevin-rooke/episodes/E39-Dennis-Reimann-on-BTCPay-Server--Lightning-Merchants---Value-4-Value-e1henm6)
 
 ## Bücher
 
