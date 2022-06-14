@@ -1,1 +1,0 @@
-const e={key:"v-fe26f36a",path:"/anleitung/",title:"Anleitungen",lang:"de-DE",frontmatter:{},excerpt:"",headers:[{level:2,title:"Deine ersten Satoshis",slug:"deine-ersten-satoshis",children:[]},{level:2,title:"Der eigene Fullnode",slug:"der-eigene-fullnode",children:[]},{level:2,title:"Technisches",slug:"technisches",children:[]}]};export{e as data};
