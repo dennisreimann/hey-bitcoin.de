@@ -74,6 +74,8 @@ module.exports = {
         children: [
           '/anleitung/bitcoin-kaufen-was-beachten/',
           '/anleitung/bitcoin-fullnode-raspberry-pi-4/',
+          '/anleitung/seedsigner-hardware/',
+          '/anleitung/seedsigner-software-seedqr/',
           '/anleitung/software-verifizieren/',
         ],
       },
