@@ -36,7 +36,6 @@ export default {
 
   methods: {
     openVideo() {
-      console.log(this.dataSrc)
       this.src = this.dataSrc
     }
   },
@@ -72,7 +71,6 @@ a {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  background-color: var(--btcpay-bg-dark);
 }
 
 a:before {

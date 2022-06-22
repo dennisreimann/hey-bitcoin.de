@@ -1,3 +1,4 @@
+import { path } from '@vuepress/utils'
 import { defineUserConfig } from 'vuepress'
 import { localTheme } from './theme'
 
@@ -14,6 +15,12 @@ export default defineUserConfig({
   title: 'Hey Bitcoin!',
   description: 'Bitcoin Beratung und Entwicklung',
   plugins: [
+    [
+      '@vuepress/register-components',
+      {
+        componentsDir:  path.resolve(__dirname, './theme/components'),
+      },
+    ],
     [
       require('vuepress-plugin-seo'),
       {
