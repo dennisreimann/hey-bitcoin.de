@@ -1,4 +1,5 @@
-const { path } = require('@vuepress/utils')
+import { defineUserConfig } from 'vuepress'
+import { localTheme } from './theme'
 
 const extractDescription = (text) => {
   if (!text) return
@@ -9,12 +10,12 @@ const extractDescription = (text) => {
 const baseUrl = 'https://hey-bitcoin.de'
 const pageSuffix = '/'
 
-module.exports = {
+export default defineUserConfig({
   title: 'Hey Bitcoin!',
   description: 'Bitcoin Beratung und Entwicklung',
   plugins: [
     [
-      'seo',
+      require('vuepress-plugin-seo'),
       {
         siteTitle: (_, $site) => $site.title,
         title: ($page) => $page.title,
@@ -56,8 +57,12 @@ module.exports = {
   extendsMarkdown(md) {
     md.use(require('markdown-it-abbr'))
   },
-  theme: path.resolve(__dirname, 'theme'),
-  themeConfig: {
+  locales: {
+    '/': {
+      lang: 'de-DE',
+    },
+  },
+  theme: localTheme({
     logo: '/bitcoin.svg',
     contributors: false,
     lastUpdated: false,
@@ -69,8 +74,7 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'Anleitungen',
-        collapsable: false,
+        text: 'Anleitungen',
         children: [
           '/anleitung/bitcoin-kaufen-was-beachten/',
           '/anleitung/bitcoin-fullnode-raspberry-pi-4/',
@@ -80,10 +84,5 @@ module.exports = {
         ],
       },
     ],
-  },
-  locales: {
-    '/': {
-      lang: 'de-DE',
-    },
-  },
-}
+  })
+})
