@@ -8,6 +8,11 @@
 
 - [Bitcoin Fullnode mit dem Raspberry Pi 4](./bitcoin-fullnode-raspberry-pi-4/)
 
+## SeedSigner
+
+- [Was ist der SeedSigner und was brauchst du an Hardware](./seedsigner-hardware/)
+- [SeedSigner: Installation, Software und SeedQR](./seedsigner-software-seedqr/)
+
 ## Technisches
 
 - [Software verifizieren](./software-verifizieren/)

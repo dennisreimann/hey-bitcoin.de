@@ -23,9 +23,8 @@ Darüber hinaus bietet der SeedSigner noch ein paar weitere, nennenswerte Eigens
 
 - Bei guter Verfügbarkeit der Komponenten ist er **günstig selbst zu bauen**, die Kosten liegen bei etwa 50 Euro.
 - Das Gerät wird aus **einfachen Standardkomponenten** gebaut, so kann auch beim Kauf der Einzelteile kein Bezug zum Thema Bitcoin hergestellt werden.
-- Die Software unterstützt mehrere Sprachen, unter anderem auch deutsch.
 - Der SeedSigner bietet viele Funktionen zum Generieren und Verwalten von Seeds.
-- Für Entwickler bietet das Gerät auch Testnet-Unterstützung.
+- Für Entwickler bietet das Gerät auch Testnet- und RegTest-Unterstützung.
 - Die Software ist **quelloffen** und kann nach Belieben angepasst werden.
 - Es gibt eine große Gemeinschaft von Leuten, die das Projekt betreut und weiterentwickelt.
 
