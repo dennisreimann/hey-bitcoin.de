@@ -3,6 +3,7 @@
   --c-brand: #f7931b;
   --c-brand-light: #f9aa4b;
   --sidebar-width: 24rem;
+  --c-tip: #4a90e2;
 
   scroll-behavior: smooth;
 }
@@ -26,4 +27,18 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+mark {
+  padding: .125em .25em;
+  outline: .125em solid var(--c-brand);
+  border-radius: .25em;
+  background-color: var(--c-brand);
+  color: #fff;
+}
+
+.theme-default-content p img,
+.theme-default-content .custom-container {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }

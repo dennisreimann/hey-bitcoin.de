@@ -13,6 +13,10 @@
 - [Was ist der SeedSigner und was brauchst du an Hardware](./seedsigner-hardware/)
 - [SeedSigner: Installation, Software und SeedQR](./seedsigner-software-seedqr/)
 
+## Lightning Netzwerk
+
+- [Der Lebenszyklus eines Zahlungskanals im Lightning Netzwerk](./lightning-network-zahlungskanal/)
+
 ## Technisches
 
 - [Software verifizieren](./software-verifizieren/)
