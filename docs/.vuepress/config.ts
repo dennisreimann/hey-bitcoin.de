@@ -62,7 +62,9 @@ export default defineUserConfig({
     ],
   ],
   extendsMarkdown(md) {
-    md.use(require('markdown-it-abbr'))
+    md
+      .use(require('markdown-it-abbr'))
+      .use(require('markdown-it-mark'))
   },
   locales: {
     '/': {
@@ -87,6 +89,7 @@ export default defineUserConfig({
           '/anleitung/bitcoin-fullnode-raspberry-pi-4/',
           '/anleitung/seedsigner-hardware/',
           '/anleitung/seedsigner-software-seedqr/',
+          '/anleitung/lightning-network-zahlungskanal/',
           '/anleitung/software-verifizieren/',
         ],
       },
