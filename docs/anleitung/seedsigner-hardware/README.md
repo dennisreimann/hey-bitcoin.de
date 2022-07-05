@@ -16,6 +16,8 @@ Das kleine Signiergerät vereint viele Eigenschaften, die vor allem fortgeschrit
 
 Insbesondere diese Zustandslosigkeit unterscheidet das Gerät von den klassischen Hardware-Wallets:
 Der SeedSigner ist kein Schlüsselspeicher, sondern ein reines Signiergerät, welches bei jedem Start neu initialisiert werden muss.
+Wenn dir jemand das Gerät klauen würde, wäre dies zwar ärgerlich, dennoch wäre dein privater Schlüssel nicht enthalten und somit weiterhin sicher.
+
 Daher spielen die Kamera und QR-Codes auch so eine große Rolle:
 Jedes Mal den Seed neu eingeben wäre sehr mühsam; wenn sich der Seed aber relativ einfach extern speichern und laden lässt, ergibt sich ein Sicherheitsmodell, welches im Vergleich mit den klassischen Hardware-Wallets recht einzigartig ist. Dazu aber später mehr …
 
@@ -25,7 +27,7 @@ Darüber hinaus bietet der SeedSigner noch ein paar weitere, nennenswerte Eigens
 - Das Gerät wird aus **einfachen Standardkomponenten** gebaut, so kann auch beim Kauf der Einzelteile kein Bezug zum Thema Bitcoin hergestellt werden.
 - Der SeedSigner bietet viele Funktionen zum Generieren und Verwalten von Seeds.
 - Für Entwickler bietet das Gerät auch Testnet- und RegTest-Unterstützung.
-- Die Software ist **quelloffen** und kann nach Belieben angepasst werden.
+- Die Software ist **quelloffen**, kann überprüft und nach Belieben angepasst werden. Auch das Image kann man selbst kompilieren.
 - Es gibt eine große Gemeinschaft von Leuten, die das Projekt betreut und weiterentwickelt.
 
 ## SeedSigner Hardware
