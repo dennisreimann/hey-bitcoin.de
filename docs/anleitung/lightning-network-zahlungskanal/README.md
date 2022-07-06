@@ -1,3 +1,6 @@
+---
+image: ./zahlungskanal-lebenszyklus.png
+---
 # Der Lebenszyklus eines Zahlungskanals im Lightning Netzwerk
 
 Das Lightning Netzwerk baut auf der Bitcoin Blockchain auf und erweitert diese Basisebene mit dem Ziel der Skalierbarkeit:

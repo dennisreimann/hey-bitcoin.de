@@ -90,6 +90,7 @@ export default defineUserConfig({
           '/anleitung/seedsigner-hardware/',
           '/anleitung/seedsigner-software-seedqr/',
           '/anleitung/lightning-network-zahlungskanal/',
+          '/anleitung/lightning-network-routing/',
           '/anleitung/software-verifizieren/',
         ],
       },
