@@ -16,6 +16,7 @@
 ## Lightning Netzwerk
 
 - [Der Lebenszyklus eines Zahlungskanals im Lightning Netzwerk](./lightning-network-zahlungskanal/)
+- [Wie Kapazität und Liquidität das Routing im Lightning Netzwerk bestimmen](./lightning-network-routing/)
 
 ## Technisches
 
