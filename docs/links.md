@@ -19,7 +19,6 @@ Glücklicherweise gibt es auch im deutschprachigen Raum einige Podcasts mit rege
 - [Die Bitcoin Lesestunde](https://anchor.fm/aprycotmedia) – Die besten Bitcoin-Artikel im Hörformat
 - [Nodesignal](https://nodesignal.space/) – von Bitcoinern für Bitcoiner
 - [Powering Bitcoin](https://anchor.fm/poweringbitcoin) – Podcast rund um die Themen Energie und Bitcoin
-- [Honigdachs](https://coinspondent.de/honigdachs-der-bitcoin-podcast-aus-leipzig/) – sympathische Unterhaltungen von drei Bitcoin-Urgesteinen aus Leipzig
 - [Mises Karma](https://miseskarma.de/) – Podcast rund um die Lehren der Österreichischen Nationalökonomie
 
 Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du diese hier:
@@ -30,6 +29,7 @@ Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du 
 - [Bitcoin im Turm: BTCPay Server](https://bitcoin-im-turm.zencast.website/episodes/btcpayserver-mit-dennis-reimann)
 - [How I met my money: "Es verändert einen komplett"- Insiderwissen aus der Bitcoin-Community](https://t.co/WCZ8HytlXB)
 - [Pleb's Taverne: Selbstsouveränität durch Open-Source](https://anchor.fm/plebs-taverne/episodes/Episode-14---Selbstsouvernitt-durch-Open-Source-728541-e1g6o76)
+- [Der Bitcoin Effekt: Open Source Zahlungsabwicklung für Unternehmen](https://www.youtube.com/watch?v=3dSks_WpEGY)
 
 Englische Podcast, bei denen ich zu Gast seien durfte:
 
