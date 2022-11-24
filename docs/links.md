@@ -37,6 +37,12 @@ Englische Podcast, bei denen ich zu Gast seien durfte:
 - [Block Digest: LNbank/BTCPay](https://www.youtube.com/watch?v=FtteK-HJuX0)
 - [The Kevin Rooke Show: BTCPay Server, Lightning Merchants, & Value 4 Value](https://anchor.fm/kevin-rooke/episodes/E39-Dennis-Reimann-on-BTCPay-Server--Lightning-Merchants---Value-4-Value-e1henm6)
 
+Vorträge und weiteres:
+
+- [Bitcoin als freiheitliches Geldsystem](https://youtu.be/IhdZ-48onW8)
+- [Zitadelle 21: Einundzwanzig ist was du draus machst](https://youtu.be/mmesVymyvdI)
+- [Zitadelle 21: Fireside Chat with René Pickhardt and Andreas Antonopoulos](https://youtu.be/wFiFvCx3ltU)
+
 ## Bücher
 
 Hier noch ein paar weitere Bücher, die ich wärmstens empfehlen kann:
