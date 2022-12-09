@@ -7,6 +7,7 @@
 ## Der eigene Fullnode
 
 - [Bitcoin Fullnode mit dem Raspberry Pi 4](./bitcoin-fullnode-raspberry-pi-4/)
+- [Bitcoin Fullnode mit der Wallet App vebinden](./bitcoin-fullnode-mit-wallet-verbinden/)
 
 ## SeedSigner
 
