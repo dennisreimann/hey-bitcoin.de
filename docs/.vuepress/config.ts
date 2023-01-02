@@ -93,6 +93,7 @@ export default defineUserConfig({
           '/anleitung/lightning-network-zahlungskanal/',
           '/anleitung/lightning-network-routing/',
           '/anleitung/software-verifizieren/',
+          '/anleitung/nostr-dezentrale-twitter-alternative/',
         ],
       },
     ],

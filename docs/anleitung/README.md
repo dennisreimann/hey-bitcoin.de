@@ -22,3 +22,7 @@
 ## Technisches
 
 - [Software verifizieren](./software-verifizieren/)
+
+## Sonstiges
+
+- [Nostr: Eine dezentrale Alternative zu Twitter — und mehr …](./nostr-dezentrale-twitter-alternative/)
