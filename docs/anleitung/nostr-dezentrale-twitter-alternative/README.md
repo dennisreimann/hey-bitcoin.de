@@ -49,7 +49,7 @@ Mit ihm werden deine Nachrichten signiert und sollte er öffentlich bekannt werd
 
 Die meisten Apps bieten dir beim ersten Öffnen an, entweder einen bestehenden Schlüssel zu importieren oder einen neuen zu generieren.
 Da der private Schlüssel recht sensitiv ist, würde ich davon abraten, ihn im Browser zu generieren oder auch dort zu hinterlegen.
-Erst kürzlich gab es eine Sicherheitslücke in Anigma, bei der Schlüssel geleaked sind — die damit verbundenen Identităten sind daraufhin unbrauchbar.
+Erst kürzlich gab es eine Sicherheitslücke in Anigma, bei der Schlüssel geleaked sind — die damit verbundenen Identitäten sind daraufhin unbrauchbar.
 
 Wenn du deine Identität im Browser nutzen möchtest, kannst du das Risiko zumindest durch das Nutzen des neuen [Nostr-Feature in Alby](https://guides.getalby.com/overall-guide/alby-browser-extension/features/nostr) zu minimieren:
 [Alby](https://getalby.com/) ist eine Lightning Browser-Erweiterung, die dir auch erlaubt, deinen privaten Nostr-Schlüssel zu verwalten und ihn für einzelne Anwendungen freizugeben.
@@ -62,7 +62,7 @@ Beim [SeedSigner](../seedsigner-hardware/) wird bspw. auch schon an der [Schlüs
 
 ## Nostr nutzen
 
-Sobald du deine App, einen Schlüssel und die damit verbundene Identităt hast, kann es auch schon losgehen …
+Sobald du deine App, einen Schlüssel und die damit verbundene Identität hast, kann es auch schon losgehen …
 
 ### Leute finden
 
@@ -132,13 +132,13 @@ Unter `wss://nostr.einundzwanzig.space` betreiben wir bspw. für die Einundzwanz
 Wenn du selbst ein Relay aufsetzen möchtest, scheint momentan [nostream](https://github.com/Cameri/nostream) die am meisten empfohlene Software zu sein.
 Es gibt einige Open Source Relays, dies ist aber wohl die performateste und produktionsreifste Option.
 
-### IP-Adresse und Privatsphăre
+### IP-Adresse und Privatsphäre
 
 Relay-Betreiber können die IP-Adressen der Benutzer sehen, da die Verbindung zu einem Relays direkt auf Socket-Basis hergestellt wird.
 Deine IP-Adresse ist eine eindeutige numerische Kennung deiner Internetverbindung.
 Sie dient deinem Internetanbieter zur Identifizierung und gibt auch Rückschlüße über deinen Standort.
 
-Dementsprechend kann auch der Relay-Betreiber dich über deine Profilinformationen und Notizen identifizieren und deine Aktivităten verfolgen.
+Dementsprechend kann auch der Relay-Betreiber dich über deine Profilinformationen und Notizen identifizieren und deine Aktivitäten verfolgen.
 Dies ist aktuell keine gängige Praxis, aber diese Informationen könnten in Zukunft für verschiedenstee Zwecke verwendet werden — so wie man dies auch von zentralen Social Media Plattformen kennt (gezieltes Ausspielen von Werbung oder anderweitige Monetarisierung deiner Daten).
 
 Gleiches gilt für die Hoster von Bildern und anderen Medieninhalten:

@@ -19,10 +19,7 @@
 - [Der Lebenszyklus eines Zahlungskanals im Lightning Netzwerk](./lightning-network-zahlungskanal/)
 - [Wie Kapazität und Liquidität das Routing im Lightning Netzwerk bestimmen](./lightning-network-routing/)
 
-## Technisches
-
-- [Software verifizieren](./software-verifizieren/)
-
 ## Sonstiges
 
+- [Software verifizieren](./software-verifizieren/)
 - [Nostr: Eine dezentrale Alternative zu Twitter — und mehr …](./nostr-dezentrale-twitter-alternative/)
