@@ -54,11 +54,9 @@ Erst kürzlich gab es eine Sicherheitslücke in Anigma, bei der Schlüssel gelea
 Wenn du deine Identität im Browser nutzen möchtest, kannst du das Risiko zumindest durch das Nutzen des neuen [Nostr-Feature in Alby](https://guides.getalby.com/overall-guide/alby-browser-extension/features/nostr) zu minimieren:
 [Alby](https://getalby.com/) ist eine Lightning Browser-Erweiterung, die dir auch erlaubt, deinen privaten Nostr-Schlüssel zu verwalten und ihn für einzelne Anwendungen freizugeben.
 Du kannst den Schlüssel direkt in Alby generieren oder deinen bestehenden Schüssel importieren.
-Dein Schlüssel hat üblicherweise das nsec-Format, für den Import in Alby muss er aber ins Hex-Format konvertiert werden:
-Dies kann du bspw. mit dem [Damus Key-Tool](https://damus.io/key) machen — was allerdings auch wieder im Browser, online und somit eher unsicher ist …
 
-Du siehst es ist alles noch etwas früh und es gibt vieles zu verbessern, es tut sich aber auch einiges:
-Beim [SeedSigner](../seedsigner-hardware/) wird bspw. auch schon an der [Schlüsselverwaltung für Nostr](https://www.nostr.guru/e/72bc12b1b7cf412a968c882057cdbaf4d0eed0d4959a1f66e6a251bfcf91c3a3) gearbeitet.
+Beim [SeedSigner](../seedsigner-hardware/) wird auch schon an der [Schlüsselverwaltung für Nostr](https://www.nostr.guru/e/72bc12b1b7cf412a968c882057cdbaf4d0eed0d4959a1f66e6a251bfcf91c3a3) gearbeitet.
+Es wird sich also in Zukunft noch einiges tun und man wird sicher auch bald seinen Nostr-Schlüssel mit kompatiblen Hardware-Wallets verwalten können.
 
 ## Nostr nutzen
 
