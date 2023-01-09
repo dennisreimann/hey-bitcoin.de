@@ -1,3 +1,6 @@
+---
+image: /assets/zahlungskanal-lebenszyklus.b54c6ebc.png
+---
 # Wie Kapazität und Liquidität das Routing im Lightning Netzwerk bestimmen
 
 Lightning ermöglicht schnellere Transaktionen und geringere Gebühren, die durch ein Netzwerk aus bidirektionalen Zahlungskanälen möglich werden. Im Artikel zum

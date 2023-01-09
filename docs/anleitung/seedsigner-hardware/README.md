@@ -1,3 +1,6 @@
+---
+image: /assets/seedsigner.3fed00d7.jpg
+---
 # SeedSigner: Der Bitcoin-Computer
 
 Dieser Artikel erklärt dir den SeedSigner — warum dieses kleine Gerät sehr praktisch ist und welche Hardware-Komponenten du dafür brauchst.

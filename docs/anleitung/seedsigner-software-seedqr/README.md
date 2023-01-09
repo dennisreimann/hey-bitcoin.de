@@ -1,3 +1,6 @@
+---
+image: /assets/seedsigner-steelqr-process.d444c696.jpg
+---
 # SeedSigner: Software und SeedQR
 
 Dieser Artikel gibt dir einen Überblick zur Verwendung des [SeedSigner](../seedsigner-hardware/)s — von der Installation der Software bis hin zur Nutzung der SeedQR-Codes.

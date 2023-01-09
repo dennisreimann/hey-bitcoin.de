@@ -1,5 +1,5 @@
 ---
-image: ./zahlungskanal-lebenszyklus.png
+image: /assets/zahlungskanal-lebenszyklus.b54c6ebc.png
 ---
 # Der Lebenszyklus eines Zahlungskanals im Lightning Netzwerk
 
