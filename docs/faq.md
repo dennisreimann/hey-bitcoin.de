@@ -6,6 +6,31 @@ sidebar: auto
 
 ## Warum Bitcoin?
 
+Bitcoin ist Geld, welches zwischen zwei Leuten genutzt werden kann — unabhängig von Banken, Firmen oder Regierungen.
+Du kannst Bitcoin nutzen, indem du eine App auf deinem Handy installiert:
+Du musst dich weder registrieren, noch deine Daten angeben — eine App installieren, Bitcoin empfangen und los geht's.
+Sobald du Bitcoin hast, kannst du es versenden — wann immer du magst, an wen auch immer du magst.
+Du brauchst keine Bank oder anderen Dienstleister, es geht auch am Wochenende und rund um die Uhr.
+
+Bitcoin-Transaktionen finden direkt zwischen den beteiligten Parteien statt und sind final.
+Dies macht Bitcoin auch für Geschäfte und Unternehmen interessant:
+Keine weiteren Dienstleister die Gebühren nehmen, sich mit der Auszahlung Zeit lassen oder die das Geld einbehalten können.
+Es gibt es keine Rückbuchungsmöglichkeit, was es insbesondere für Online-Geschäftsmodelle relevant macht.
+Ist die Transaktion übermittelt und bestätigt, ist der Zahlungsvorgang abgeschlossen.
+
+Bitcoin ist eine technologische Revolution, aber auch eine gesellschaftliche Bewegung.
+Unabhängig von Herkunft, Religion, politischer Orientierung können Menschen miteinander interagieren.
+Bitcoin ist freiwillig und benötigt die Einstimmung der beteiligten Parteien:
+Bitcoin-Zahlungen sind gegenseitiger Wertaustausch, der beide Seiten besser stellt.
+
+Bitcoin ist Geld, welches das Individuum befähigt.
+Dein Geld ist in deinen Händen, niemand kann es dir ohne dein Zutun nehmen — weder physisch, noch durch Wertminderung.
+Bitcoins Geldmenge ist auf knapp 21 Millionen begrenzt, weder Staaten noch Zentralbanken können die Geldmenge erhöhen.
+Die Entscheidungsmacht liegt bei den Nutzern — Millionen von Menschen verteilt auf der gesamten Welt.
+Bitcoin ist Geld von den Leuten, für die Leute.
+
+## Was bedeutet digitales Geld?
+
 Ich denke wir stehen aktuell an einem Scheidepunkt, der sich auch zuspitzt:
 Geld wird digital, es gibt wahrscheinlich keinen Weg mehr daran vorbei.
 Dabei gibt es dann drei Möglichkeiten:
