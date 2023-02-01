@@ -24,11 +24,11 @@ Clients sind jeweils Apps, die die Verbindung zu Relays herstellen und die dort 
 Momentan ist alles noch sehr in den Kinderschuhen, aber es gibt bereits gut funktionierende Clients sowohl als native Mobile-Apps:
 
 - [Damus](https://damus.io/) für iOS
-- [Nostros](https://github.com/KoalaSat/nostros) für Android
+- [Amethyst](https://github.com/vitorpamplona/amethyst) und [Nostros](https://github.com/KoalaSat/nostros) für Android
 
 Als auch Browser-basierte Web-Apps:
 
-- [nostr.rocks](https://nostr.rocks/) und [astral.ninja](https://astral.ninja) sind an Twitter angelehnt
+- [hamstr.to](https://hamstr.to/), [snort.social](https://snort.social/) und [astral.ninja](https://astral.ninja) sind an Twitter angelehnt
 - [anigma.io](https://anigma.io/) erinnert an Telegram
 
 Damus ist die momentan am besten funktionierende und am weitesten entwickelte App, daher werde ich die meisten praktischen Dinge hier im Bezug auf Damus beschreiben.
