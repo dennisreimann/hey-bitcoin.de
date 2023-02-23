@@ -34,12 +34,24 @@ Es ist ein 25. Zusatzwort für deine Seed Phrase, mit dem du eine neue Wallet vo
 Du kannst damit deinen Seed als Basis nehmen, ihn in mehrere "Konten" aufteilen und die Passphrase als Passwort nutzen.
 Passphrases solltest du getrennt von deinem Seed aufbewahren und sichern.
 
+## Account / Konto
+
+Genau wie der Begriff Wallet kann auch der Begriff Konto für sehr unterschiedliche Dinge verwendet werden.
+In Wallet-Software, die [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) unterstützt (alle üblichen Wallets tun dies), kann ein Bitcoin-Wallet mehrere Konten haben.
+Jedes dieser Konten hat seinen eigenen Ableitungspfad und somit auch seine eigenen Adressen.
+
 ## Adressen und Signaturen
 
 Von deinem privaten Schlüssel werden Adressen abgeleitet, mit denen du Bitcoin empfangen kannst.
 Mit dem privaten Schlüssel kannst du ebenso Signaturen für diese Adressen erstellen.
 Die Signatur ist der Beweis, dass dir die Adresse gehört – du benötigst sie, wenn du Bitcoin versenden möchtest.
 Das Erstellen von Adressen und Signatur übernimmt deine Wallet.
+
+## Block
+
+Anstatt jede Transaktion einzeln zu verarbeiten, bündelt das Bitcoin-Netzwerk sie in Blöcken.
+Blöcke werden etwa alle 10 Minuten erstellt und können auf Grund einer strengen Dateigrößenbegrenzung nur eine bestimmte Anzahl von Transaktionen enthalten.
+Sobald ein Block akzeptiert wurde und mehrere Bestätigungen erhalten hat, kann er nie wieder geändert werden.
 
 ## Custodial und Non-Custodial
 
@@ -75,3 +87,56 @@ Jede Transaktion hat sogenannte Inputs (das Geld was versendet wird) und Outputs
 Vereinfacht und bildlich kann man sagen, dass durch eine Transaktion die Inputs in neue Bitcoins umgeschmolzen werden:
 Die Anzahl Satoshis bleibt dabei gleich, aber die Verteilung auf die in der Transaktion involvierten Adressen ändert sich.
 Dabei stehen die in den Inputs versendeten Satoshis nach der Bestätigung einer Transaktion dann selbst wieder als unausgegebene Transaktionsergebnisse dem Besitzer der Empfängeradresse als Inputs für seine nächste Transaktion zur Verfügung.
+
+## Gap-Limit
+
+Aus Performancegründen erstellen Onchain-Wallets in der Regel nur eine bestimmte Anzahl von Adressen (bspw. 20) und überwachen sie auf eingehende Transaktionen.
+Wird eine dieser Adressen verwendet, wird eine neue generiert und überwacht.
+Da nur die aufeinanderfolgenden, bisher ungenutzten Adressen überwacht werden, werden eingehende Transaktionen auf darüber hinaus gehende Adressen nicht erkannt.
+
+Ein üblicher Fall ist, dass zwei verschiedene Wallets für den selben Private Key benutzt werden.
+In einer der Wallets tauchen dann ggf. Transaktionen auf, welche in der anderen Wallet nicht angezeigt werden.
+Dies ist oftmal auf das Gap-Limit zurückzuführen und lässt sich beheben, indem man das Gap-Limit erhöht und einen erneuten Scan der Blockchain durchführt.
+
+## BIP - Bitcoin Improvement Proposal
+
+Ein standardisiertes technisches Verfahren und Dokumentformat , um Änderungen an Bitcoin vorzuschlagen und als neuen Standard zu etablieren.
+Soll bspw. ein neues Feature in Bitcoin hinzugefügt werden, so muss es zunächst durch solch einen Verbesserungsvorschlag spezifiziert und dokumentiert werden.
+Einige der wichtigsten BIPs sind bspw.:
+
+- [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki): Mnemonischer Code für die Erzeugung deterministischer Schlüssel
+- [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki): Multi-Account-Hierarchie für HD-Wallets
+- [BIP174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki): PSBT
+
+## BOLT - Basis of Lightning Technology
+
+Analog zu den BIPs füur Bitcoin, gibt es füur Lightning die BOLTs.
+Die verschiedenen Lightning-Implementierungen (bspw. LND, Core Lightning, Eclair) müssen sich an die BOLTs halten, um interoperabel zu sein.
+Die verschiedenen Implementierungen können jedoch auch Funktionen enthalten, die in den BOLTs nicht definiert sind.
+So werden neue Features ausprobiert, welche dann ggf. später als Standard etabliert werden.
+Als Faustregel für ein offiziel verabschiedetes BOLT gilt, dass dies von mindestens zwei Implementierungen unterstützt werden muss.
+
+## Replace-by-fee (RBF)
+
+Ein Transaktionsmerkmal, das es erlaubt eine unbestätigte Transaktion durch eine andere Transaktion zu ersetzen, die mindestens einen der gleichen Inputs ausgibt und eine höhere Transaktionsgebühr zahlt.
+Dies kann nützlich sein, wenn eine Transaktion in Zeiten höherer Netzwerkgebühren als üblich stecken geblieben ist und man die Mininggebühr erhöhen möchte, um die Transaktion zu beschleunigen.
+
+## Child-pays-for-parent (CPFP)
+
+Ermöglicht dem Empfänger einer anstehenden Transaktion, die Bestätigung zu beschleunigen.
+Er erstellt eine neue Transaktion (Child), bei der er die zu erhaltenden Bitcoin mit einer höheren Gebühr ausgibt als die ursprüngliche Transaktion (Parent).
+Dies signalisiert den Minern, beide Transaktionen zu verarbeiten, wofür sie mit der höheren Gebühr belohnt werden.
+
+## Coin Control
+
+Die aktive Auswahl der UTXOs, die in einer Transaktion verschickt werden sollen.
+Wallets können die zu verwendenden UTXOs automatisch auswählen — es ist aus mehreren Gesichtspunkten aber oft ratsam, die zu sendenden UTXOs manuell auszuwählen:
+
+- Die Gebühren richten sich nach dem Transaktionsvolumen, das sich nach der Anzahl der Ausgaben richtet. Wer also weniger Ausgänge wählt, kann die Gebühren senken.
+- Privatsphäre: Da es möglich ist, den Transaktionsverlauf von UTXOs zu verfolgen und zu sehen, wie sie zuvor ausgegeben wurden, kann der Empfänger möglicherweise weitere Informationen aus dem erhaltenen UTXO ableiten.
+
+## Fiatgeld
+
+Als Fiatgeld werden Zahlungsmittel bezeichnet, die von einer Regierung ausgegeben werden.
+Der Wert von Fiatgeld ist nicht durch Rohstoffe wie Gold oder Silber gedeckt oder daran gebunden, sondern ergibt sich aus dem Verhältnis zwischen Angebot und Nachfrage und der Stabilität der ausgebenden Regierung.
+Beispiele für Fiatgeld sind der Euro, US-Dollar oder der japanische Yen.
