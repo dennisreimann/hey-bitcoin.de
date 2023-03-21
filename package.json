@@ -34,9 +34,5 @@
     "vuepress-plugin-clean-urls": "1.1.2",
     "vuepress-plugin-seo": "0.2.0",
     "vuepress-plugin-sitemap": "2.3.1"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true
   }
 }

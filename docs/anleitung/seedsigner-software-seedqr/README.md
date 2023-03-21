@@ -142,8 +142,6 @@ beim Vulcan21-Shop bekommst du bei deiner Bestellung auch eine Karte zum Üben d
 
 Je nach Format kann auch das Körnern etwas dauern: Für einen 24-Wort Seed ist man schon etwa 45 Minuten dabei, schließlich will man trotz der Fehlertoleranz  alles richtig machen und es soll anschließend ja auch gut aussehen. 🤩
 
-![SeedSigner und fertige SteelQR-Platte](./seedsigner-steelqr-done.jpg)
-
 Theoretisch und bei passender Beleuchtung reichen die gekörnerten Löcher aus, um anschließend auch direkt per SeedSigner den SteelQR zu verifizieren.
 Meiner praktischen Erfahrung nach ist es jedoch hilfreich, die Punkte mit einem Permanent Marker nachzumarkieren.
 Dies hilft beim Einlesen des SeedQR sehr, um auch unabhängiger von den Lichtverhältnissen zu sein.
