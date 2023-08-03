@@ -43,6 +43,7 @@ Vorträge und weiteres:
 - [Bitcoin als freiheitliches Geldsystem](https://youtu.be/IhdZ-48onW8)
 - [Zitadelle 21: Einundzwanzig ist was du draus machst](https://youtu.be/mmesVymyvdI)
 - [Zitadelle 21: Fireside Chat with René Pickhardt and Andreas Antonopoulos](https://youtu.be/wFiFvCx3ltU)
+- [BTC Prague 2023: Let's Color the World Orange](https://youtu.be/NvD5Ea0GRIc)
 
 ## Bücher
 
