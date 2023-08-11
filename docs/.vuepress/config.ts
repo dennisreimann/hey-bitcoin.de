@@ -13,7 +13,6 @@ const pageSuffix = '/'
 
 export default defineUserConfig({
   title: 'Hey Bitcoin!',
-  description: 'Bitcoin Beratung und Entwicklung',
   plugins: [
     [
       '@vuepress/register-components',

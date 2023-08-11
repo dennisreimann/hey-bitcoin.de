@@ -64,7 +64,6 @@ Die deutsche Übersetzung des [Grokking Bitcoin](https://amzn.to/2XvbDCO) Buchs 
 Wer bis hier hin gelesen hat, den interessiert vielleicht auch das …
 
 - [BTCPay Server](https://btcpayserver.org): Plattform für Verkäufer zum Empfangen von Bitcoin-Zahlungen
-- [d11n Blog](https://d11n.net): Mein englisch-sprachiger Bitcoin-Blog mit eher technischen Themen
 - [Bitcoin Dev List](https://bitcoindevlist.com): Spendenportal für Bitcoin-Entwickler
 - [Stacking Sats Kraken](https://github.com/dennisreimann/stacking-sats-kraken): Automatisiertes Auslösen von Bitcoin-Käufen auf der Börse Kraken
 - [Kindle Display](https://github.com/dennisreimann/kindle-display): Ein alter Kindle als Bitcoin-Dashboard

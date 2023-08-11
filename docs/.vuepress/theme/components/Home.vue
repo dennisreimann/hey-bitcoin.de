@@ -14,7 +14,7 @@
         {{ data.title }}
       </h1>
 
-      <p class="description">
+      <p class="description" v-if="data.description">
         {{ data.description }}
       </p>
     </header>
@@ -73,8 +73,7 @@
       <p v-if="data.footer">{{ data.footer }}</p>
       <p>
         <a href="mailto:mail@dennisreimann.de?subject=Hey Bitcoin">Dennis Reimann</a> ·
-        <a href="https://dennisreimann.de/dennisreimann.asc">PGP Pubkey (<small><code>F768 60F8 449D 2F39</code></small>)</a> ·
-        <a href="https://dennisreimann.de/kontakt.html" target="_blank">Impressum</a>
+        <a href="https://d11n.net/d11n.asc">PGP Pubkey (<small><code>F768 60F8 449D 2F39</code></small>)</a> ·
       </p>
     </div>
   </main>
