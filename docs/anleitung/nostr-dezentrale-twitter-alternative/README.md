@@ -103,7 +103,7 @@ Je nach App werden sie dann als Galerie oder Karussell dargestellt.
 Es gibt einige Emojis mit speziellen Bedeutungen/Funktionen:
 🤙 steht bspw. für Like — ⚡ für Sats.
 
-### Lighting
+### Lightning
 
 Du kannst auch eine Lightning Invoice posten, die je nach App entsprechend dargestellt wird und auch direkt bezahlt werden kann:
 Öffne deine Lightning Wallet, generiere eine neue Invoice mit dem entsprechenden Betrag und kopieren Sie in deine Notiz.
