@@ -31,6 +31,8 @@ Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du 
 - [Pleb's Taverne: Selbstsouveränität durch Open-Source](https://anchor.fm/plebs-taverne/episodes/Episode-14---Selbstsouvernitt-durch-Open-Source-728541-e1g6o76)
 - [Der Bitcoin Effekt: Open Source Zahlungsabwicklung für Unternehmen](https://www.youtube.com/watch?v=3dSks_WpEGY)
 - [Mises Karma: Bitcoin ≠ Krypto](https://miseskarma.de/podcast/episode-152-bitcoin-ungleich-krypto-im-gespraech-mit-dennis-und-markus/)
+- [Fair Talk: Digitales Geld — Diskussionrunde mit Thorsten Polleit, Sebastian Huth und Fab](https://www.youtube.com/watch?v=Naw82GJ0H2w) ([Fragerunde](https://www.youtube.com/watch?v=-t301SlxRvI))
+- [Fair Talk: After Dark Interview zu Bitcoin](https://www.youtube.com/watch?v=b5BBy3Ts6b8)
 
 Englische Podcast, bei denen ich zu Gast seien durfte:
 
