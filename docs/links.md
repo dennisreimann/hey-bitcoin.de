@@ -7,7 +7,7 @@ sidebar: auto
 Anstatt selbst eine große Linkliste aufzubauen, verweise ich gern auf die [Aprycot Mediathek](https://aprycot.media/thek/).
 
 Dort findest du eine Vielzahl von guten deutschsprachigen Artikeln, Podcasts, Tools.
-Susammengestellt vom Kollegen Fab – sehr empfehlenswert und immer aktuell.
+Zusammengestellt vom Kollegen Fab – sehr empfehlenswert und immer aktuell.
 
 ## Podcasts
 
@@ -33,6 +33,7 @@ Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du 
 - [Mises Karma: Bitcoin ≠ Krypto](https://miseskarma.de/podcast/episode-152-bitcoin-ungleich-krypto-im-gespraech-mit-dennis-und-markus/)
 - [Fair Talk: Digitales Geld — Diskussionrunde mit Thorsten Polleit, Sebastian Huth und Fab](https://www.youtube.com/watch?v=Naw82GJ0H2w) ([Fragerunde](https://www.youtube.com/watch?v=-t301SlxRvI))
 - [Fair Talk: After Dark Interview zu Bitcoin](https://www.youtube.com/watch?v=b5BBy3Ts6b8)
+- [Ciao LeiDwährung Episode 1: Werde dein eigener Banker!](https://soufisticated.net/ciao-leidwahrung-e1/)
 
 Englische Podcast, bei denen ich zu Gast seien durfte:
 
