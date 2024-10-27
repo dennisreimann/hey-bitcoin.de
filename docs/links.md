@@ -34,6 +34,7 @@ Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du 
 - [Fair Talk: Digitales Geld — Diskussionrunde mit Thorsten Polleit, Sebastian Huth und Fab](https://www.youtube.com/watch?v=Naw82GJ0H2w) ([Fragerunde](https://www.youtube.com/watch?v=-t301SlxRvI))
 - [Fair Talk: After Dark Interview zu Bitcoin](https://www.youtube.com/watch?v=b5BBy3Ts6b8)
 - [Ciao LeiDwährung Episode 1: Werde dein eigener Banker!](https://soufisticated.net/ciao-leidwahrung-e1/)
+- [MANOVA The Great WeSet: "Kryptischer Hoffnungsschimmer"](https://www.youtube.com/watch?v=VB7Q2z1j6Tc)
 
 Englische Podcast, bei denen ich zu Gast seien durfte:
 
