@@ -36,6 +36,7 @@ Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du 
 - [Ciao LeiDwährung Episode 1: Werde dein eigener Banker!](https://soufisticated.net/ciao-leidwahrung-e1/)
 - [MANOVA The Great WeSet: "Kryptischer Hoffnungsschimmer"](https://www.youtube.com/watch?v=VB7Q2z1j6Tc)
 - [Münzgasse: Bitcoin fixes this...am Arsch!?](https://fountain.fm/episode/LdMuE1Gnr8tekAtHWPTj)
+- [Fair Talk: Bitcoin statt Bank — Diskussionrunde mit Rachel Geyer, Alex von Frankenberg und Fab](https://www.youtube.com/watch?v=P96al9Phejw) ([Fragerunde](https://www.youtube.com/watch?v=mh85KX6C70s))
 
 Englische Podcast, bei denen ich zu Gast seien durfte:
 
