@@ -1,17 +1,20 @@
 <script setup lang="ts">
-import ParentPage from '@vuepress/theme-default/lib/client/components/Page.vue'
+import ParentPage from '@vuepress/theme-default/components/VPPage.vue'
+import { useData } from '@theme/useData';
+
+const { page } = useData()
 </script>
 
 <template>
   <ParentPage>
     <template #content-bottom>
-      <div v-if="$page.path?.match(/\/anleitung\/(.+)/)" class="donate">
+      <div v-if="page.path?.match(/\/anleitung\/(.+)/)" class="donate">
         <h4>Hat dir der Artikel geholfen?</h4>
         <p>Wenn dir dieser Artikel gefallen hat und du gern Danke sagen möchtest, würde ich mich über ein paar Satoshis
-          <a href="lightning:LNURL1DP68GURN8GHJ7AMPD3KX2AR0VEEKZAR0WD5XJTNRDAKJ7TNHV4KXCTTTDEHHWM30D3H82UNVWQHKXUN0WAJX2ER9V9E8G6PN8QSKVTEZ">per Lightning</a> freuen.
+          <a href="lightning:sats@d11n.net">per Lightning</a> freuen.
         </p>
         <figure>
-          <img src="/lnurl.png" alt="LNURL1DP68GURN8GHJ7AMPD3KX2AR0VEEKZAR0WD5XJTNRDAKJ7TNHV4KXCTTTDEHHWM30D3H82UNVWQHKXUN0WAJX2ER9V9E8G6PN8QSKVTEZ">
+          <img src="/lnurl.png" alt="sats@d11n.net">
         </figure>
       </div>
     </template>

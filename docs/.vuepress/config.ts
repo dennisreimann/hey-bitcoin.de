@@ -1,73 +1,40 @@
-import { path } from '@vuepress/utils'
+import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { getDirname, path } from 'vuepress/utils'
 import { localTheme } from './theme'
-
-const extractDescription = (text) => {
-  if (!text) return
-  const paragraph = text.match(/^[A-Za-z].*(?:\n[A-Za-z].*)*/m)
-  return paragraph ? paragraph.toString().replace(/[\*\_\(\)\[\]]/g, '') : null
-}
+import markdownItAbbr from 'markdown-it-abbr'
+import markdownItMark from 'markdown-it-mark'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { seoPlugin } from '@vuepress/plugin-seo'
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 const baseUrl = 'https://hey-bitcoin.de'
-const pageSuffix = '/'
 
 export default defineUserConfig({
+  bundler: viteBundler(),
   title: 'Hey Bitcoin!',
   plugins: [
-    [
-      '@vuepress/register-components',
-      {
-        componentsDir:  path.resolve(__dirname, './theme/components'),
-      },
-    ],
-    [
-      require('vuepress-plugin-seo'),
-      {
-        siteTitle: (_, $site) => $site.title,
-        title: ($page) => $page.title,
-        description: ($page) =>
-          $page.frontmatter.description ||
-          extractDescription($page._strippedContent),
-        author: (_, $site) => ({ name: 'Dennis', twitter: '_d11n_' }),
-        tags: ($page) =>
-          $page.frontmatter.tags || [
-            'Bitcoin',
-            'Beratung',
-            'Entwicklung',
-            'BTCPay Server',
-            'Bitcoin verdienen',
-          ],
-        twitterCard: (_) => 'summary',
-        type: ($page) => 'article',
-        url: (_, $site, path) =>
-          `${baseUrl}${path.replace('.html', pageSuffix)}`,
-        image: ($page, $site) => `${baseUrl}/card.png`,
-      },
-    ],
-    [
-      'clean-urls',
-      {
-        normalSuffix: pageSuffix,
-        indexSuffix: pageSuffix,
-        notFoundPath: '/404.html',
-      },
-    ],
-    [
-      'sitemap',
-      {
-        hostname: baseUrl,
-        exclude: ['/404.html'],
-      },
-    ],
+    registerComponentsPlugin({
+      componentsDir:  path.resolve(__dirname, './theme/components'),
+    }),
+    seoPlugin({
+      hostname: baseUrl,
+      author: { name: 'Dennis', url: 'https://d11n.net', email: "mail@d11n.net"}
+    }),
+    sitemapPlugin({
+      hostname: baseUrl,
+      excludePaths: ['/404.html'],
+    })
   ],
   extendsMarkdown(md) {
     md
-      .use(require('markdown-it-abbr'))
-      .use(require('markdown-it-mark'))
+      .use(markdownItAbbr)
+      .use(markdownItMark)
   },
   locales: {
     '/': {
-      lang: 'de-DE',
+      lang: 'de-DE'
     },
   },
   theme: localTheme({
@@ -96,5 +63,16 @@ export default defineUserConfig({
         ],
       },
     ],
-  })
+    locales: {
+    '/': {
+      next: 'Nächster Artikel',
+      prev: 'Vorheriger Artikel',
+    },
+  },
+  }),
+  // https://ecosystem.vuejs.press/themes/default/extending.html
+  alias: {
+    '@theme/VPHome.vue': path.resolve(__dirname, './theme/components/VPHome.vue'),
+    '@theme/VPPage.vue': path.resolve(__dirname, './theme/components/VPPage.vue'),
+  },
 })

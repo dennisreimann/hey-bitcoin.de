@@ -2,37 +2,32 @@
   "name": "hey-bitcoin.de",
   "version": "1.0.0",
   "license": "MIT",
+  "type": "module",
   "description": "Hey Bitcoin",
   "author": "Dennis Reimann <mail@dennisreimann.de> (https://dennisreimann.de)",
   "homepage": "https://github.com/dennisreimann/hey-bitcoin.de",
   "bugs": "https://github.com/dennisreimann/hey-bitcoin.de/issues",
-  "funding": {
-    "url": "https://d11n.net/donate.html"
-  },
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/dennisreimann/hey-bitcoin.de.git"
   },
-  "keywords": [
-    "bitcoin"
-  ],
-  "config": {
-    "dist": "docs/.vuepress/dist"
-  },
   "scripts": {
-    "prestart": "rm -rf $npm_package_config_dist",
-    "start": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "start": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "2.0.0-beta.49",
-    "@vuepress/plugin-medium-zoom": "2.0.0-beta.49",
-    "@vuepress/plugin-register-components": "2.0.0-beta.49",
-    "markdown-it-abbr": "1.0.4",
-    "markdown-it-mark": "3.0.1",
-    "vuepress": "2.0.0-beta.49",
-    "vuepress-plugin-clean-urls": "1.1.2",
-    "vuepress-plugin-seo": "0.2.0",
-    "vuepress-plugin-sitemap": "2.3.1"
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/helper": "2.0.0-rc.118",
+    "@vuepress/plugin-register-components": "2.0.0-rc.118",
+    "@vuepress/plugin-seo": "2.0.0-rc.118",
+    "@vuepress/plugin-sitemap": "2.0.0-rc.118",
+    "@vuepress/theme-default": "2.0.0-rc.118",
+    "markdown-it-abbr": "2.0.0",
+    "markdown-it-mark": "4.0.0",
+    "sass-embedded": "^1.93.3",
+    "vue": "^3.5.24",
+    "vuepress": "2.0.0-rc.26"
   }
 }

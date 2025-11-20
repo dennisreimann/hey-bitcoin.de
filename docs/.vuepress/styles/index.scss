@@ -1,12 +1,29 @@
 :root,
 :root.dark {
-  --c-brand: #f7931b;
-  --c-brand-light: #f9aa4b;
+  --vp-c-accent: #f7931b;
+  --vp-c-accent-soft: #f9aa4b;
+  --vp-c-accent-bg: var(--vp-c-accent);
+  --vp-c-accent-text: var(--vp-c-white);
+  --vp-c-accent-hover: var(--vp-c-accent-soft);
+  --back-to-top-c-accent-bg: var(--vp-c-accent);
+  --homepage-width: 50rem;
   --sidebar-width: 24rem;
-  --c-tip: #4a90e2;
+  --tip-c-soft: rgba(0, 134, 201, .15);
+  --tip-c-accent: rgba(0, 134, 201, 1);
+  --tip-c-text: rgba(0, 134, 201, 1);
 
   scroll-behavior: smooth;
 }
+
+.vp-home [vp-content] {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
 
 .youtube {
   display: block;
@@ -41,4 +58,10 @@ mark {
 .theme-default-content .custom-container {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+a.header-anchor::before {
+  top: .05em;
+  left: -1em;
+  color: var(--vp-c-text-subtle);
 }
