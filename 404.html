@@ -1,33 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de-DE">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="generator" content="VuePress 2.0.0-beta.49">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.26" />
     <style>
       :root {
-        --c-bg: #fff;
+        --vp-c-bg: #fff;
       }
-      html.dark {
-        --c-bg: #22272e;
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
       }
-      html, body {
-        background-color: var(--c-bg);
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
       }
     </style>
     <script>
-      const userMode = localStorage.getItem('vuepress-color-scheme');
-			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
-				document.documentElement.classList.toggle('dark', true);
-			}
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
     </script>
-    <title>Hey Bitcoin!</title><meta name="description" content="">
-    <link rel="modulepreload" href="/assets/app.0b6cd4f9.js"><link rel="modulepreload" href="/assets/404.html.642b8b88.js"><link rel="modulepreload" href="/assets/404.html.ffa4d43e.js"><link rel="prefetch" href="/assets/faq.html.c13e9e30.js"><link rel="prefetch" href="/assets/glossar.html.a38eaa86.js"><link rel="prefetch" href="/assets/index.html.bd24c9e6.js"><link rel="prefetch" href="/assets/links.html.e53e6a99.js"><link rel="prefetch" href="/assets/index.html.10b5f683.js"><link rel="prefetch" href="/assets/index.html.62376dda.js"><link rel="prefetch" href="/assets/index.html.840da4c5.js"><link rel="prefetch" href="/assets/index.html.8c145241.js"><link rel="prefetch" href="/assets/index.html.92cbd17c.js"><link rel="prefetch" href="/assets/index.html.07078eef.js"><link rel="prefetch" href="/assets/index.html.a7770a49.js"><link rel="prefetch" href="/assets/index.html.cd23e214.js"><link rel="prefetch" href="/assets/index.html.132107b1.js"><link rel="prefetch" href="/assets/index.html.65268621.js"><link rel="prefetch" href="/assets/faq.html.385df483.js"><link rel="prefetch" href="/assets/glossar.html.91ceee45.js"><link rel="prefetch" href="/assets/index.html.80146fc9.js"><link rel="prefetch" href="/assets/links.html.69227a5f.js"><link rel="prefetch" href="/assets/index.html.bc56bf25.js"><link rel="prefetch" href="/assets/index.html.494fca9a.js"><link rel="prefetch" href="/assets/index.html.5ab84bdd.js"><link rel="prefetch" href="/assets/index.html.25a434f3.js"><link rel="prefetch" href="/assets/index.html.7f78505a.js"><link rel="prefetch" href="/assets/index.html.c585f033.js"><link rel="prefetch" href="/assets/index.html.ba6be57f.js"><link rel="prefetch" href="/assets/index.html.a61ffb01.js"><link rel="prefetch" href="/assets/index.html.167e4661.js"><link rel="prefetch" href="/assets/index.html.87acdb52.js"><link rel="prefetch" href="/assets/404.11063b03.js"><link rel="prefetch" href="/assets/Layout.8846d08c.js">
-    <link rel="stylesheet" href="/assets/style.de507997.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"","description":"404 Not Found"}</script><meta property="og:url" content="https://hey-bitcoin.de/404.html"><meta property="og:site_name" content="Hey Bitcoin!"><meta property="og:description" content="404 Not Found"><meta property="og:type" content="website"><meta property="og:locale" content="de-DE"><title>Hey Bitcoin!</title><meta name="description" content="404 Not Found">
+    <link rel="preload" href="/assets/style-DtqGadvx.css" as="style"><link rel="stylesheet" href="/assets/style-DtqGadvx.css">
+    <link rel="modulepreload" href="/assets/app-B7lheEOl.js"><link rel="modulepreload" href="/assets/404.html-D0vdDnQg.js">
+    <link rel="prefetch" href="/assets/index.html-YelIUrxi.js" as="script"><link rel="prefetch" href="/assets/index.html-A0WdusA2.js" as="script"><link rel="prefetch" href="/assets/index.html-BZWUxsn8.js" as="script"><link rel="prefetch" href="/assets/index.html-JycuuKfa.js" as="script"><link rel="prefetch" href="/assets/index.html-Cnfdmme6.js" as="script"><link rel="prefetch" href="/assets/index.html-D8eydfiJ.js" as="script"><link rel="prefetch" href="/assets/index.html-CbXkNBYG.js" as="script"><link rel="prefetch" href="/assets/index.html-CU9rQibK.js" as="script"><link rel="prefetch" href="/assets/index.html-MvSrf9aX.js" as="script"><link rel="prefetch" href="/assets/index.html-D_S-WH3B.js" as="script"><link rel="prefetch" href="/assets/index.html-r6litQ23.js" as="script"><link rel="prefetch" href="/assets/index.html-CuAPhg_v.js" as="script"><link rel="prefetch" href="/assets/index.html--PCeibWP.js" as="script"><link rel="prefetch" href="/assets/index.html-CzoF9ghz.js" as="script">
   </head>
   <body>
-    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
-    <script type="module" src="/assets/app.0b6cd4f9.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-33d3430e><main class="page" data-v-33d3430e><div vp-content data-v-33d3430e><h1 data-v-33d3430e>404</h1><blockquote data-v-33d3430e>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-33d3430e>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-B7lheEOl.js" defer></script>
   </body>
 </html>
