@@ -20,7 +20,6 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "@vuepress/helper": "2.0.0-rc.118",
-    "@vuepress/plugin-register-components": "2.0.0-rc.118",
     "@vuepress/plugin-seo": "2.0.0-rc.118",
     "@vuepress/plugin-sitemap": "2.0.0-rc.118",
     "@vuepress/theme-default": "2.0.0-rc.118",

@@ -2,22 +2,18 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { getDirname, path } from 'vuepress/utils'
-import { localTheme } from './theme'
-import markdownItAbbr from 'markdown-it-abbr'
-import markdownItMark from 'markdown-it-mark'
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { seoPlugin } from '@vuepress/plugin-seo'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import markdownItAbbr from 'markdown-it-abbr'
+import markdownItMark from 'markdown-it-mark'
 
+const __dirname = import.meta.dirname || getDirname(import.meta.url)
 const baseUrl = 'https://hey-bitcoin.de'
 
 export default defineUserConfig({
   bundler: viteBundler(),
   title: 'Hey Bitcoin!',
   plugins: [
-    registerComponentsPlugin({
-      componentsDir:  path.resolve(__dirname, './theme/components'),
-    }),
     seoPlugin({
       hostname: baseUrl,
       author: { name: 'Dennis', url: 'https://d11n.net', email: "mail@d11n.net"}
@@ -37,7 +33,7 @@ export default defineUserConfig({
       lang: 'de-DE'
     },
   },
-  theme: localTheme({
+  theme: defaultTheme({
     logo: '/bitcoin.svg',
     contributors: false,
     lastUpdated: false,
@@ -64,15 +60,15 @@ export default defineUserConfig({
       },
     ],
     locales: {
-    '/': {
-      next: 'Nächster Artikel',
-      prev: 'Vorheriger Artikel',
+      '/': {
+        next: 'Nächster Artikel',
+        prev: 'Vorheriger Artikel',
+      },
     },
-  },
   }),
   // https://ecosystem.vuejs.press/themes/default/extending.html
   alias: {
-    '@theme/VPHome.vue': path.resolve(__dirname, './theme/components/VPHome.vue'),
-    '@theme/VPPage.vue': path.resolve(__dirname, './theme/components/VPPage.vue'),
+    '@theme/VPHome.vue': path.resolve(__dirname, './components/VPHome.vue'),
+    '@theme/VPPage.vue': path.resolve(__dirname, './components/VPPage.vue'),
   },
 })

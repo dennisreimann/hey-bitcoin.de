@@ -16,15 +16,14 @@ jobs:
     steps:
       # Checkout doc repo and its dependencies
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
       # Setup Node
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: 22
-          cache: npm
+          node-version: 24
       # Install and build
       - name: Install
         run: npm ci

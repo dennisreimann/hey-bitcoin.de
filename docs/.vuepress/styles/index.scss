@@ -48,10 +48,10 @@
 
 mark {
   padding: .125em .25em;
-  outline: .125em solid var(--c-brand);
+  outline: .125em solid var(--vp-c-accent);
   border-radius: .25em;
-  background-color: var(--c-brand);
-  color: #fff;
+  background-color: var(--vp-c-accent);
+  color: var(--vp-c-accent-text);
 }
 
 .theme-default-content p img,
