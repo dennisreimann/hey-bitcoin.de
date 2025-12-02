@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import VPHomeFeatures from '@theme/VPHomeFeatures.vue'
 import VPHomeFooter from '@theme/VPHomeFooter.vue'
 import VPHomeHero from '@theme/VPHomeHero.vue'
 import { Content } from 'vuepress/client'
@@ -7,11 +6,10 @@ import { Content } from 'vuepress/client'
 
 <template>
   <main class="vp-home">
+    <VPHomeHero />
     <div vp-content>
       <Content />
     </div>
-    <VPHomeHero />
-    <VPHomeFeatures />
     <VPHomeFooter />
   </main>
 </template>
@@ -32,6 +30,23 @@ import { Content } from 'vuepress/client'
   [vp-content] {
     margin: 0;
     padding: 0;
+
+    h2 {
+      border-bottom: none;
+      padding-top: var(--header-offset);
+      font-size: 1.35rem;
+    }
+  }
+
+  .intro {
+    text-align: center;
+    max-width: 39em;
+    margin: 0 auto;
+
+    .primary {
+      margin: 1.5rem 0;
+      text-decoration: none;
+    }
   }
 }
 </style>
