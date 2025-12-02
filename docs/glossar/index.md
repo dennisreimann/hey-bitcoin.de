@@ -19,7 +19,7 @@ Die Wallet prüft und signiert deine Adressen und empfängt und sendet Transakti
 
 ## Private Key und Seed Phrase
 
-Der private Schlüssel ist die Grundlage für den Zugriff auf deine Bitcoins.
+Der private Schlüssel ist die Grundlage für die [Selbstverwahrung](/anleitung/bitcoin-selber-verwahren/) deiner Bitcoins.
 Es ist die sensibelste Information und du solltest ihn möglichst sicher aufbewahren.
 Die Seed Phrase ist eine menschenlesliche Entsprechung des privaten Schlüssels.
 Es ist die in 24 bzw. 12 Wörter kodierte Form des Schlüssels, die dir auch ein einfacheres analoges Backup ermöglicht.
@@ -52,6 +52,13 @@ Das Erstellen von Adressen und Signatur übernimmt deine Wallet.
 Anstatt jede Transaktion einzeln zu verarbeiten, bündelt das Bitcoin-Netzwerk sie in Blöcken.
 Blöcke werden etwa alle 10 Minuten erstellt und können auf Grund einer strengen Dateigrößenbegrenzung nur eine bestimmte Anzahl von Transaktionen enthalten.
 Sobald ein Block akzeptiert wurde und mehrere Bestätigungen erhalten hat, kann er nie wieder geändert werden.
+
+## Satoshis
+
+Dabei handelt es sich um die Untereinheit eines Bitcoin:
+So wie ein Euro in 100 Cent unterteilbar ist, steht ein Bitcoin für 100.000.000 Satoshis (100 Millionen).
+Dies bietet als Einheit genug Teilbarkeit, um damit auch bei ggf. massiver Wertsteigerung in der Zukunft gut umgehen zu können.
+Satoshis werden auch liebevoll einfach "Sats" genannt.
 
 ## Custodial und Non-Custodial
 

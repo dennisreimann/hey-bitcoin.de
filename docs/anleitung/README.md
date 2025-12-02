@@ -3,6 +3,7 @@
 ## Deine ersten Satoshis
 
 - [Bitcoin kaufen: Was muss ich beachten?](./bitcoin-kaufen-was-beachten/)
+- [Bitcoin selber verwahren](./bitcoin-selber-verwahren/)
 
 ## Der eigene Fullnode
 

@@ -48,6 +48,7 @@ export default defineUserConfig({
         text: 'Anleitungen',
         children: [
           '/anleitung/bitcoin-kaufen-was-beachten/',
+          '/anleitung/bitcoin-selber-verwahren/',
           '/anleitung/bitcoin-fullnode-raspberry-pi-4/',
           '/anleitung/bitcoin-fullnode-mit-wallet-verbinden/',
           '/anleitung/seedsigner-hardware/',
