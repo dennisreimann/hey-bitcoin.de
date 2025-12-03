@@ -1,9 +1,10 @@
 # Anleitungen
 
-## Deine ersten Satoshis
+## Die ersten Schritte
 
 - [Bitcoin kaufen: Was muss ich beachten?](./bitcoin-kaufen-was-beachten/)
 - [Bitcoin selber verwahren](./bitcoin-selber-verwahren/)
+- [Wallet Grundlagen: Accounts, Derivation Paths und Passphrases](./bitcoin-wallet-grundlagen/)
 
 ## Der eigene Fullnode
 

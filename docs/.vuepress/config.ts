@@ -49,6 +49,7 @@ export default defineUserConfig({
         children: [
           '/anleitung/bitcoin-kaufen-was-beachten/',
           '/anleitung/bitcoin-selber-verwahren/',
+          '/anleitung/bitcoin-wallet-grundlagen/',
           '/anleitung/bitcoin-fullnode-raspberry-pi-4/',
           '/anleitung/bitcoin-fullnode-mit-wallet-verbinden/',
           '/anleitung/seedsigner-hardware/',

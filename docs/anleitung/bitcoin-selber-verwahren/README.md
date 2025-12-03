@@ -57,6 +57,7 @@ Warum ist er so wichtig? Aus diesen Wörtern lassen sich alle Adressen und weite
 Wer diese Wörter hat, hat die Kontrolle über alle dazugehörigen Satoshis.
 
 Die zwei goldenen Regeln:
+
 1. Absolute Geheimhaltung: Keine Fotos, keine Cloud-Speicher, keine E-Mails, kein Passwort-Manager.
 2. Physische Sicherheit: Schutz vor Feuer, Wasser und Diebstahl durch robuste Backups (z.B. auf Stahlplatten)
 
@@ -132,11 +133,12 @@ Erfolgskontrolle: Wenn die Wallet wiederhergestellt ist und du deinen kleinen Te
 
 Du bist jetzt deine eigene Bank. Handle entsprechend verantwortungsvoll und hab Spaß daran.
 
-### Die Reise geht weiter: Dein nächstes Upgrade
+### Weitere Schritte und Ausbaumöglichkeiten
 
 Mit einer Hardware-Wallet und einem sicheren Backup hast du das Fundament für die Selbstverwahrung gelegt.
 Um deine Privatsphäre und Souveränität weiter zu stärken, empfehle ich dir die folgenden nächsten Schritte:
 
+- Mach dich mit den Wallet Grundlagen vertraut und lerne die Konzepte [Accounts, Derivation Paths und Passphrases](/anleitung/bitcoin-wallet-grundlagen/) kennen.
 - Für maximale Privatsphäre: Lass [deinen eigenen Bitcoin-Node](/anleitung/bitcoin-fullnode-raspberry-pi-4/) laufen
  und [verbinde deine Wallet mit deiner Bitcoin-Node](/anleitung/bitcoin-fullnode-mit-wallet-verbinden/).
   Dies verhindert, dass du dich auf die Server Dritter verlassen musst und diese deine IP sowie Transaktionsdaten nachvollziehen können.
