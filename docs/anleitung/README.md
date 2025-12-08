@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # Anleitungen
 
 ## Die ersten Schritte

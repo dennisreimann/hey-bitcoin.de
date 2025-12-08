@@ -45,18 +45,38 @@ export default defineUserConfig({
     ],
     sidebar: [
       {
-        text: 'Anleitungen',
+        text: 'Die ersten Schritte',
         children: [
           '/anleitung/bitcoin-kaufen-was-beachten/',
           '/anleitung/bitcoin-selber-verwahren/',
           '/anleitung/bitcoin-wallet-grundlagen/',
           '/anleitung/utxo-management/',
+        ],
+      },
+      {
+        text: 'Der Praxisstart',
+        children: [
           '/anleitung/bitcoin-fullnode-raspberry-pi-4/',
           '/anleitung/bitcoin-fullnode-mit-wallet-verbinden/',
+        ],
+      },
+      {
+        text: 'SeedSigner',
+        children: [
           '/anleitung/seedsigner-hardware/',
           '/anleitung/seedsigner-software-seedqr/',
+        ],
+      },
+      {
+        text: 'Lightning Netzwerk',
+        children: [
           '/anleitung/lightning-network-zahlungskanal/',
           '/anleitung/lightning-network-routing/',
+        ],
+      },
+      {
+        text: 'Sonstiges',
+        children: [
           '/anleitung/software-verifizieren/',
           '/anleitung/nostr-dezentrale-twitter-alternative/',
         ],
