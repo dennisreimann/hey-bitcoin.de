@@ -50,6 +50,7 @@ export default defineUserConfig({
           '/anleitung/bitcoin-kaufen-was-beachten/',
           '/anleitung/bitcoin-selber-verwahren/',
           '/anleitung/bitcoin-wallet-grundlagen/',
+          '/anleitung/utxo-management/',
           '/anleitung/bitcoin-fullnode-raspberry-pi-4/',
           '/anleitung/bitcoin-fullnode-mit-wallet-verbinden/',
           '/anleitung/seedsigner-hardware/',

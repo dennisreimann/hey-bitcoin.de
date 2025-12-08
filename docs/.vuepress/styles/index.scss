@@ -24,7 +24,6 @@
   }
 }
 
-
 .youtube {
   display: block;
   position: relative;
@@ -64,4 +63,8 @@ a.header-anchor::before {
   top: .05em;
   left: -1em;
   color: var(--vp-c-text-subtle);
+}
+
+.hint-container {
+  margin-block: 1.75rem;
 }
