@@ -28,10 +28,10 @@ Momentan ist alles noch sehr in den Kinderschuhen, aber es gibt bereits gut funk
 
 Als auch Browser-basierte Web-Apps:
 
-- [hamstr.to](https://hamstr.to/), [snort.social](https://snort.social/) und [astral.ninja](https://astral.ninja) sind an Twitter angelehnt
+- [primal.net](https://primal.net/) und [snort.social](https://snort.social/) sind an Twitter angelehnt
 - [anigma.io](https://anigma.io/) erinnert an Telegram
 
-Damus ist die momentan am besten funktionierende und am weitesten entwickelte App, daher werde ich die meisten praktischen Dinge hier im Bezug auf Damus beschreiben.
+Damus ist eine gut funktionierende und weit entwickelte App, daher werde ich die meisten praktischen Dinge hier im Bezug auf Damus beschreiben.
 Bevor wir aber damit loslegen, noch ein weiterer wichtiger Punkt zum Start …
 
 ### Schlüssel
@@ -51,11 +51,11 @@ Die meisten Apps bieten dir beim ersten Öffnen an, entweder einen bestehenden S
 Da der private Schlüssel recht sensitiv ist, würde ich davon abraten, ihn im Browser zu generieren oder auch dort zu hinterlegen.
 Erst kürzlich gab es eine Sicherheitslücke in Anigma, bei der Schlüssel geleaked sind — die damit verbundenen Identitäten sind daraufhin unbrauchbar.
 
-Wenn du deine Identität im Browser nutzen möchtest, kannst du das Risiko zumindest durch das Nutzen des neuen [Nostr-Feature in Alby](https://guides.getalby.com/overall-guide/alby-browser-extension/features/nostr) zu minimieren:
+Wenn du deine Identität im Browser nutzen möchtest, kannst du das Risiko zumindest durch das Nutzen des neuen [Nostr-Feature in Alby](https://guides.getalby.com/user-guide/browser-extension/features/nostr) zu minimieren:
 [Alby](https://getalby.com/) ist eine Lightning Browser-Erweiterung, die dir auch erlaubt, deinen privaten Nostr-Schlüssel zu verwalten und ihn für einzelne Anwendungen freizugeben.
 Du kannst den Schlüssel direkt in Alby generieren oder deinen bestehenden Schüssel importieren.
 
-Beim [SeedSigner](../seedsigner-hardware/) wird auch schon an der [Schlüsselverwaltung für Nostr](https://www.nostr.guru/e/72bc12b1b7cf412a968c882057cdbaf4d0eed0d4959a1f66e6a251bfcf91c3a3) gearbeitet.
+Beim [SeedSigner](../seedsigner-hardware/) wird auch schon an der [Schlüsselverwaltung für Nostr](https://primal.net/e/72bc12b1b7cf412a968c882057cdbaf4d0eed0d4959a1f66e6a251bfcf91c3a3) gearbeitet.
 Es wird sich also in Zukunft noch einiges tun und man wird sicher auch bald seinen Nostr-Schlüssel mit kompatiblen Hardware-Wallets verwalten können.
 
 ## Nostr nutzen
@@ -69,7 +69,7 @@ Sie stellt die Nachrichten der Leute denen du folgst — standardmäßig folgst 
 Dementsprechend solltest du also erst einmal ein paar Leute finden, denen du folgen kannst.
 Je nach App kannst du in der globalen Timeline deiner Relays anfangen zu suchen, ansonsten findest du hier auch eine Übersicht der [am meisten gefolgten Personen](https://nostr.io/stats).
 
-Mein Pubkey ist [`acbcec475a1a4f9481939ecfbd1c3d111f5b5a474a39ae039bbc720fdd305bec`](https://www.nostr.guru/p/acbcec475a1a4f9481939ecfbd1c3d111f5b5a474a39ae039bbc720fdd305bec) und du kannst bspw. auch in meinem Profil sehen, wem ich folge und dich  von dort aus weiter inspirieren lassen.
+Mein Pubkey ist [`npub14j7wc366rf8efqvnnm8m68pazy04kkj8fgu6uqumh3eqlhfst0kqrngtpf`](https://primal.net/p/npub14j7wc366rf8efqvnnm8m68pazy04kkj8fgu6uqumh3eqlhfst0kqrngtpf) und du kannst bspw. auch in meinem Profil sehen, wem ich folge und dich  von dort aus weiter inspirieren lassen.
 Ansonsten über die Suche das Hashtag **#Plebchain** nutzen, um weitere Bitcoiner zu finden.
 
 ### Personen markieren
@@ -83,20 +83,6 @@ Um Personen zu markieren, musst du das @-Symbol vor den öffentlichen Schlüssel
 Analog zum Retweet kann man in Nostr auch bestehende Notizen referenzieren und sie so "boosten".
 Dafür verwendet man wie beim Markieren von Personen das @-Symbol vor der Notiz-ID.
 An die ID kommt man in Damus bspw. indem man die Notiz länger drückt — im darauf folgenden Menü kann man die Notiz-ID kopieren.
-
-### Bilder und Videos posten
-
-Medien-URLs werden verarbeitet und als Bilder angezeigt.
-Im Moment ist es in den meisten Clients nicht möglich, Bilder und Videos direkt hochzuladen.
-Das Bild muss erst irgendwo gehostet werden, bevor man es verwendet werden kann.
-Du kannst dafür bspw. folgende kostenlose öffentliche Bild-Hosting-Dienste verwenden:
-
-- [nostr.build](https://nostr.build)
-- [postimages.org](https://postimages.org)
-- [imgbb.com](https://imgbb.com)
-
-Um mehrere Bilder in einem einzigen Beitrag anzuzeigen, poste einfach die jeweiligen Bild-URLs.
-Je nach App werden sie dann als Galerie oder Karussell dargestellt.
 
 ### Was bedeuten die Emojis?
 

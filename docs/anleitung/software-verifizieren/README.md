@@ -40,9 +40,9 @@ Der Ablauf ist dabei immer gleich:
 Je nach Betriebssystem und GPG-Software kannst du einzelne Teilschritte der Verifizierung auch in der grafischen Benutzeroberfläche machen.
 Den vollständigen Weg gehen wir im folgenden aber auf der Kommandozeile durch – keine Angst, es ist einfacher als es zunächst klingt. 😉
 
-## Beispiel: ShiftCrypto BitBox App
+## Beispiel: BitBox App
 
-Sehen wir uns den Vorgang am Beispiel der [BitBox App](https://shiftcrypto.ch/download/) (hier Version 4.27.0) an:
+Sehen wir uns den Vorgang am Beispiel der [BitBox App](https://bitbox.swiss/download/) (hier Version 4.27.0) an:
 Zusätzlich zu den Download-Buttons siehst du die *Checksums* für die jeweiligen Dateien.
 
 ![BitBox App verifizieren](./bitbox-app-verifizieren.png)

@@ -1,7 +1,7 @@
 # UTXO-Management: Privatsphäre & Gebühren
 
 Wenn du Bitcoin nicht nur halten, sondern aktiv nutzen möchtest, ist das Verständnis von UTXOs entscheidend.
-Dieser Artikel erklärt, was UTXOs sind, warum gutes UTXO-Management über reine Gebührenoptimierung hinausgeht und wie du mit Tools wie Sparrow Wallet deine Privatsphäre schützt und Transaktionskosten kontrollierst.
+Dieser Artikel erklärt, was UTXOs sind, warum gutes UTXO-Management über reine Gebührenoptimierung hinausgeht und wie du mit dem entsprechenden Wissen auch deine Privatsphäre schützt.
 
 ## Grundlagen: Was ist ein UTXO?
 

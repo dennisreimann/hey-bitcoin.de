@@ -7,9 +7,9 @@
 - [Wallet Grundlagen: Accounts, Derivation Paths und Passphrases](./bitcoin-wallet-grundlagen/)
 - [UTXO-Management: Optimierung von Privatsphäre und Gebühren](./utxo-management/)
 
-## Der eigene Fullnode
+## Der Praxisstart
 
-- [Bitcoin Fullnode mit dem Raspberry Pi 4](./bitcoin-fullnode-raspberry-pi-4/)
+- [Die eigene Bitcoin Fullnode](./bitcoin-fullnode/)
 - [Bitcoin Fullnode mit der Wallet App vebinden](./bitcoin-fullnode-mit-wallet-verbinden/)
 
 ## SeedSigner
