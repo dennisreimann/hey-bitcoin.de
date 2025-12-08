@@ -31,7 +31,7 @@ Womit wir direkt beim nächsten Thema wären ...
 
 ## Derivation Paths: Ableitungspfade der Adressen
 
-Ein Derivation Path ist eine standardisierte "Formel", die angibt, wie aus deiner Seed Phrase hierarchisch die einzelnen Private Keys und damit die Empfangsadressen abgeleitet werden. Dies ist in [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) definiert.
+Ein Derivation Path ist eine standardisierte "Formel", die angibt, wie aus deiner Seed Phrase hierarchisch die einzelnen Private Keys und damit die Empfangsadressen abgeleitet werden. Dies ist in [BIP 44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) definiert.
 Er sieht aus wie ein Dateipfad, bspw. `m/84'/0'/0'`.
 
 Warum ist das wichtig?
@@ -92,7 +92,6 @@ Von der Verwendung absehen solltest du, wenn ...
 :::tip Gut zu wissen
 Wie du gelernt hast, kannst du dich aber auch immer noch später für die Verwendung einer Passphrase entscheiden — deine Seed Phrase und dein bestehendes Backup ändern sich dadurch nicht.
 :::
-
 
 ### Einrichtung einer Passphrase
 

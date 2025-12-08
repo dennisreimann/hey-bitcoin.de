@@ -37,7 +37,7 @@ Passphrases solltest du getrennt von deinem Seed aufbewahren und sichern.
 ## Account / Konto
 
 Genau wie der Begriff Wallet kann auch der Begriff Konto für sehr unterschiedliche Dinge verwendet werden.
-In Wallet-Software, die [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) unterstützt (alle üblichen Wallets tun dies), kann ein Bitcoin-Wallet mehrere Konten haben.
+In Wallet-Software, die [BIP 44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) unterstützt (alle üblichen Wallets tun dies), kann ein Bitcoin-Wallet mehrere Konten haben.
 Jedes dieser Konten hat seinen eigenen Ableitungspfad und somit auch seine eigenen Adressen.
 
 ## Adressen und Signaturen
@@ -111,13 +111,13 @@ Ein standardisiertes technisches Verfahren und Dokumentformat , um Änderungen a
 Soll bspw. ein neues Feature in Bitcoin hinzugefügt werden, so muss es zunächst durch solch einen Verbesserungsvorschlag spezifiziert und dokumentiert werden.
 Einige der wichtigsten BIPs sind bspw.:
 
-- [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki): Mnemonischer Code für die Erzeugung deterministischer Schlüssel
-- [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki): Multi-Account-Hierarchie für HD-Wallets
-- [BIP174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki): PSBT
+- [BIP 39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki): Mnemonischer Code für die Erzeugung deterministischer Schlüssel
+- [BIP 44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki): Multi-Account-Hierarchie für HD-Wallets
+- [BIP 174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki): PSBT, Partially Signed Bitcoin Transactions
 
 ## BOLT - Basis of Lightning Technology
 
-Analog zu den BIPs füur Bitcoin, gibt es füur Lightning die BOLTs.
+Analog zu den BIPs für Bitcoin, gibt es für Lightning die BOLTs.
 Die verschiedenen Lightning-Implementierungen (bspw. LND, Core Lightning, Eclair) müssen sich an die BOLTs halten, um interoperabel zu sein.
 Die verschiedenen Implementierungen können jedoch auch Funktionen enthalten, die in den BOLTs nicht definiert sind.
 So werden neue Features ausprobiert, welche dann ggf. später als Standard etabliert werden.
