@@ -92,9 +92,9 @@ Dies spielt für die [Wiederherstellung](https://github.com/SeedSigner/seedsigne
 
 Wallets mit Unterstützung für das kompakte SeedQR-Format sind aktuell:
 
+- [Sparrow](../sparrow-wallet/)
 - BlueWallet
 - Nunchuk
-- Sparrow
 - Specter Desktop
 
 <br>

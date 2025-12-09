@@ -118,7 +118,7 @@ Daher ist eine Wallet mit sehr vielen kleinen UTXOs nicht nur unter Privatsphär
 ## Zusammenfassung und Best Practices
 
 Gutes UTXO-Management ist eine Kunst, die deine Privatsphäre schützt und dir auf lange Sicht Gebühren spart.
-Nutze die mächtigen Tools in Wallets wie Sparrow, um die Kontrolle zu übernehmen:
+Nutze die mächtigen Tools in Wallets wie [Sparrow](../sparrow-wallet/), um die Kontrolle zu übernehmen:
 
 - Trenne Quellen: KYC, Non-KYC, Lightning, Privates und Berufliches getrennt halten
 - Vermeide Adresswiederverwendung: Nutze für jeden Empfang eine neue Adresse

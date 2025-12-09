@@ -1,6 +1,6 @@
 # Wallet Grundlagen: Accounts, Derivation Paths und Passphrases
 
-Nachdem du dich für die [Selbstverwahrung](/anleitung/bitcoin-selber-verwahren/) entschieden hast, warten einige mächtige Funktionen darauf, entdeckt zu werden.
+Nachdem du dich für die [Selbstverwahrung](../bitcoin-selber-verwahren/) entschieden hast, warten einige mächtige Funktionen darauf, entdeckt zu werden.
 Dieser Artikel erklärt dir wichtige Schlüsselkonzepte, die dir mehr Kontrolle, Organisation und Sicherheit in der Handhabung deiner Wallet geben.
 Du lernst, was Accounts, Derivation Paths und Passphrases sind und wie du sie praktisch nutzen kannst.
 
@@ -18,7 +18,7 @@ Jeder Account generiert seine eigenen Empfangsadressen und verwaltet seine Bitco
 
 ### So richtest du sie ein
 
-In Wallet-Software wie Sparrow oder auf Geräten wie der BitBox oder ColdCard kannst du einfach neue Accounts hinzufügen.
+In Wallet-Software wie [Sparrow](../sparrow-wallet/) oder auf Geräten wie der BitBox oder ColdCard kannst du einfach neue Accounts hinzufügen.
 Sie werden unter verschiedenen Namen geführt, bleiben aber alle durch deine Master-Seed Phrase gesichert.
 
 Beispiel mit drei Accounts, welche durch dieselbe Seed Phrase verwaltet werden, aber transaktionsmäßig getrennt sind:

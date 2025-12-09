@@ -56,7 +56,8 @@ export default defineUserConfig({
       {
         text: 'Der Praxisstart',
         children: [
-          '/anleitung/bitcoin-fullnode-raspberry-pi-4/',
+          '/anleitung/bitcoin-fullnode/',
+          '/anleitung/sparrow-wallet/',
           '/anleitung/bitcoin-fullnode-mit-wallet-verbinden/',
         ],
       },

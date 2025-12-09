@@ -138,8 +138,8 @@ Du bist jetzt deine eigene Bank. Handle entsprechend verantwortungsvoll und hab 
 Mit einer Hardware-Wallet und einem sicheren Backup hast du das Fundament für die Selbstverwahrung gelegt.
 Um deine Privatsphäre und Souveränität weiter zu stärken, empfehle ich dir die folgenden nächsten Schritte:
 
-- Mach dich mit den Wallet Grundlagen vertraut und lerne die Konzepte [Accounts, Derivation Paths und Passphrases](/anleitung/bitcoin-wallet-grundlagen/) kennen.
-- Für maximale Privatsphäre: Lass [deinen eigenen Bitcoin-Node](/anleitung/bitcoin-fullnode-raspberry-pi-4/) laufen
- und [verbinde deine Wallet mit deiner Bitcoin-Node](/anleitung/bitcoin-fullnode-mit-wallet-verbinden/).
+- Mach dich mit den Wallet Grundlagen vertraut und lerne die Konzepte [Accounts, Derivation Paths und Passphrases](../bitcoin-wallet-grundlagen/) kennen.
+- Für maximale Privatsphäre: Lass [deinen eigenen Bitcoin-Node](../bitcoin-fullnode/) laufen
+ und [verbinde deine Wallet mit deiner Bitcoin-Node](../bitcoin-fullnode-mit-wallet-verbinden/).
   Dies verhindert, dass du dich auf die Server Dritter verlassen musst und diese deine IP sowie Transaktionsdaten nachvollziehen können.
-- Für fortgeschrittene Nutzer: Die Kombination aus einer Hardware-Wallet und der leistungsstarken Software Sparrow Wallet auf einem sicheren System bietet dir ein Maximum an Sicherheit und Kontrolle. Ich werde diese Serie bei Gelegenheit um weitere Artikel dazu erweitern.
+- Für fortgeschrittene Nutzer: Die Kombination aus einer Hardware-Wallet und der leistungsstarken Software [Sparrow Wallet](../sparrow-wallet/) auf einem sicheren System bietet dir ein Maximum an Sicherheit und Kontrolle. Ich werde diese Serie bei Gelegenheit um weitere Artikel dazu erweitern.

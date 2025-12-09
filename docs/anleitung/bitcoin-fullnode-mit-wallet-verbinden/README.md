@@ -1,6 +1,6 @@
 # Bitcoin Fullnode mit der Wallet App verbinden
 
-In diesen beiden Videos zeige ich dir, wie du [deine eigene Fullnode](/anleitung/bitcoin-fullnode-raspberry-pi-4/) mit den jeweiligen Wallet Apps verbinden kannst.
+In diesen beiden Videos zeige ich dir, wie du [deine eigene Fullnode](../bitcoin-fullnode/) mit den jeweiligen Wallet Apps verbinden kannst.
 
 Dies zeige ich jeweils mit dem RaspiBlitz und Umbrel.
 
