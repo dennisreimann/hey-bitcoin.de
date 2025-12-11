@@ -10,6 +10,7 @@ sidebar: false
 - [Bitcoin selber verwahren](./bitcoin-selber-verwahren/)
 - [Wallet Grundlagen: Accounts, Derivation Paths und Passphrases](./bitcoin-wallet-grundlagen/)
 - [UTXO-Management: Optimierung von Privatsphäre und Gebühren](./utxo-management/)
+- [Warum finanzielle Privatsphäre in Bitcoin jeden etwas angeht](./finanzielle-privatsphaere/)
 
 ## Der Praxisstart
 

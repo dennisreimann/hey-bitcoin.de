@@ -51,6 +51,7 @@ export default defineUserConfig({
           '/anleitung/bitcoin-selber-verwahren/',
           '/anleitung/bitcoin-wallet-grundlagen/',
           '/anleitung/utxo-management/',
+          '/anleitung/finanzielle-privatsphaere/',
         ],
       },
       {

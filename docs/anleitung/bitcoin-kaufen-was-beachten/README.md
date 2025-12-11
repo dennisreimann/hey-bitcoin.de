@@ -145,4 +145,4 @@ Oder du möchtest dich davor schützen, unerwarteten Besuch zu bekommen, weil na
 Ich möchte dich damit nicht abschrecken, auf der anderen Seite aber auch klar machen, dass dieses Thema wichtig ist:
 Sind deine Daten erst einmal draußen ist es fast unmöglich sie zu kontrollieren und wieder zurückzubekommen.
 Du wirst vieles im Laufe der Zeit ausbauen und verbessern können, aber bitte starte nicht einfach vollkommen unbedarft und leichtgläubig.
-Diesem Thema werde ich daher noch einige weitere Artikel widmen.
+Lerne mehr dazu, [warum finanzielle Privatsphäre in Bitcoin jeden etwas angeht](../finanzielle-privatsphaere/).
