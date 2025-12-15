@@ -32,3 +32,4 @@ sidebar: false
 
 - [Software verifizieren](./software-verifizieren/)
 - [Nostr: Eine dezentrale Alternative zu Twitter — und mehr …](./nostr-dezentrale-twitter-alternative/)
+- [GrapheneOS: Warum dein nächstes Smartphone souverän sein sollte](./grapheneos-sicherheit-privatsphaere/)

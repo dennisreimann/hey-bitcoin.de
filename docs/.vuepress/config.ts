@@ -81,6 +81,7 @@ export default defineUserConfig({
         children: [
           '/anleitung/software-verifizieren/',
           '/anleitung/nostr-dezentrale-twitter-alternative/',
+          '/anleitung/grapheneos-sicherheit-privatsphaere/',
         ],
       },
     ],
