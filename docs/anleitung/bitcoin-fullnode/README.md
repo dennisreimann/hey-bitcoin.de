@@ -119,7 +119,7 @@ Hier die wichtigsten Punkte auf einen Blick:
 | :--- | :--- | :--- | :--- |
 | **Zielgruppe** | **Einsteiger & Fortgeschrittene**, Fokus auf Stabilität und Benutzerfreundlichkeit | **Einsteiger**, sehr beliebt und benutzerfreundlich | **Fortgeschrittene**, Fokus auf Education und DIY |
 | **Installation** | **Einfach** (Image auf USB-Stick, booten, fertig) | **Sehr einfach** | **Mittelmäßig** (mehr manuelle Schritte) |
-| **Hardware-Support** | **Breit** (x64 Mini-PCs, Laptops) | **Breit** (x64 Mini-PCs, Laptops) | **Eingeschränkter** (primär Raspberry Pi) |
+| **Hardware-Support** | **Breit** (x64 Mini-PCs, Laptops) | **Breit** (x64 Mini-PCs, Raspberry Pi) | **Eingeschränkter** (primär Raspberry Pi) |
 | **Philosophie** | "It just works" – Stabilität und Souveränität | Maximale Benutzerfreundlichkeit und großer "App Store" | "Lerne Bitcoin by doing" – viel Transparenz |
 | **Kurzfassung** | **Meine Empfehlung** für ein sorgenfreies, stabiles Setup | Viele Apps mit Anwendungsfällen, die über Bitcoin hinaus gehen | Ideal für Tüftler, die mehr von den Details verstehen wollen |
 
@@ -183,6 +183,7 @@ Das ist völlig normal. Du kannst das Browser-Fenster schließen, der Node synch
 - **Zusatzdienste (optional, aber empfohlen):** Gehe zurück in den App Store und installiere:
   - **Electrum Server:** Wichtig, um deine Wallet (z.B. Sparrow) mit deinem Node zu verbinden.
   - **Mempool.space:** Ein Block Explorer und Fee-Schätzer, der auf deinen eigenen Daten läuft.
+- Komm in die [**Einundzwanzig StartOS-Gruppe auf Signal**](https://signal.group/#CjQKIKqlRP8ZfdXx1S9jVvKyPKm_czYtbf-3SXZ4rm2hz9vHEhBvKli2gLD6iAVesjGa3LCD): Hier kannst du dich mit anderen Nutzern austauschen und bleibst auf dem Laufenden.
 
 Dein souveräner Bitcoin-Node ist bald betriebsbereit!
 In den nächsten Kapiteln erfährst du, wie du ihn [mit deiner Wallet verbindest](../bitcoin-fullnode-mit-wallet-verbinden/) und mit [Sparrow](../sparrow-wallet/) nutzen kannst.
