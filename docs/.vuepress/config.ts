@@ -80,8 +80,9 @@ export default defineUserConfig({
         text: 'Sonstiges',
         children: [
           '/anleitung/software-verifizieren/',
-          '/anleitung/nostr-dezentrale-twitter-alternative/',
+          '/anleitung/vpn-leitfaden/',
           '/anleitung/grapheneos-sicherheit-privatsphaere/',
+          '/anleitung/nostr-dezentrale-twitter-alternative/',
         ],
       },
     ],
