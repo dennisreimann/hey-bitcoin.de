@@ -34,3 +34,4 @@ sidebar: false
 - [VPN-Nutzung: Ein praktischer Leitfaden](./vpn-leitfaden/)
 - [GrapheneOS: Warum dein nächstes Smartphone souverän sein sollte](./grapheneos-sicherheit-privatsphaere/)
 - [Nostr: Eine dezentrale Alternative zu Twitter — und mehr …](./nostr-dezentrale-twitter-alternative/)
+- [Tails OS: Ein Privatsphäre-Betriebssystem](./tails-os-privatsphaere-betriebssystem/)

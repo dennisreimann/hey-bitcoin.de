@@ -83,6 +83,7 @@ export default defineUserConfig({
           '/anleitung/vpn-leitfaden/',
           '/anleitung/grapheneos-sicherheit-privatsphaere/',
           '/anleitung/nostr-dezentrale-twitter-alternative/',
+          '/anleitung/tails-os-privatsphaere-betriebssystem/',
         ],
       },
     ],
