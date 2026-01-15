@@ -77,7 +77,7 @@ Tails ist ein Spezialwerkzeug für Situationen höchster Sicherheitsanforderunge
 - **Electrum Wallet**: Bitcoin-Transaktionen
 
 :::tip Fehlt da nicht was?
-In einem weiterne Artikel sehen wir uns bald an, wie man auch Sparrow Wallet unter Tails OS nutzen kann.
+In einem weiterne Artikel sehen wir uns an, wie man auch [Sparrow Wallet unter Tails OS nutzen](../tails-os-sparrow-wallet/) kann.
 :::
 
 ## Die praktischen Grenzen
@@ -132,7 +132,7 @@ Wenn du Tails für sensible Bitcoin-Transaktionen oder zum Schutz deiner Finanzd
     Tails startet nun und du gelangst in die Tails-Umgebung.
 4. **Tor-Verbindung:** Starte die Tor-Verbindung, um sicherzustellen, dass du anonym unterwegs bist.
     Der Tor-Browser ist standardmäßig auf Tails installiert und bietet eine sichere Möglichkeit, das Internet zu nutzen.
-5. **Bitcoin-Wallet:** Öffne deine Bitcoin-Wallet-Software (Electrum ist voinstalliert, Sparrow kann man sich persistieren), und stelle sicher, dass sie korrekt konfiguriert ist.
+5. **Bitcoin-Wallet:** Öffne deine Bitcoin-Wallet-Software (Electrum ist voinstalliert, [Sparrow kann man sich persistieren](../tails-os-sparrow-wallet/)), und stelle sicher, dass sie korrekt konfiguriert ist.
 6. **Transaktionen durchführen:** Führe deine Bitcoin-Transaktionen durch, indem du die Wallet-Software nutzt.
     Achte darauf, dass du die richtigen Empfangsadressen und Beträge verwendest.
 7. **System herunterfahren:** Wenn du mit deinen Transaktionen fertig bist, fahre das System herunter.

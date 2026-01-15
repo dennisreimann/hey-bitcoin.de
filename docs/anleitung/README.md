@@ -28,10 +28,14 @@ sidebar: false
 - [Der Lebenszyklus eines Zahlungskanals im Lightning Netzwerk](./lightning-network-zahlungskanal/)
 - [Wie Kapazität und Liquidität das Routing im Lightning Netzwerk bestimmen](./lightning-network-routing/)
 
+## Tails OS
+
+- [Ein Privatsphäre-Betriebssystem](./tails-os-privatsphaere-betriebssystem/)
+- [Sparrow Wallet unter Tails OS installieren und nutzen](./tails-os-sparrow-wallet/)
+
 ## Sonstiges
 
 - [Software verifizieren](./software-verifizieren/)
 - [VPN-Nutzung: Ein praktischer Leitfaden](./vpn-leitfaden/)
 - [GrapheneOS: Warum dein nächstes Smartphone souverän sein sollte](./grapheneos-sicherheit-privatsphaere/)
 - [Nostr: Eine dezentrale Alternative zu Twitter — und mehr …](./nostr-dezentrale-twitter-alternative/)
-- [Tails OS: Ein Privatsphäre-Betriebssystem](./tails-os-privatsphaere-betriebssystem/)

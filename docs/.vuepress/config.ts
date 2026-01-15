@@ -77,13 +77,19 @@ export default defineUserConfig({
         ],
       },
       {
+        text: 'Tails OS',
+        children: [
+          '/anleitung/tails-os-privatsphaere-betriebssystem/',
+          '/anleitung/tails-os-sparrow-wallet/',
+        ],
+      },
+      {
         text: 'Sonstiges',
         children: [
           '/anleitung/software-verifizieren/',
           '/anleitung/vpn-leitfaden/',
           '/anleitung/grapheneos-sicherheit-privatsphaere/',
           '/anleitung/nostr-dezentrale-twitter-alternative/',
-          '/anleitung/tails-os-privatsphaere-betriebssystem/',
         ],
       },
     ],
