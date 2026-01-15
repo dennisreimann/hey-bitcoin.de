@@ -131,4 +131,4 @@ Hierarchisch dargestellt ergibt sich folgende Staffelung:
       - Derivation Paths / Ableitungspfade
         - Adressen
 
-Jetzt wo du diese Werkzeuge und Konmzepte kennen gelernt hast, kannst du die Funktionen wählen, die zu deinem Sicherheitsbedürfnis und Komfortlevel passen.
+Jetzt wo du diese Werkzeuge und Konzepte kennen gelernt hast, kannst du die Funktionen wählen, die zu deinem Sicherheitsbedürfnis und Komfortlevel passen.

@@ -24,6 +24,10 @@
   }
 }
 
+.vp-sidebar {
+  scrollbar-color: var(--vp-c-text-subtle) transparent;
+}
+
 .youtube {
   display: block;
   position: relative;
