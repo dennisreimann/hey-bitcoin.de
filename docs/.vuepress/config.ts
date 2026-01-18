@@ -2,6 +2,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { getDirname, path } from 'vuepress/utils'
+import { markdownExtPlugin } from '@vuepress/plugin-markdown-ext'
 import { seoPlugin } from '@vuepress/plugin-seo'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 import markdownItAbbr from 'markdown-it-abbr'
@@ -14,6 +15,9 @@ export default defineUserConfig({
   bundler: viteBundler(),
   title: 'Hey Bitcoin!',
   plugins: [
+    markdownExtPlugin({
+      gfm: true
+    }),
     seoPlugin({
       hostname: baseUrl,
       author: { name: 'Dennis', url: 'https://d11n.net', email: "mail@d11n.net"}
