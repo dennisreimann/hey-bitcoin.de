@@ -46,7 +46,7 @@ Dieser Teil gibt einen Überblick über die notwendigen Komponenten und grundleg
 Für die Bitcoin-Selbstverwahrung benötigst du:
 
 - Eine Hardware-Wallet: Ein spezialisiertes Endgerät, welches deinen privaten Schlüssel generiert und sicher speichert.
-- Ein Backup deines privaten Schlüssels: Physisch, robust, geheim und bestenfalls redundant.
+- Ein [Backup deines privaten Schlüssels](../seed-phrase-backup/): Physisch, robust, geheim und bestenfalls redundant.
 - Einen sicheren Computer, der frei von Malware ist: Idealerweise ein dediziertes Gerät oder eine Live-Umgebung wie Tails OS.
 - Eine Wallet-Software: Die Schnittstelle zur Bitcoin-Blockchain, mit der du deine Konten und Transaktionen verwaltest.
 

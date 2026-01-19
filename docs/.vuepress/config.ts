@@ -16,6 +16,7 @@ export default defineUserConfig({
   title: 'Hey Bitcoin!',
   plugins: [
     markdownExtPlugin({
+      breaks: false,
       gfm: true
     }),
     seoPlugin({
@@ -53,6 +54,7 @@ export default defineUserConfig({
         children: [
           '/anleitung/bitcoin-kaufen-was-beachten/',
           '/anleitung/bitcoin-selber-verwahren/',
+          '/anleitung/seed-phrase-backup/',
           '/anleitung/bitcoin-wallet-grundlagen/',
           '/anleitung/utxo-management/',
           '/anleitung/finanzielle-privatsphaere/',

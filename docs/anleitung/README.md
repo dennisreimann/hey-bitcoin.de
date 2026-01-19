@@ -8,6 +8,7 @@ sidebar: false
 
 - [Bitcoin kaufen: Was muss ich beachten?](./bitcoin-kaufen-was-beachten/)
 - [Bitcoin selber verwahren](./bitcoin-selber-verwahren/)
+- [Seed Phrase Backup: Von Papier bis Shamir](./seed-phrase-backup/)
 - [Wallet Grundlagen: Accounts, Derivation Paths und Passphrases](./bitcoin-wallet-grundlagen/)
 - [UTXO-Management: Optimierung von Privatsphäre und Gebühren](./utxo-management/)
 - [Warum finanzielle Privatsphäre in Bitcoin jeden etwas angeht](./finanzielle-privatsphaere/)

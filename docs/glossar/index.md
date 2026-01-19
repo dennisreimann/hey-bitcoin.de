@@ -19,10 +19,10 @@ Die Wallet prüft und signiert deine Adressen und empfängt und sendet Transakti
 
 ## Private Key und Seed Phrase
 
-Der private Schlüssel ist die Grundlage für die [Selbstverwahrung](/anleitung/bitcoin-selber-verwahren/) deiner Bitcoins.
+Der private Schlüssel ist die Grundlage für die [Selbstverwahrung](../anleitung/bitcoin-selber-verwahren/) deiner Bitcoins.
 Es ist die sensibelste Information und du solltest ihn möglichst sicher aufbewahren.
 Die Seed Phrase ist eine menschenlesliche Entsprechung des privaten Schlüssels.
-Es ist die in 24 bzw. 12 Wörter kodierte Form des Schlüssels, die dir auch ein einfacheres analoges Backup ermöglicht.
+Es ist die in 24 bzw. 12 Wörter kodierte Form des Schlüssels, die dir auch ein einfacheres [analoges Backup](../anleitung/seed-phrase-backup/) ermöglicht.
 
 Man sagt auch "not your keys, not your coins": Wenn du den Schlüssel nicht hast, sind es nicht deine Coins.
 Wer den privaten Schlüssel hält, hat auch den Zugriff und nur mit dem privaten Schlüssel lassen sich Transaktionen tätigen.

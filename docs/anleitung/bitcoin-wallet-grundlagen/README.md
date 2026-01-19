@@ -74,7 +74,7 @@ Ebenso hättest du auch hier wieder die Möglichkeit, pro Passphrase weitere Unt
 ### Nachteile und Risiken
 
 - Irreversibler Verlust: Wenn du deine Passphrase vergisst, ist das Vermögen in der dazugehörigen Wallet für immer verloren. Es gibt kein Zurück.
-- Komplexität: Sie erhöht die Komplexität deines Setups und damit potenziell die Fehleranfälligkeit. Du solltest sie analog zu deiner Seed Phrase auch sicher verwahren und ein Backup erstellen, dies jedoch nicht am gleichen Ort wie das der Seed Phrase aufbewahren.
+- Komplexität: Sie erhöht die Komplexität deines Setups und damit potenziell die Fehleranfälligkeit. Du solltest sie analog zu deiner Seed Phrase auch sicher verwahren und ein [Backup erstellen](../seed-phrase-backup/), dies jedoch nicht am gleichen Ort wie das der Seed Phrase aufbewahren.
 
 ### Entscheidungshilfe
 
