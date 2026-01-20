@@ -58,7 +58,7 @@ Teste die Lesbarkeit nach einem Jahr.
 ### 3. Verschlüsselte digitale Backups – Die riskantere Komfortlösung
 
 Digitale Backups sind verlockend: Du kannst sie einfach kopieren, verschlüsseln und an mehreren Orten lagern.
-Dabei solltest du aber nicht über Password-Manager nachdenken, sondern wenn dann Veracrypt-Container oder LUKS-verschlüsselte USB-Sticks in Betracht ziehen.
+Dabei solltest du aber nicht über Password-Manager nachdenken, sondern wenn dann VeraCrypt-Container oder LUKS-verschlüsselte USB-Sticks in Betracht ziehen.
 
 **Probleme**:
 
@@ -76,8 +76,8 @@ Dabei solltest du aber nicht über Password-Manager nachdenken, sondern wenn dan
 
 **Best Practices**:
 
-- Erstelle das Backup auf einem **airgapped** Gerät, welches nicht online geht.
-- Nutze [Tails OS](../tails-os-privatsphaere-betriebssystem/) und Veracrypt mit starker Passphrase.
+- Erstelle das Backup auf einem **air-gapped** Gerät, welches nicht online geht.
+- Nutze [Tails OS und VeraCrypt](../tails-os-veracrypt-digitales-backup/) mit starker Passphrase.
 - Führe jährliche Integritätsprüfungen durch.
 
 **Lebensdauer**: USB-Stick 10 Jahre, SSD 5-10 Jahre – bei korrekter Lagerung und regelmäßigen Checks.

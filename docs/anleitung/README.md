@@ -33,6 +33,7 @@ sidebar: false
 
 - [Ein Privatsphäre-Betriebssystem](./tails-os-privatsphaere-betriebssystem/)
 - [Sparrow Wallet unter Tails OS installieren und nutzen](./tails-os-sparrow-wallet/)
+- [Digitale Backups mit Tails OS und VeraCrypt](./tails-os-veracrypt-digitales-backup/)
 
 ## Sonstiges
 

@@ -21,7 +21,7 @@ Im Vergleich zu anderen Desktop-Wallets zeichnet sich Sparrow durch mehrere ents
 - Bitcoin-only: Sparrow konzentriert sich ausschließlich auf Bitcoin - keine anderen Kryptowährungen, maximaler Sicherheitsfokus.
 - Privacy by design: Integrierter Tor-Support, Coin Control Tools und nahtlose Integration mit der eigenen Node verhindern Datenlecks.
 - Open Source & Transparenz: Der Code ist für jeden einsehbar und überprüfbar - keine Hintertüren, keine Überraschungen.
-- Professionelle Features: Von Airgapped-Signierung über Multi-Sig bis hin zu erweiterten Scripting-Möglichkeiten — Sparrow wächst mit deinen Anforderungen.
+- Professionelle Features: Von Air-gapped-Signierung über Multi-Sig bis hin zu erweiterten Scripting-Möglichkeiten — Sparrow wächst mit deinen Anforderungen.
 
 ## Installation
 
@@ -208,4 +208,4 @@ Schließen wir das Ganze mit ein paar Sicherheitsempfehlungen ab:
 - Regelmäßige Updates: Sparrow ist aktive Software, die kontinuierlich verbessert wird. Verfolge neue Versions-Releases, so dass du über Sicherheitsupdates informiert bleibst. Verifiziere auch bei neue Versionen immer die PGP-Signatur — du kannst dies nun auch direkt in Sparrow über den Menüpunk <kbd>Tools › Verify Download</kbd> machen.
 - Verwende Labels konsequent: Man kann nicht genug betonen, wie wichtig dieses Feature sowohl für die eigene Buchführung als auch den Schutz deiner Privatsphäre ist. Sparrow macht es sehr einfach, Labels zu vergeben — nutze das zu deinem Vorteil.
 
-In kommenden Artikeln tauchen wir noch tiefer in fortgeschrittene Features wie Multi-Sig, Airgapped-Handling und PSBTs (Partially Signed Bitcoin Transactions) ein.
+In kommenden Artikeln tauchen wir noch tiefer in fortgeschrittene Features wie Multi-Sig, Air-gapped-Handling und PSBTs (Partially Signed Bitcoin Transactions) ein.

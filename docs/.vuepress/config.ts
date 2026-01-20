@@ -87,6 +87,7 @@ export default defineUserConfig({
         children: [
           '/anleitung/tails-os-privatsphaere-betriebssystem/',
           '/anleitung/tails-os-sparrow-wallet/',
+          '/anleitung/tails-os-veracrypt-digitales-backup/',
         ],
       },
       {

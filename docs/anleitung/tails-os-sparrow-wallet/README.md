@@ -50,7 +50,7 @@ Starte Tails nach der Konfiguration neu und entsperre das Persistent Storage.
 3. **Dateien**: `sparrow-[VERSION]-x86_64.tar.gz`, sowie das dazugehörige Manifest und dessen Signatur.
 
 ![Sparrow Download-Dateien](./sparrow-downloads.png)
-Öffne ein Terminal <kbd>Applications › Favorites › Terminal</kbd> und folge der [Verifizierungsanleitung am Ende der Download-Seite](https://sparrowwallet.com/download/#earlier-releases):
+Öffne ein Terminal <kbd>Applications › System Tools › Console</kbd> und folge der [Verifizierungsanleitung am Ende der Download-Seite](https://sparrowwallet.com/download/#earlier-releases):
 ![Sparrow Installation](./sparrow-installation.png)
 
 :::warning Überspringe die Verifikation nicht!
