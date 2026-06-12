@@ -18,7 +18,6 @@ Glücklicherweise gibt es auch im deutschprachigen Raum einige Podcasts mit rege
 - [Bitcoin verstehen](https://anchor.fm/bitcoinverstehenpodcast) – einsteigerfreundlicher Podcast mit vielen Erklärungsepisoden
 - [Die Bitcoin Lesestunde](https://anchor.fm/aprycotmedia) – Die besten Bitcoin-Artikel im Hörformat
 - [Nodesignal](https://nodesignal.space/) – von Bitcoinern für Bitcoiner
-- [Powering Bitcoin](https://anchor.fm/poweringbitcoin) – Podcast rund um die Themen Energie und Bitcoin
 - [Mises Karma](https://miseskarma.de/) – Podcast rund um die Lehren der Österreichischen Nationalökonomie
 
 Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du diese hier:
@@ -37,6 +36,8 @@ Wenn dich einzelne Episoden bei denen ich zu Gast war interessieren, findest du 
 - [MANOVA The Great WeSet: "Kryptischer Hoffnungsschimmer"](https://www.youtube.com/watch?v=VB7Q2z1j6Tc)
 - [Münzgasse: Bitcoin fixes this...am Arsch!?](https://fountain.fm/episode/LdMuE1Gnr8tekAtHWPTj)
 - [Fair Talk: Bitcoin statt Bank — Diskussionrunde mit Rachel Geyer, Alex von Frankenberg und Fab](https://www.youtube.com/watch?v=P96al9Phejw) ([Fragerunde](https://www.youtube.com/watch?v=mh85KX6C70s))
+- [Nodesignal: "Du hast dich verändert!" — Bitcoiner durch die Brille eines Soziologen](https://nodesignal.space/E261/)
+- [Nodesignal: Bitcoin ist bereit. Die Gesellschaft (noch) nicht.](https://nodesignal.space/E285/)
 
 Englische Podcast, bei denen ich zu Gast seien durfte:
 
