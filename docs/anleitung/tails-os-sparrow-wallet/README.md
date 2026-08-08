@@ -24,7 +24,7 @@ Diese Anleitung richtet sich an Nutzer, die mit Sparrow Wallet unter Tails OS re
 ## Voraussetzungen
 
 - Tails OS ≥ 7.0 auf USB-Stick installiert
-- Hardware Wallet (z.B. ColdCard, BitBox02) oder Zugang zu einer entfernten Bitcoin-Node
+- Hardware Wallet oder Zugang zu einer entfernten Bitcoin-Node
 - Mindestens 500 MB freier Speicher im Persistenz-Volume
 
 ## Persistent Storage konfigurieren

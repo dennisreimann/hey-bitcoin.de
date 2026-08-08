@@ -64,7 +64,7 @@ Die zwei goldenen Regeln:
 ### Der praktische Einstieg und bewährtes Vorgehen
 
 Es gibt verschiedene Hersteller und Modelle von Hardware-Wallets.
-Ich empfehle dir die [BitBox](https://shop.bitbox.swiss/) (einfach und benutzerfreundlich) und/oder eine [ColdCard](https://coldcard.com/) (etwas komplexer, dafür mit umfangreicheren Nutzungsmöglichkeiten).
+Ich empfehle dir die [BitBox](https://shop.bitbox.swiss/) (einfach und benutzerfreundlich) und/oder einen [SeedSigner](/anleitung/seedsigner-hardware/) (etwas komplexer, dafür mit umfangreicheren Nutzungsmöglichkeiten).
 
 Die konkreten Schritte der Einrichtung können je nach Modell variieren, siehe dazu die jeweiligen Anleitungen der Hersteller.
 Die zugrundeliegende Logik bleibt jedoch gleich, daher konzentriert sich dieser Leitfaden nicht auf ein spezielles Modell, sondern auf die essenziellen Schritte und Prinzipien, die unabhängig von der gewählten Hardware-Wallet gelten.

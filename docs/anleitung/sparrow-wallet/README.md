@@ -92,7 +92,7 @@ Warum dieser Ansatz sicherer ist:
 
 ### Schritt-für-Schritt Anleitung
 
-1. Hardware-Wallet vorbereiten: Schließe deine Hardware-Wallet an (ColdCard, BitBox, etc.) an und entsperre sie mit deiner PIN
+1. Hardware-Wallet vorbereiten: Schließe deine Hardware-Wallet an und entsperre sie
 2. Wähle im Import-Fenster die Option <kbd>Scan for Connected Devices</kbd>
 3. Entsperre deine Wallet, woraufhin sie im Import-Fenster als erste Option auftaucht:
 
