@@ -8,10 +8,8 @@ Dieser Artikel gibt dir einen Überblick zur Verwendung des [SeedSigner](../seed
 ## Installation der SeedSigner Software
 
 Die Software kann über die [SeedSigner Releases](https://github.com/SeedSigner/seedsigner/releases/) auf GitHub bezogen werden.
-Du lädst die aktuellste Version (hier `v0.5.1`, Stand: Mitte 2022) herunter und verifizierst die Software.
+Du lädst die aktuellste Version (hier `v0.8.7`, Stand: August 2026) herunter und verifizierst die Software.
 Eine genaue Beschreibung dazu und warum dieser Schritt wichtig ist, kannst du in der Anleitung zum [Software verifizieren](../software-verifizieren/) nachlesen.
-
-![SeedSigner Downloads](./seedsigner-downloads.png)
 
 Neben den `seedsigner_X_X_X.img` Dateien benötigst du dafür den [SeedSigner PGP-Key](https://github.com/SeedSigner/seedsigner/blob/main/seedsigner_pubkey.gpg), den du ebenfalls von GitHub laden kannst.
 Zur Bestätigung kannst du den Fingerprint des Keys mit diesem [Tweet](https://twitter.com/SeedSigner/status/1389617642286329856) abgleichen.
@@ -23,13 +21,13 @@ Sind diese Dateien alle heruntergeladen, kannst du die Software auf der Kommando
 gpg --import seedsigner_pubkey.gpg
 
 # Echtheit der Hash-Datei mittels der Signatur verifizieren
-gpg --verify seedsigner_0_5_1.img.zip.sha256.sig
+gpg --verify seedsigner.0.8.7.sha256.txt.sig
 
 # Hash der Zip-Datei abgleichen
-sha256sum --check seedsigner_0_5_1.img.zip.sha256
+sha256sum --check --ignore-missing seedsigner.0.8.7.sha256.txt
 ```
 
-Dies sollte am Ende zu der Ausgabe `seedsigner_0_5_1.img.zip: OK` führen.
+Dies sollte am Ende zu der Ausgabe `seedsigner_os.0.8.7.pi0.img: OK` führen.
 
 Wenn alles OK ist, kannst du das Image auf die MicroSD-Karte flashen (bspw. mit [Balena Etcher](https://www.balena.io/etcher/)).
 Anschließend die MicroSD in den Raspberry Pi Zero einlegen und den Pi an den Strom anlegen, damit der SeedSigner startet.
