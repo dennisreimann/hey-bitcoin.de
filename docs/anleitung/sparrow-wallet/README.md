@@ -7,7 +7,7 @@ Dieser Artikel erklärt dir die Einrichtung mit Hardware Wallets, fortgeschritte
 
 Wenn du die [Grundlagen der Bitcoin-Selbstverwahrung](../bitcoin-wallet-grundlagen/) verinnerlicht hast und nun nach einer Wallet suchst, die dir maximale Kontrolle, Privatsphäre und Transparenz bietet, dann ist Sparrow Wallet genau die richtige Wahl.
 
-Sparrow ist zwar **nicht** die typische "Einstieger-Wallet" für absolute Beginner, aber das umfangreiche Featureset ist die Auseinandersetzung damit wert.
+Sparrow ist zwar **nicht** die typische "Einsteiger-Wallet" für absolute Beginner, aber das umfangreiche Featureset ist die Auseinandersetzung damit wert.
 Sparrow Wallet richtet sich an Nutzer, die:
 
 - Sicherheitsbewusst sind und Wert auf Selbstverwahrung legen
@@ -25,7 +25,7 @@ Im Vergleich zu anderen Desktop-Wallets zeichnet sich Sparrow durch mehrere ents
 
 ## Installation
 
-Bevor wir uns mit den Features beschäftigen, sorgieren wir für die sichere Installation, denn Download & Verifikation sind die ersten kritische Schritte:
+Bevor wir uns mit den Features beschäftigen, sorgen wir für die sichere Installation, denn Download & Verifikation sind die ersten kritischen Schritte:
 
 - [Lade Sparrow Wallet](https://sparrowwallet.com/download/) nur von der offiziellen Downloadseite herunter, niemals von Drittanbietern oder App-Stores!
 - [Verifiziere die heruntergeladenen Dateien](../software-verifizieren/) und stelle sicher, dass die Software nicht manipuliert wurde.
@@ -61,7 +61,7 @@ Im <kbd>Server</kbd> Tab geht es um die Anbindung des Bitcoin-Nodes, von dem Spa
   Deine IP und Wallet-Daten werden an einen Drittanbieter gesendet.
 
 - Option 2 und 3 sind für die Anbindung deines eigenen Nodes gedacht:
-  Hier hast du die Wahl zwischen der einfachen RPC-Verbindung direkt zu deinem Bitcoin Core Prozesss (Option 2) — oder noch besser einem privaten Electrum-Server (Option 3).
+  Hier hast du die Wahl zwischen der einfachen RPC-Verbindung direkt zu deinem Bitcoin Core Prozess (Option 2) — oder noch besser einem privaten Electrum-Server (Option 3).
   Letzteres erlaubt dir einen Indexer wie Electrs oder Fulcrum anzufragen, was wesentlich performanter als die Bitcoin Core Verbindung ist.
 
   Die gängigen Fullnode-Projekte wie StartOS, Raspiblitz und Umbrel unterstützen jeweils auch einen oder mehrere dieser Indexer.
@@ -124,8 +124,8 @@ Unter <kbd>Advanced</kbd> findest du die [Gap Limit](/glossar/#gap-limit) Option
 Hier siehst du alle deine ein- und ausgehenden Transaktionen in chronologischer Reihenfolge.
 In der Übersichtsliste hast du auch direkt die Option, Transaktionen zu labeln.
 
-Über der Transaktionstabelle findest du neben der Anzahl Transaktionen auch einen Button for den CSV-Export der Transaktionen:
-Du kannst ihn nutzen, um deine Transaktionshistorie bspw. für Steuerzwecke oder eigene Analysen in anderen programmen zu exportieren.
+Über der Transaktionstabelle findest du neben der Anzahl Transaktionen auch einen Button für den CSV-Export der Transaktionen:
+Du kannst ihn nutzen, um deine Transaktionshistorie bspw. für Steuerzwecke oder eigene Analysen in anderen Programmen zu exportieren.
 
 :::tip Labels exportieren und sichern
 Der CSV-Export enthält **nicht** deine Labels in strukturierter Form (BIP 329).
@@ -196,7 +196,7 @@ Du gehst dafür folgendermaßen vor:
 - Sortiere im UTXO-Tab alle UTXOs nach ihrem `Value`.
 - Wähle die kleinen UTXOs aus, die du konsolidieren möchtest.
 - Sende sie an eine deiner eigenen frischen Empfangsadressen: Mittels <kbd>Send Selected</kbd> landest du im Send-Tab.
-  Dort findest du am rechten Rand des Empfangsfeldes einen Pfeil, den du nutzen kann, um mit der Option <kbd>Walletname - Deposit</kbd> eine neue deiner eigenen Adressen generieren zu lassen.
+  Dort findest du am rechten Rand des Empfangsfeldes einen Pfeil, den du nutzen kannst, um mit der Option <kbd>Walletname - Deposit</kbd> eine neue deiner eigenen Adressen generieren zu lassen.
 - Durch das Absenden der Transaktion bekommst du nach der Bestätigung ein großes UTXO, anstelle von vielen kleinen.
 
 ## Fazit und Best Practices
@@ -205,7 +205,7 @@ Diese Übersicht gibt dir das Rüstzeug, um Sparrow effektiv zu nutzen.
 Schließen wir das Ganze mit ein paar Sicherheitsempfehlungen ab:
 
 - Sichere deine Sparrow-Walletdateien: Diese Dateien (je Wallet mit der Endung `.mv.db` im Sparrow-Wallet-Verzeichnis) enthalten deine öffentlichen Schlüssel und Labels. Ein Backup dieser Dateien erspart dir die erneute Einrichtung aller Konten, Labels und Einstellungen, falls deine Festplatte kaputt geht. Sichere sie regelmäßig auf einem verschlüsselten USB-Stick.
-- Regelmäßige Updates: Sparrow ist aktive Software, die kontinuierlich verbessert wird. Verfolge neue Versions-Releases, so dass du über Sicherheitsupdates informiert bleibst. Verifiziere auch bei neue Versionen immer die PGP-Signatur — du kannst dies nun auch direkt in Sparrow über den Menüpunk <kbd>Tools › Verify Download</kbd> machen.
+- Regelmäßige Updates: Sparrow ist aktive Software, die kontinuierlich verbessert wird. Verfolge neue Versions-Releases, so dass du über Sicherheitsupdates informiert bleibst. Verifiziere auch bei neuen Versionen immer die PGP-Signatur — du kannst dies nun auch direkt in Sparrow über den Menüpunkt <kbd>Tools › Verify Download</kbd> machen.
 - Verwende Labels konsequent: Man kann nicht genug betonen, wie wichtig dieses Feature sowohl für die eigene Buchführung als auch den Schutz deiner Privatsphäre ist. Sparrow macht es sehr einfach, Labels zu vergeben — nutze das zu deinem Vorteil.
 
 In kommenden Artikeln tauchen wir noch tiefer in fortgeschrittene Features wie Multi-Sig, Air-gapped-Handling und PSBTs (Partially Signed Bitcoin Transactions) ein.

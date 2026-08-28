@@ -47,7 +47,7 @@ Was zunächst wie ein Mangel klingt, ist in diesem Fall ein gewünschtes Feature
 Nur so lässt sich der SeedSigner verlässlich air-gapped und offline verwenden, da dies schon auf Hardware-Ebene gar nicht erst möglich ist.
 
 Ein zu beachtender Punkt beim Raspberry Pi Zero v1.3 ist, dass dieser keine integrierte GPIO Headerleiste hat.
-Diese wird jedoch für den Anschluß des Displays benötigt, was bedeutet, dass man für den Bau des SeedSigners zwei Wege wählen kann:
+Diese wird jedoch für den Anschluss des Displays benötigt, was bedeutet, dass man für den Bau des SeedSigners zwei Wege wählen kann:
 
 - Entweder man lötet eine [Standardstiftleiste](https://www.berrybase.de/stiftleiste-2x-20-polig-rm-2-54-gerade) auf das Board
 - Oder man nimmt einen sogenannten [Hammer Header](https://www.berrybase.de/solderless-stiftleiste-2x-20-polig-rm-2-54-gerade) (findet man auch unter dem Begriff "GPIO Hammer"), dessen Stifte mit erweiterter Kontaktfläche in das Board gehämmert werden. Klingt komisch, funktioniert aber, wenn man feinfühlig ist und nicht den Vorschlaghammer nimmt. 😉

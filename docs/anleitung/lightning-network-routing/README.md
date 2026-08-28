@@ -42,7 +42,7 @@ Diese Gebühren sind auch im HTLC enthalten, die jeder Knoten auf dem Weg empfä
 
 ## Einschränkungen für das Routing
 
-Nach diese Definitionen geklärt sind, kann auch eine Analogie helfen, um einen weiteren wichtigen Punkt beim Verschieben des Geldes zu verstehen:
+Nachdem diese Definitionen geklärt sind, kann auch eine Analogie helfen, um einen weiteren wichtigen Punkt beim Verschieben des Geldes zu verstehen:
 ==Stell dir die Kapazität in einem Zahlungskanal als Perlen auf einer Schnur vor.==
 Oder für die Älteren unter uns: wie Perlen in einem Abakus. &nbsp;🧮<br>
 Sie können von einer Seite zur anderen wandern, aber sie verlassen die Schnur nicht, *selbst wenn sie weitergeleitet werden*.

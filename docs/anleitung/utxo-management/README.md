@@ -67,7 +67,7 @@ Wenn du nun 0.3 BTC für eine Zahlung benötigst und alle drei UTXOs in einer Tr
 Durch Blockchain-Analyse können nun alle diese vorherigen Aktivitäten einer Entität zugeordnet werden.
 Und durch UTXO A sind sie deiner KYC-Identität zugeordnet.
 
-Wenn du also nicht möchtest, dass Empfänger deiner Transaktionen oder andere neugierige Teilnehmern des Netzwerks gewisse Dinge nachvollziehen können, musst du dich aktiv um deine Privatsphäre kümmern.
+Wenn du also nicht möchtest, dass Empfänger deiner Transaktionen oder andere neugierige Teilnehmer des Netzwerks gewisse Dinge nachvollziehen können, musst du dich aktiv um deine Privatsphäre kümmern.
 
 #### Die Lösung: Coin Control und bewusste UTXO-Auswahl
 

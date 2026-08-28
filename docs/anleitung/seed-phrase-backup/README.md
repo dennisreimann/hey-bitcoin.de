@@ -1,7 +1,7 @@
 # Seed Phrase Backup: Von Papier bis Shamir
 
 Deine Seed Phrase ist dein Vermögen — der Rest ist Technik.
-Natürlich solltest du dir auch über Hardware Wallets und zusätzliche Sicherheitsmöglichkeiten wie Passphrases) und MultiSig Gedanken machen — dennoch ist das Backup die einzige Komponente, die im Ernstfall über Verlust oder Rettung entscheidet.
+Natürlich solltest du dir auch über Hardware Wallets und zusätzliche Sicherheitsmöglichkeiten wie Passphrases und MultiSig Gedanken machen — dennoch ist das Backup die einzige Komponente, die im Ernstfall über Verlust oder Rettung entscheidet.
 Dieser Artikel gibt dir einen systematischen Überblick über Backup-Methoden und hilft dir, die richtige Strategie für deine individuelle Situation zu finden.
 
 ## Die goldene Regel & die drei Säulen

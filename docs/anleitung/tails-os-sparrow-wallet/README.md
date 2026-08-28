@@ -102,7 +102,7 @@ Die Lösung ist es, die [Sparrow.desktop](https://github.com/sparrowwallet/sparr
 # Verzeichnis erstellen
 mkdir -p /live/persistence/TailsData_unlocked/dotfiles/.local/share/applications
 # Datei anlegen
-cat > nano /live/persistence/TailsData_unlocked/dotfiles/.local/share/applications/Sparrow.desktop <<EOF
+cat > /live/persistence/TailsData_unlocked/dotfiles/.local/share/applications/Sparrow.desktop <<EOF
 [Desktop Entry]
 Name=Sparrow
 Comment=Sparrow

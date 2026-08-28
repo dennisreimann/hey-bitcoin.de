@@ -30,7 +30,7 @@ Warum lohnt der Aufwand? Ein eigener Node bringt dir drei entscheidende Vorteile
 
 ### Von kompliziert zu easy-peasy: Die Node In A Box-Revolution
 
-Was früher stundenlange Kommandozeilen-Frickelei erforderte, ist heute um ein vielfaches einfacher geworden:
+Was früher stundenlange Kommandozeilen-Frickelei erforderte, ist heute um ein Vielfaches einfacher geworden:
 Mit [StartOS](https://docs.start9.com), [Umbrel](https://umbrel.com/umbrelos) oder [Raspiblitz](https://docs.raspiblitz.org/) stehen dir gute und nutzerfreundliche Betriebssysteme zur Verfügung.
 Sie sind darauf ausgelegt, einen vollwertigen Bitcoin-Node mit wenigen Schritten einzurichten – inklusive aller nützlichen Zusatzdienste.
 
@@ -54,7 +54,7 @@ Diese Einkaufsliste hilft dir, ein zukunftssicheres Setup aufzubauen.
 | Komponente                | **Empfohlenes Minimum** | **Warum?** |
 | :---                      | :---                    | :---       |
 | **CPU (Prozessor)**       | Intel i5 oder AMD Ryzen 5 (ab Gen 8) | Die anfängliche Synchronisation (**Initial Block Download, IBD**) ist sehr CPU-intensiv. Eine schwache CPU braucht Wochen statt Tage. |
-| **Arbeitsspeicher**       | 16 GB RAM               | Je mehr Extraservices du betreiben möchtest (bspw. deinen eigene Mempool.space Instanz), umso mehr solltest du nehmen. 16 GB sind ausreichend, 32 GB groß dimensioniert. |
+| **Arbeitsspeicher**       | 16 GB RAM               | Je mehr Extraservices du betreiben möchtest (bspw. deine eigene Mempool.space Instanz), umso mehr solltest du nehmen. 16 GB sind ausreichend, 32 GB groß dimensioniert. |
 | **Festplatte**            | 2 TB SSD | **Die SSD ist nicht verhandelbar.** Eine HDD ist 10-20x langsamer – der IBD würde ewig dauern. Die Blockchain ist ~700 GB groß, 2 TB geben Luft für Jahre. NVMe ist schneller als SATA. |
 | **Stromverbrauch**        | ~20 W (Mini-PC)<br>~100 W (Laptop)   | Ein Mini-PC kostet im Dauerbetrieb nur **ca. 20 € pro Jahr**. Ein alter Laptop leicht das 5-fache. |
 | **Netzwerk**              | Kabelgebunden        | Eine kabelgebundene LAN-Verbindung ist stabiler und zuverlässiger. Dein Node sollte nicht wegen einer schlechten WLAN-Verbindung ausfallen. |
@@ -67,7 +67,7 @@ Ein kleiner, leiser und extrem effizienter Computer, der nur eine Aufgabe hat �
 - **Energieeffizient:** Läuft für nur wenige Cent am Tag.
 - **Leise & kompakt:** Ist unauffällig in einer Ecke oder einem Schrank platziert.
 - **Preis-Leistung:** Eine einmalige Investition von **ca. 300-500 €** für Jahre sorgenfreien Betriebs.
-- **Zweckgebunden:** Keine Risiken durch anderen Software, das Gerät wird nur für den Node genutzt.
+- **Zweckgebunden:** Keine Risiken durch andere Software, das Gerät wird nur für den Node genutzt.
 
 **Konkrete Einkaufsliste:**
 

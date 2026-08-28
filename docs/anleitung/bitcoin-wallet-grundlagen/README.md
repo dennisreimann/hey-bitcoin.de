@@ -14,7 +14,7 @@ Jeder Account generiert seine eigenen Empfangsadressen und verwaltet seine Bitco
 
 - Budgetierung und Organisation: Trenne deine Bitcoin nach Verwendungszweck (bspw. Alltag, Sparen, Separierung von [KYC](/glossar/#kyc-und-aml) und Non-KYC Coins)
 - Privatsphäre: Verhindere, dass Außenstehende dein gesamtes Vermögen durch Analyse einzelner Adresse nachvollziehen können, indem du Bestände und Transaktionen auf verschiedene Unterkonten verteilst.
-- Testumgebungen: Ein Account für riskantere Experimente (bspw. neue Apps mit kleineren Beträge testen), ohne dein Hauptvermögen zu gefährden.
+- Testumgebungen: Ein Account für riskantere Experimente (bspw. neue Apps mit kleineren Beträgen testen), ohne dein Hauptvermögen zu gefährden.
 
 ### So richtest du sie ein
 
@@ -111,7 +111,7 @@ Wie du gelernt hast, kannst du dich aber auch immer noch später für die Verwen
 
 :::warning Achtung
 Überspringe den Testschritt nicht leichtfertig.
-Ein vergessene oder falsch notierte Passphrase führt zum **irreversiblen Verlust** des Vermögens in dieser Wallet.
+Eine vergessene oder falsch notierte Passphrase führt zum **irreversiblen Verlust** des Vermögens in dieser Wallet.
 :::
 
 Als zusätzliches Wiedererkennungsmerkmal gibt es auch den Wallet-Fingerprint:
@@ -121,7 +121,7 @@ Du findest den Fingerprint meistens in den Key-Einstellungen deiner Wallet.
 ## Zusammenfassung
 
 Accounts, Derivation Paths und Passphrases sind wichtige Konzepte für fortgeschrittene Bitcoin-Nutzer.
-Zusammengenommen bieten sie dir wirksame Werkzeuge zur Organisation und Schutz deiner Bitcoin, sowie der Sicherstellung von Kompatibilität verschiedener Wallets.
+Zusammengenommen bieten sie dir wirksame Werkzeuge zur Organisation und zum Schutz deiner Bitcoin sowie zur Sicherstellung der Kompatibilität verschiedener Wallets.
 
 Hierarchisch dargestellt ergibt sich folgende Staffelung:
 

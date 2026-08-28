@@ -17,7 +17,7 @@ sidebar: false
 
 - [Die eigene Bitcoin Fullnode](./bitcoin-fullnode/)
 - [Sparrow Wallet: Dein Tool für Selbstverwahrung & Privatsphäre](./sparrow-wallet/)
-- [Bitcoin Fullnode mit der Wallet App vebinden](./bitcoin-fullnode-mit-wallet-verbinden/)
+- [Bitcoin Fullnode mit der Wallet App verbinden](./bitcoin-fullnode-mit-wallet-verbinden/)
 
 ## SeedSigner
 

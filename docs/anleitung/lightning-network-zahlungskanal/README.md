@@ -24,14 +24,14 @@ Diese Multisignatur-Wallet erstellt dabei drei Transaktionen, von denen jedoch v
 
 Die beiden weiteren Transaktionen werden als *Verbindlichkeitstransaktionen* bezeichnet und jeweils von den beiden Parteien einbehalten.
 Diese Verbindlichkeitstransaktionen kann man sich wie eine laufend fortgeführte Abrechnungstabelle vorstellen.
-Sie werden später bei der Kanalschließung genutzt, um den Zahlungsstand der beiden Kanalpartnern abzurechnen.
+Sie werden später bei der Kanalschließung genutzt, um den Zahlungsstand der beiden Kanalpartner abzurechnen.
 Eine oft genutzte Metapher dafür ist das Anschreiben lassen in einer Bar und das Bezahlen der Rechnung am Ende des Abends.
 
 Visualisieren wir es mit dem folgenden Beispiel, in dem Alice einen Kanal mit 10 mBTC (10 Milli-Bitcoin, also 1 Millionen Sats) zu Bob eröffnet …
 
 ![Eröffnungstransaktion](./eroeffnungstransaktion.png)
 
-Beide Partei haben jeweils ein *Secret*, mit dem sie einen *Hash* für ihre Verbindlichkeitstransaktion generieren.
+Beide Parteien haben jeweils ein *Secret*, mit dem sie einen *Hash* für ihre Verbindlichkeitstransaktion generieren.
 Der Hash wird untereinander ausgetauscht, das Secret behält vorerst jede Partei für sich.
 
 Sobald die Eröffnungstransaktion genügend Bestätigungen hat, gilt der Zahlungskanal als offen und kann genutzt werden.
@@ -73,7 +73,7 @@ Nach einer erneuten Zahlung über 4 mBTC von Alice an Bob sieht Alice's Stand so
 - entweder: 2 mBTC für Alice nach 1000 Blöcken
 - oder: 2 mBTC für Bob wenn er Alice's Secret kennt
 
-Die 1000 Blöcken Wartezeit werden nun interessant, wenn es zu einem der möglichen Szenarien der Kanalschließung kommt …
+Die 1000 Blöcke Wartezeit werden nun interessant, wenn es zu einem der möglichen Szenarien der Kanalschließung kommt …
 
 ## Kanalschließung
 

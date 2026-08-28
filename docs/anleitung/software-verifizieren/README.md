@@ -15,7 +15,7 @@ Das Verifizieren der Software gehört zu jeder Installation und jedem Update daz
 
 ## Wie verifiziere ich Software?
 
-Vorraussetzung ist die Software **GPG**, die du für dein Betriebssystem installieren musst:
+Voraussetzung ist die Software **GPG**, die du für dein Betriebssystem installieren musst:
 
 - Windows: [Gpg4win](https://gpg4win.org/download.html)
 - macOS: [GPGTools](https://gpgtools.org/)
@@ -49,7 +49,7 @@ Zusätzlich zu den Download-Buttons siehst du die *Checksums* für die jeweilige
 
 ### Schritt 1: Prüfsumme vergleichen
 
-Du lädst die Datei für dein Betriebssystem hinunter und öffnest den Download-Orner in der Kommandozeile.
+Du lädst die Datei für dein Betriebssystem hinunter und öffnest den Download-Ordner in der Kommandozeile.
 Mit dem Befehl `sha256sum` und dem Dateinamen kannst du die Prüfsumme erstellen und sie dann mit der Angabe auf der Website vergleichen:
 
 ![Prüfsumme erstellen und vergleichen](./sha256-bitbox.png)

@@ -10,7 +10,7 @@ Ein Relay ist vergleichsweise einfach zu betreiben, so dass man nicht auf eine D
 Daher ist auch einer der ersten Anwendungsfälle für Nostr ein zensurresistentes soziales Netzwerk — quasi eine dezentrale Alternative zu Twitter.
 
 Nostr ist als Protokoll vielfältig einsetzbar und kann weitaus mehr als nur ein soziales Netzwerk sein.
-Es im Grunde genommen sehr rudimentär und vergleichsweise einfach aufgebaut — und genau das macht es am Anfang wohl auch so kompliziert:
+Es ist im Grunde genommen sehr rudimentär und vergleichsweise einfach aufgebaut — und genau das macht es am Anfang wohl auch so kompliziert:
 Da dezentrale Netzwerke sich in der Nutzung stark von zentralen Plattformen unterscheiden, versuche ich dir hier die nötigen Dinge für einen möglichst praktischen Einstieg zu vermitteln …
 
 ## Wie starte ich mit Nostr?
@@ -31,7 +31,7 @@ Als auch Browser-basierte Web-Apps:
 - [primal.net](https://primal.net/) und [snort.social](https://snort.social/) sind an Twitter angelehnt
 - [anigma.io](https://anigma.io/) erinnert an Telegram
 
-Damus ist eine gut funktionierende und weit entwickelte App, daher werde ich die meisten praktischen Dinge hier im Bezug auf Damus beschreiben.
+Damus ist eine gut funktionierende und weit entwickelte App, daher werde ich die meisten praktischen Dinge hier in Bezug auf Damus beschreiben.
 Bevor wir aber damit loslegen, noch ein weiterer wichtiger Punkt zum Start …
 
 ### Schlüssel
@@ -53,7 +53,7 @@ Erst kürzlich gab es eine Sicherheitslücke in Anigma, bei der Schlüssel gelea
 
 Wenn du deine Identität im Browser nutzen möchtest, kannst du das Risiko zumindest durch das Nutzen des neuen [Nostr-Feature in Alby](https://guides.getalby.com/user-guide/browser-extension/features/nostr) zu minimieren:
 [Alby](https://getalby.com/) ist eine Lightning Browser-Erweiterung, die dir auch erlaubt, deinen privaten Nostr-Schlüssel zu verwalten und ihn für einzelne Anwendungen freizugeben.
-Du kannst den Schlüssel direkt in Alby generieren oder deinen bestehenden Schüssel importieren.
+Du kannst den Schlüssel direkt in Alby generieren oder deinen bestehenden Schlüssel importieren.
 
 Beim [SeedSigner](../seedsigner-hardware/) wird auch schon an der [Schlüsselverwaltung für Nostr](https://primal.net/e/72bc12b1b7cf412a968c882057cdbaf4d0eed0d4959a1f66e6a251bfcf91c3a3) gearbeitet.
 Es wird sich also in Zukunft noch einiges tun und man wird sicher auch bald seinen Nostr-Schlüssel mit kompatiblen Hardware-Wallets verwalten können.
@@ -92,7 +92,7 @@ Es gibt einige Emojis mit speziellen Bedeutungen/Funktionen:
 ### Lightning
 
 Du kannst auch eine Lightning Invoice posten, die je nach App entsprechend dargestellt wird und auch direkt bezahlt werden kann:
-Öffne deine Lightning Wallet, generiere eine neue Invoice mit dem entsprechenden Betrag und kopieren Sie in deine Notiz.
+Öffne deine Lightning Wallet, generiere eine neue Invoice mit dem entsprechenden Betrag und kopiere sie in deine Notiz.
 Wenn du Glück hast, wird sie auch direkt von Jack bezahlt. 😉
 
 ### Direktnachrichten
@@ -103,7 +103,7 @@ Der Inhalt der Direktnachricht ist für Außenstehende nicht lesbar, aber Metada
 
 ### Suche
 
-Wenn du nach Inhalten suchen oder sie ffentlich verlinken möchtest, kannst du [brb.io](https://brb.io/search) nutzen:
+Wenn du nach Inhalten suchen oder sie öffentlich verlinken möchtest, kannst du [brb.io](https://brb.io/search) nutzen:
 Das ist ein Service von Coinkite, mit dem du Nutzer und Notizen suchen kannst und der dir die Details dazu darstellt.
 Ein weiterer solcher Nostr Explorer ist ansonsten noch [nostr.guru](https://www.nostr.guru/).
 
@@ -123,7 +123,7 @@ Deine IP-Adresse ist eine eindeutige numerische Kennung deiner Internetverbindun
 Sie dient deinem Internetanbieter zur Identifizierung und gibt auch Rückschlüße über deinen Standort.
 
 Dementsprechend kann auch der Relay-Betreiber dich über deine Profilinformationen und Notizen identifizieren und deine Aktivitäten verfolgen.
-Dies ist aktuell keine gängige Praxis, aber diese Informationen könnten in Zukunft für verschiedenstee Zwecke verwendet werden — so wie man dies auch von zentralen Social Media Plattformen kennt (gezieltes Ausspielen von Werbung oder anderweitige Monetarisierung deiner Daten).
+Dies ist aktuell keine gängige Praxis, aber diese Informationen könnten in Zukunft für verschiedenste Zwecke verwendet werden — so wie man dies auch von zentralen Social Media Plattformen kennt (gezieltes Ausspielen von Werbung oder anderweitige Monetarisierung deiner Daten).
 
 Gleiches gilt für die Hoster von Bildern und anderen Medieninhalten:
 Da diese in Nostr auf verschiedensten Servern gehostet werden, stehen den Betreibern dieser Server auch die Informationen der abrufenden Clients zur Verfügung.
@@ -140,7 +140,7 @@ Selbst auf zentralen Plattformen wie Twitter ist dieser über leicht abgewandelt
 
 Um dem zu begegnen gibt es innerhalb von Nostr den [NIP-05](https://github.com/nostr-protocol/nips/blob/master/05.md) Standard, mit dem du dich mittels DNS/einer Domain ausweisen kannst:
 Unter einer speziellen Adresse deiner Domain wird eine Datei hinterlegt (`/.well-known/nostr.json`), in der die Kombination von öffentlichem Schlüssel und Name hinterlegt ist.
-Da diese Daten nur vom Domainbesitzer verwaltet werden können, kann darüber sichergestellt werden, dass Leute auch sind, wer sie vorgeben zu sein.
+Da diese Daten nur vom Domainbesitzer verwaltet werden können, kann darüber sichergestellt werden, dass Leute auch wirklich die sind, die sie vorgeben zu sein.
 
 Es gibt mehrere Anleitungen dazu, wie du die NIP-05 Verifizierung einrichten kannst (siehe bspw. [NVK](https://nvk.org/n00b-nip5) oder [metasikander](https://gist.github.com/metasikander/609a538e6a03b2f67e5c8de625baed3e)).
 In der [nostr.json von Einundzwanzig](https://einundzwanzig.space/.well-known/nostr.json) findest du ein praktisches Beispiel und unsere Pubkeys sowie das Relay.

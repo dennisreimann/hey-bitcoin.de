@@ -2,14 +2,14 @@
 
 Digitale Backups haben einen zweifelhaften Ruf – und das zu Recht, denn es gibt mehrere Fallstricke zu beachten.
 In Kombination mit [Tails OS](../tails-os-privatsphaere-betriebssystem/) (wenn amnesisch und offline genutzt) und [VeraCrypt](https://veracrypt.io/en/) (auditierte Verschlüsselung) wird das Risiko jedoch kontrollierbar.
-Dieser Artikel zeigt dir, wie du ein air-gapped, verschlüsseltes Backup deiner Seed Phrase erstellst, das **neben deinen physischen Metall-Backups als zusätzliche Sicherung** dienten kann.
+Dieser Artikel zeigt dir, wie du ein air-gapped, verschlüsseltes Backup deiner Seed Phrase erstellst, das **neben deinen physischen Metall-Backups als zusätzliche Sicherung** dienen kann.
 
 ## Warum digitale Backups trotz Risiken sinnvoll seien können
 
 **Vorteile**: Kompakt, einfach zu duplizieren, platzsparend. Du kannst 10 Kopien an 10 Orten lagern, ohne dass es auffällt.
 Ein verschlüsselter USB-Stick in einem Bankschließfach fällt nicht als "Wertsache" auf und ist auch ein unauffälliger Reisebegleiter.
 
-**Mögliche Anwendungfälle**: Du hast bereits zwei Metall-Backups und willst eine **diskrete, leicht transportable** Kopie für eine längeren Reise oder den Fall, dass beide Metallplatten verloren gehen (z.B. Naturkatastrophe im Wohngebiet).
+**Mögliche Anwendungfälle**: Du hast bereits zwei Metall-Backups und willst eine **diskrete, leicht transportable** Kopie für eine längere Reise oder den Fall, dass beide Metallplatten verloren gehen (z.B. Naturkatastrophe im Wohngebiet).
 ==Digitale Backups sind **kein Ersatz**, sondern eine Ergänzung.==
 
 **Risiken**:
@@ -28,7 +28,7 @@ Ein verschlüsselter USB-Stick in einem Bankschließfach fällt nicht als "Werts
 - Optionale weitere Medien für zusätzliche Kopien
 
 **Wichtig**: Deine Medien müssen **neu** oder **sicher gelöscht** sein.
-Kaufe lieber neu, anstatt schnell einen alten USB-Stick wiederzuiverwenden.
+Kaufe lieber neu, anstatt schnell einen alten USB-Stick wiederzuverwenden.
 
 **Sicherheitswarnungen**:
 
@@ -48,7 +48,7 @@ Zum Erstellen verschlüsselter Partitionen müssen wir jedoch [VeraCrypt herunte
 Gehe folgendermaßen vor:
 
 1. Starte Tails
-    - **mit Adminstrator Passwort**: <kbd>Additional Settings › Administration Password</kbd> — wir benötigen die Adminfunktionen, um VeraCrypt zu installieren.
+    - **mit Administrator Passwort**: <kbd>Additional Settings › Administration Password</kbd> — wir benötigen die Adminfunktionen, um VeraCrypt zu installieren.
     - **ohne Persistent Storage**: Wir wollen ein sauberes, amnesisches System. Das Backup wird auf dem externen Medium liegen, nicht auf dem Tails-Stick.
 2. Gehe online: Verbinde dich mit Tor und öffne den Tor-Browser
 3. Lade von https://veracrypt.io/en/Downloads.html folgende Dateien herunter (`XX` durch die aktuelle Version ersetzen):
@@ -88,9 +88,9 @@ Gehe folgendermaßen vor:
 
 ## Erstellung eines verschlüsselten Volumes
 
-Jetzt wo VeraCrypt nutzbar ist, **stelle erneut sicher, dass du offline bist**, bevor du dich den kommenden Schritte widmest.
+Jetzt wo VeraCrypt nutzbar ist, **stelle erneut sicher, dass du offline bist**, bevor du dich den kommenden Schritten widmest.
 
-Wir werden im folgenden größtenteils die voreingestellten Option nutzen.
+Wir werden im folgenden größtenteils die voreingestellten Optionen nutzen.
 Wenn du tiefer einsteigen und weitere Informationen zu den einzelnen Optionen möchtest, findest du alle Details in der [VeraCrypt Dokumentation](https://veracrypt.io/en/Documentation.html).
 
 1. Leg dein Backup-Medium (USB-Stick, SD-Karte) ein
@@ -103,11 +103,11 @@ Wenn du tiefer einsteigen und weitere Informationen zu den einzelnen Optionen m�
 **Standard Volume**: Eine normale, verschlüsselte Partition.
 Wenn jemand deinen USB-Stick findet und einlegt, ist sofort erkennbar, dass es sich um verschlüsselte Daten handelt.
 
-**Hidden Volume**: Ein **zweites, verstecktes Volume**, welches *innerhalb* des freien Speicherplatzes eines Standard Volumes liegt. Sie hat ein **zweites, separates Passwort**. VeraCrypt schreibt zufällig wirkendes Rauschen in den freien Speicher – das Hidden Volume ist technisch **nicht nachweisbar**.
+**Hidden Volume**: Ein **zweites, verstecktes Volume**, welches *innerhalb* des freien Speicherplatzes eines Standard Volumes liegt. Es hat ein **zweites, separates Passwort**. VeraCrypt schreibt zufällig wirkendes Rauschen in den freien Speicher – das Hidden Volume ist technisch **nicht nachweisbar**.
 
 **In der Praxis**: Die Option Hidden Volume erstellt einen VeraCrypt-Container mit **zwei Passwörtern**:
 
-- Passwort A für das äußeres Standard Volume: Enthält ein paar sensible, aber harmlose Dateien (z.B. alte Steuerunterlagen)
+- Passwort A für das äußere Standard Volume: Enthält ein paar sensible, aber harmlose Dateien (z.B. alte Steuerunterlagen)
 - Passwort B für das innere, Hidden Volume: Enthält deine Seed Phrase und andere hochsensible Dateien
 
 **Szenario**: Du wirst unter Druck gesetzt, das Passwort einzugeben.
@@ -121,21 +121,21 @@ Ein Hidden Volume erhöht die Komplexität und wenn du Passwort A unter Druck he
 **Empfehlung**: Wenn du dir unsicher bist, starte mit einem **Standard Volume** und lerne den Workflow kennen.
 Später kannst du dein Bedrohungsmodell erneut evaluieren und gegebenenfalls auf ein Hidden Volume wechseln.
 
-Der Vollständigkeit halber wählen wir hier zur Erklärung den kompleren Weg, welcher das Prozedere zwei Mal durchläuft…
+Der Vollständigkeit halber wählen wir hier zur Erklärung den komplexeren Weg, welcher das Prozedere zwei Mal durchläuft…
 
 ![VeraCrypt Volume Type](./veracrypt-volume-type.png)
 
 5. **Volume Type**: Wähle <kbd>Hidden VeraCrypt volume</kbd>.
 6. **Location**: Wähle über <kbd>Select Device…</kbd> das zu verschlüsselnde Gerät oder Partition.
 7. **Outer Volume Encryption Options**: Übernehme die Standardauswahl <kbd>AES</kbd> und <kbd>SHA-512</kbd>.
-8. **Outer Volume Password**: Gib das Passwort für das äußeres Standard Volume an. Wähle ein langes Passwort, welches du auch mit einem Passwort-Manager generieren und speichern kannst.
+8. **Outer Volume Password**: Gib das Passwort für das äußere Standard Volume an. Wähle ein langes Passwort, welches du auch mit einem Passwort-Manager generieren und speichern kannst.
 9. **Large Files**: Wähle <kbd>No</kbd> (sofern du keine Dateien > 4GB zu sichern hast).
 10. **Volume Format**: Wähle <kbd>FAT</kbd> (größtmögliche Kompatibilität).
 11. **Outer Volume Format**: Bewege den Mauszeiger beliebig über das VeraCrypt-Fenster, um Entropie/Zufall zu erzeugen. Schließe mit <kbd>Format</kbd> ab.
 12. **Outer Volume Contents**: Erstelle nun die Decoy-Dateien für das äußere Standard Volumen.
 
-Hier wäre nun das Ende des Prozess, wenn du dich für das einfache Standard Volume entschieden hast.
-In dem Fall kannst dui die folgende Liste überspringen.
+Hier wäre nun das Ende des Prozesses, wenn du dich für das einfache Standard Volume entschieden hast.
+In dem Fall kannst du die folgende Liste überspringen.
 
 13. **Hidden Volume Encryption Options**: Übernehme die Standardauswahl <kbd>AES</kbd> und <kbd>SHA-512</kbd>.
 13. **Hidden Volume Size**: Wähle eine ausreichende Größe, nutze aber nicht den gesamten freien Speicher, um zu verhindern, dass Änderungen im Outer Volume dir das Hidden Volume zerstören.

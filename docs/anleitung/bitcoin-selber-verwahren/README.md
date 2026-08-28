@@ -12,7 +12,7 @@ Bitcoin wurde mit dem Prinzip der Eigenverantwortung erschaffen, um seinen Nutze
 Die Verwahrung durch Dritte (Börsen oder Banken) und damit einhergehende Abhängigkeit von ihnen widerspricht diesem Prinzip fundamental.
 
 Drittparteien können deine Konten einfrieren, Transaktionen blockieren oder auch insolvent gehen.
-Einige bekannte und traurige Beispiel:
+Einige bekannte und traurige Beispiele:
 
 - Mt. Gox (2014): 850.000 Bitcoin verloren
 - Celsius (2022): 4,7 Milliarden Dollar Vermögen eingefroren
@@ -89,7 +89,7 @@ Dies ist der kritischste Moment.
 
 :::warning Achtung!
 Überspringe jeden Schritt, der dir anbietet, einen bereits existierenden "Seed" wiederherzustellen, es sei denn, das ist genau das, was du vorhast.
-Bei der Ersteinrichtung sollte deine Harware-Wallet vollkommen unbestückt daherkommen und es sollte auch kein bestehender Seed beiliegen.
+Bei der Ersteinrichtung sollte deine Hardware-Wallet vollkommen unbestückt daherkommen und es sollte auch kein bestehender Seed beiliegen.
 :::
 
 ### Schritt 3: Die Seed Phrase sicher dokumentieren
@@ -127,7 +127,7 @@ Sende einen kleinen, für dich vertretbaren Betrag (z.B. 20 €) an eine Empfang
 Setze deine Hardware-Wallet komplett zurück ­— folge dafür den Anweisungen des Herstellers für einen sicheren Reset.
 
 Wiederherstellung: Richte die Wallet erneut ein, aber wähle diesmal die Option zum Wiederherstellen einer vorhandenen Wallet.
-Gib die auf deinem Backup-Medium notierte Seed Phrase in der richtigen Reihenfolgen ein.
+Gib die auf deinem Backup-Medium notierte Seed Phrase in der richtigen Reihenfolge ein.
 
 Erfolgskontrolle: Wenn die Wallet wiederhergestellt ist und du deinen kleinen Testbetrag siehst, hast du bewiesen, dass dein Backup funktioniert. Jetzt kannst du mit größeren Beträgen fortfahren.
 

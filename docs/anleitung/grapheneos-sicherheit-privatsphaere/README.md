@@ -11,7 +11,7 @@ Was wie düstere Dystopie klingt, ist auf EU-Ebene unter dem Namen **"Chatkontro
 
 Die geplante Verordnung soll Plattformen verpflichten, private Chats und Speicherinhalte automatisch auf verdächtiges Material zu scannen:
 Eine **De-facto-Abschaffung der Ende-zu-Ende-Verschlüsselung**, da diese nur mit Hintertüren im Betriebssystem möglich wäre.
-Kombiniert mit dem **Digital Services Act (DSA)**, der eine tiefere Integration von Überwachungstechnologien seitens der Anbieter vorsieht, entsteht eine digitale Zukunft, in der Privatsphäre abgeschaft ist.
+Kombiniert mit dem **Digital Services Act (DSA)**, der eine tiefere Integration von Überwachungstechnologien seitens der Anbieter vorsieht, entsteht eine digitale Zukunft, in der Privatsphäre abgeschafft ist.
 
 ==Dein aktuelles Smartphone ist höchstwahrscheinlich darauf vorbereitet, diese Überwachungsmaßnahmen nahtlos umzusetzen.==
 Es ist bereits heute eine Blackbox, die deine Daten sammelt, deinen Standort trackt und mit Sicherheitslücken ausgeliefert wird.

@@ -54,7 +54,7 @@ Auch wenn dies wie der schnellste und zugänglichste Weg aussieht, solltest du d
 
 - Für die Registrierung gibst du in der Regel jede Menge Daten von dir preis:
   Oft ist es nötig, eine Kopie deines Personalausweises und weitere Dokumente als Legitimation einzureichen.
-  Die damit verbundenen Probleme habe ich näher in der Erklärungen der dafür verwendeten Begriffe [KYC und AML](/glossar/#kyc-und-aml) beschrieben.
+  Die damit verbundenen Probleme habe ich näher in den Erklärungen der dafür verwendeten Begriffe [KYC und AML](/glossar/#kyc-und-aml) beschrieben.
 - Diese Börsen verdienen ihr Geld mit dem Handel.
   Sie bieten daher in der Regel jede Menge Shitcoins an, da das Verführen zum Zocken ein sehr lukratives Geschäft für sie ist.
   Nicht umsonst werden zentrale Börsen daher auch als Shitcoin-Casinos bezeichnet.
@@ -126,11 +126,11 @@ Ein guter Weg Kunden für das Thema zu sensibilisieren und es auch attraktiv zu 
 Biete Preisnachlass bei Zahlung mit Bitcoin an.
 Es müssen nicht die obligatorischen 21% sein, aber der Zugewinn in Sachen Privatsphäre sollte es dir wert sein.
 Du schaffst damit für die Gegenseite einen Anreiz, sich von ihren kostbaren Satoshis zu trennen – und du hast den Vorteil, nicht per KYC-Börse kaufen zu müssen.
-Bei langfristiger Wertsteigerung profitierst du eh und das Gefühl das härteste aller Gelder zu verdienen ist sehr efüllend!
+Bei langfristiger Wertsteigerung profitierst du eh und das Gefühl, das härteste aller Gelder zu verdienen, ist sehr erfüllend!
 
 ## Warum ist Privatsphäre wichtig?
 
-Wie du merkst reite ich ziemlich auf diesem Thema herum, daher zum Abschluß noch ein paar weitere Worte dazu.
+Wie du merkst reite ich ziemlich auf diesem Thema herum, daher zum Abschluss noch ein paar weitere Worte dazu.
 Im digitalen Raum hinterlässt jede Aktion Fußspuren und Fingerabdrücke:
 Wenn du dich bei einer Börse einloggst, eine Transaktion verschickst oder eine Adresse im Block Explorer suchst –
 all dies wird auf verschiedenste Weisen protokolliert und aufbewahrt.

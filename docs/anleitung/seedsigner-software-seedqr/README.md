@@ -58,7 +58,7 @@ Dies kann zur Überprüfung von Seeds genutzt werden.
 
 #### Settings
 
-In den Einstellungen hast du die Möglcihkeit, sämtliche Funktionen anzupassen:
+In den Einstellungen hast du die Möglichkeit, sämtliche Funktionen anzupassen:
 
 - Welches Bitcoin Netzwerk wird für die Keys verwendet: Mainnet, Testnet oder RegTest
 - Einstellungen zur QR-Code Qualität und Kameraausrichtung
@@ -68,7 +68,7 @@ In den Einstellungen hast du die Möglcihkeit, sämtliche Funktionen anzupassen:
 
 In einer der kommenden Versionen wird die Software mehrsprachig und ist dann auch auf deutsch verfügbar.
 Ggf. werde ich dann auch einen Durchlauf der Funktionen als Video hier bereitstellen.
-So lassen sich die Seedgenerierung und das Signieren von Transaktionen besser als In Textform zeigen.
+So lassen sich die Seedgenerierung und das Signieren von Transaktionen besser als in Textform zeigen.
 
 ## SeedQR: Der private Schlüssel als QR-Code
 
@@ -112,7 +112,7 @@ Um passend zum SeedSigner auch direkt den SeedQR auf Stahl zu transkribieren, ha
 
 Es gibt dabei verschiedene Optionen, welche sich je nach Seed-Länge (12 oder 24 Wörter) und SeedQR-Format eignen:
 
-- Die **C12 Onboarding-Card** ist eine dünne und kleine Variante, die eher zum Ausprobieren und Testen gedacht ist. Sie fasst einen 12 Wort-Seed im Kompaktformat. **C12 Full Backup** ist quasi der große Bruder, der von die langfristige Speicherung gedacht ist.
+- Die **C12 Onboarding-Card** ist eine dünne und kleine Variante, die eher zum Ausprobieren und Testen gedacht ist. Sie fasst einen 12 Wort-Seed im Kompaktformat. **C12 Full Backup** ist quasi der große Bruder, der für die langfristige Speicherung gedacht ist.
 - Die **CS124** Variante ist das Multitalent: Hier passen sowohl 12 als auch 24-Wort Seed im Standard- und Kompaktformat.
 - Und **S24** ist für 24-Wort Seeds im Standardformat gedacht ­— sie hat die gleiche Größe wie die CS124-Karte, erlaubt aber ein größeres QR-Code Format.
 
@@ -151,4 +151,4 @@ für den Praxiseinsatz solltest du dies am besten auch mit Schlagbuchstaben mach
 ## Weitere Links
 
 Wenn du dich darüber hinaus für weitere Aspekte interessierst, sieh dir den [Einundzwanzig Stammtisch zum SeedSigner](https://www.youtube.com/watch?v=xMUEBTzTM6U) an.
-Es gibt ebenso einen sehr guten [Artikel zum SeesdSigner im Bitcoin Magazine](https://bitcoinmagazine.com/guides/how-to-use-seedsigner-for-secure-bitcoin), dieser ist allerdings auf englisch.
+Es gibt ebenso einen sehr guten [Artikel zum SeedSigner im Bitcoin Magazine](https://bitcoinmagazine.com/guides/how-to-use-seedsigner-for-secure-bitcoin), dieser ist allerdings auf englisch.
