@@ -7,7 +7,7 @@ footer: |
   <p>Bitcoin · Persönliche Souveränität · Privatsphäre · Datensicherheit · Self-Hosting</p>
   <p>
     <a href="mailto:mail@d11n.net?subject=Hey Bitcoin">Dennis Reimann</a> ·
-    <a href="https://d11n.net/d11n.asc">PGP Pubkey (<small><code>F768 60F8 449D 2F39</code></small>)</a> ·
+    <a href="https://d11n.net/d11n.asc">PGP Pubkey (<small><code>F768 60F8 449D 2F39</code></small>)</a>
   </p>
 footerHtml: true
 ---

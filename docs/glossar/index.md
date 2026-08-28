@@ -64,7 +64,7 @@ Satoshis werden auch liebevoll einfach "Sats" genannt.
 
 Diese Klassifizierung begegnet einem häufig im Zusammenhang mit Apps und Anbietern.
 Kurzgesagt geht es darum, ob eine Drittpartei deine Schlüssel bzw. sensitiven Informationen verwahrt oder du selbst.
-Wenn du bspw. deine Coins auf einer Börse liegen hast, dann verwahrt der Anbieter deine Schlüssels und Coins (custodial).
+Wenn du bspw. deine Coins auf einer Börse liegen hast, dann verwahrt der Anbieter deine Schlüssel und Coins (custodial).
 Nutzt du selbst eine [Wallet](#wallet) zum Aufbewahren deiner Schlüssel und Coins, dann bezeichnet man dies als self-custody (non-custodial).
 
 ## KYC und AML
@@ -79,7 +79,7 @@ Dies soll Geldwäsche, Terrorismus, Drogengeschäfte, etc. verhindern, worin man
 
 In der Praxis ist es jedoch leider so, dass dies für den ehrlichen Normalmenschen erhebliche Nachteile mit sich bringt.
 Diese umfassende und zentrale Form der Datenerhebung ist ein wahrer Honigtopf für kriminelle Hacker:
-Es ermöglicht Identitätsdiebstahl, das Abgreifen von sensiblen Zahlungsinformation und erleichtert auch physische Angriffe, wenn bspw. Adressdaten abhanden kommen.
+Es ermöglicht Identitätsdiebstahl, das Abgreifen von sensiblen Zahlungsinformationen und erleichtert auch physische Angriffe, wenn bspw. Adressdaten abhanden kommen.
 Für kleine Unternehmen und Startups stellen diese Richtlinien eine große regulatorische Hürde dar:
 Sie werden aus dem Markt gedrängt oder ferngehalten, da sie die Anforderungen oftmals nur mit unverhältnismäßigem Aufwand erfüllen können.
 
@@ -103,11 +103,11 @@ Da nur die aufeinanderfolgenden, bisher ungenutzten Adressen überwacht werden, 
 
 Ein üblicher Fall ist, dass zwei verschiedene Wallets für den selben Private Key benutzt werden.
 In einer der Wallets tauchen dann ggf. Transaktionen auf, welche in der anderen Wallet nicht angezeigt werden.
-Dies ist oftmal auf das Gap-Limit zurückzuführen und lässt sich beheben, indem man das Gap-Limit erhöht und einen erneuten Scan der Blockchain durchführt.
+Dies ist oftmals auf das Gap-Limit zurückzuführen und lässt sich beheben, indem man das Gap-Limit erhöht und einen erneuten Scan der Blockchain durchführt.
 
 ## BIP - Bitcoin Improvement Proposal
 
-Ein standardisiertes technisches Verfahren und Dokumentformat , um Änderungen an Bitcoin vorzuschlagen und als neuen Standard zu etablieren.
+Ein standardisiertes technisches Verfahren und Dokumentformat, um Änderungen an Bitcoin vorzuschlagen und als neuen Standard zu etablieren.
 Soll bspw. ein neues Feature in Bitcoin hinzugefügt werden, so muss es zunächst durch solch einen Verbesserungsvorschlag spezifiziert und dokumentiert werden.
 Einige der wichtigsten BIPs sind bspw.:
 
@@ -121,7 +121,7 @@ Analog zu den BIPs für Bitcoin, gibt es für Lightning die BOLTs.
 Die verschiedenen Lightning-Implementierungen (bspw. LND, Core Lightning, Eclair) müssen sich an die BOLTs halten, um interoperabel zu sein.
 Die verschiedenen Implementierungen können jedoch auch Funktionen enthalten, die in den BOLTs nicht definiert sind.
 So werden neue Features ausprobiert, welche dann ggf. später als Standard etabliert werden.
-Als Faustregel für ein offiziel verabschiedetes BOLT gilt, dass dies von mindestens zwei Implementierungen unterstützt werden muss.
+Als Faustregel für ein offiziell verabschiedetes BOLT gilt, dass dies von mindestens zwei Implementierungen unterstützt werden muss.
 
 ## Replace-by-fee (RBF)
 
