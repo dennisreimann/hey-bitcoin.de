@@ -62,11 +62,11 @@ In den Einstellungen hast du die Möglichkeit, sämtliche Funktionen anzupassen:
 
 - Welches Bitcoin Netzwerk wird für die Keys verwendet: Mainnet, Testnet oder RegTest
 - Einstellungen zur QR-Code Qualität und Kameraausrichtung
-- Verschiedene Signaturoptionen (Single- oder MiltiSig) und Script-Typen (Segwit, Taproot, etc.)
+- Verschiedene Signaturoptionen (Single- oder MultiSig) und Script-Typen (Segwit, Taproot, etc.)
 - Passphrase: Soll die Option verfügbar oder gar erforderlich sein
 - SeedQR Kompaktformat (siehe unten)
 
-In einer der kommenden Versionen wird die Software mehrsprachig und ist dann auch auf deutsch verfügbar.
+Seit Version 0.8.7 ist die Software mehrsprachig und unter anderem auf Deutsch verfügbar.
 Ggf. werde ich dann auch einen Durchlauf der Funktionen als Video hier bereitstellen.
 So lassen sich die Seedgenerierung und das Signieren von Transaktionen besser als in Textform zeigen.
 

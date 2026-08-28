@@ -138,11 +138,11 @@ Hier wäre nun das Ende des Prozesses, wenn du dich für das einfache Standard V
 In dem Fall kannst du die folgende Liste überspringen.
 
 13. **Hidden Volume Encryption Options**: Übernehme die Standardauswahl <kbd>AES</kbd> und <kbd>SHA-512</kbd>.
-13. **Hidden Volume Size**: Wähle eine ausreichende Größe, nutze aber nicht den gesamten freien Speicher, um zu verhindern, dass Änderungen im Outer Volume dir das Hidden Volume zerstören.
-14. **Hidden Volume Password**: Gib das Passwort für das Hidden Volume an. Wähle ein anderes, langes Passwort, welches du an anderer Stelle mit einem Passwort-Manager speichern kannst.
-15. **Volume Format**: Wähle <kbd>FAT</kbd> (größtmögliche Kompatibilität).
-16. **Hidden Volume Format**: Bewege den Mauszeiger beliebig über das VeraCrypt-Fenster, um Entropie/Zufall zu erzeugen. Schließe mit <kbd>Format</kbd> ab.
-17. Lies und bestätige den Text mit Informationen zum **Schutz des Hidden Volumes gegen Zerstörung durch Schreiboperationen im Standard Volume**. Setze dich auch mit den hier beschriebenen [Details zum Schutz des Hidden Volumes](https://veracrypt.io/en/Protection%20of%20Hidden%20Volumes.html) auseinander, wenn du nachträglich die Dateien im äußeren Standard Volume anpassen möchtest.
+14. **Hidden Volume Size**: Wähle eine ausreichende Größe, nutze aber nicht den gesamten freien Speicher, um zu verhindern, dass Änderungen im Outer Volume dir das Hidden Volume zerstören.
+15. **Hidden Volume Password**: Gib das Passwort für das Hidden Volume an. Wähle ein anderes, langes Passwort, welches du an anderer Stelle mit einem Passwort-Manager speichern kannst.
+16. **Volume Format**: Wähle <kbd>FAT</kbd> (größtmögliche Kompatibilität).
+17. **Hidden Volume Format**: Bewege den Mauszeiger beliebig über das VeraCrypt-Fenster, um Entropie/Zufall zu erzeugen. Schließe mit <kbd>Format</kbd> ab.
+18. Lies und bestätige den Text mit Informationen zum **Schutz des Hidden Volumes gegen Zerstörung durch Schreiboperationen im Standard Volume**. Setze dich auch mit den hier beschriebenen [Details zum Schutz des Hidden Volumes](https://veracrypt.io/en/Protection%20of%20Hidden%20Volumes.html) auseinander, wenn du nachträglich die Dateien im äußeren Standard Volume anpassen möchtest.
 
 Nun endlich haben wir das Backup-Medium verschlüsselt und können unsere Daten sicher aufbewahren.
 

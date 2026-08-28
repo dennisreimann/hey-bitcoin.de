@@ -106,8 +106,8 @@ cat > /live/persistence/TailsData_unlocked/dotfiles/.local/share/applications/Sp
 [Desktop Entry]
 Name=Sparrow
 Comment=Sparrow
-Exec=/opt/sparrowwallet/bin/Sparrow %U
-Icon=/opt/sparrowwallet/lib/Sparrow.png
+Exec=/home/amnesia/Persistent/Sparrow/bin/Sparrow %U
+Icon=/home/amnesia/Persistent/Sparrow/lib/Sparrow.png
 Terminal=false
 Type=Application
 Categories=Finance;Network;
@@ -141,7 +141,7 @@ Sparrow kann diesen Tor-Proxy mitnutzen:
 
 ![Sparrow Server Settings](./sparrow-server-settings.png)
 
-Prüfe im Dateimanager: `~/Persistent/Apps/Sparrow/data/` sollte nun Dateien enthalten.
+Prüfe im Dateimanager: `~/Persistent/Sparrow/data/` sollte nun Dateien enthalten.
 
 ## Neustart-Test
 

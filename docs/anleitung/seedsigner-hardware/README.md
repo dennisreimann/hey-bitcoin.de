@@ -55,7 +55,7 @@ Diese wird jedoch für den Anschluss des Displays benötigt, was bedeutet, dass 
 Die Alternativen dazu wären der Raspberry Pi Zero W (WLAN + Bluetooth, jedoch auch ohne Header) oder WH (WLAN + Bluetooth und integrierter Header).
 
 :::tip Hinweis
-Aktuell (Stand: Mitte 2022) sind leider alle Pi Zero Modelle recht schwer zu bekommen.
+Die Raspberry Pi Zero Modelle waren über die Jahre immer wieder schwer zu bekommen — Preise und Verfügbarkeit schwanken stark.
 
 Setze am besten Verfügbarkeitsbenachrichtigungen bei Berrybase.de oder Welectron.com, um informiert zu werden, sobald es wieder Nachschub gibt.
 :::

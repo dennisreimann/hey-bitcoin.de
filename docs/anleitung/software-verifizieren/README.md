@@ -42,8 +42,12 @@ Den vollständigen Weg gehen wir im folgenden aber auf der Kommandozeile durch �
 
 ## Beispiel: BitBox App
 
-Sehen wir uns den Vorgang am Beispiel der [BitBox App](https://bitbox.swiss/download/) (hier Version 4.27.0) an:
+Sehen wir uns den Vorgang am Beispiel der [BitBox App](https://bitbox.swiss/download/) (hier Version 4.51.4) an:
 Zusätzlich zu den Download-Buttons siehst du die *Checksums* für die jeweiligen Dateien.
+
+::: tip HINWEIS
+Die Screenshots in diesem Artikel zeigen teils eine ältere Version – der Ablauf ist aber bei jeder Version identisch.
+:::
 
 ![BitBox App verifizieren](./bitbox-app-verifizieren.png)
 
@@ -64,46 +68,44 @@ Daher sollte nicht nur die Prüfsumme, sondern auch die Signatur der heruntergel
 
 ### Schritt 2: Signatur überprüfen
 
-Die meisten Hersteller bieten dir auf ihrer Download-Seite eine Anleitung zum Verifizieren der Signatur an. So auch ShiftCrypto auf der GitHub-Seite zum jeweiligen Release, die du über den [Verify Signature](https://github.com/digitalbitbox/bitbox-wallet-app/releases/tag/v4.27.0)-Link erreichst.
+Die meisten Hersteller bieten dir auf ihrer Download-Seite eine Anleitung zum Verifizieren der Signatur an. So auch ShiftCrypto in den GitHub-Release-Notes zum jeweiligen Release, die du über den [Verify Signature](https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/tag/v4.51.4)-Link erreichst.
 
-Solltest du den öffentlichen Schlüssel für die ShiftCrypto Software-Releases noch nicht importiert haben, dann kannst du ihn von Keybase herunterladen: Keybase ist eine Website auf der Leute ihre öffentlichen Schlüssel abgelegen können – in diesem Fall ist es der [Public Key von Marko Bencun](https://keybase.io/benma/pgp_keys.asc?fingerprint=2260e48288882c76afaa319d67a2b160f74db275), der für ShiftCrypto die Software-Releases signiert.
+Solltest du den öffentlichen Schlüssel für die ShiftCrypto Software-Releases noch nicht importiert haben, dann kannst du ihn direkt von der [offiziellen ShiftCrypto-Website](https://bitbox.swiss/download/shiftcryptosec-509249B068D215AE.gpg.asc) herunterladen. Es ist wichtig, den Schlüssel von einer unabhängigen Quelle zu beziehen und nicht nur von der Download-Seite selbst.
 
 ```bash
 # Public Key herunterladen
-curl https://keybase.io/benma/pgp_keys.asc?fingerprint=2260e48288882c76afaa319d67a2b160f74db275 > benma.asc
+curl https://bitbox.swiss/download/shiftcryptosec-509249B068D215AE.gpg.asc > shiftcryptosec.asc
 
 # Public Key importieren
-gpg --import benma.asc
+gpg --import shiftcryptosec.asc
 ```
 
 Dies muss nun ebenfalls für die Signatur der Download-Datei geschehen:
 Zuerst laden wir die Signatur herunter, um sie anschließend zu überprüfen.
 
-Der Signatur-Dateiname entspricht dem der Software – sie hat zusätzlich die Namensendung `.asc`.
+Der Signatur-Dateiname entspricht dem der Software – sie hat zusätzlich die Namensendung `.asc`.
 Beachte auch, dass die Signaturdatei im gleichen Ordner wie die Software gespeichert werden muss.
 
 ```bash
 # Signatur herunterladen
-curl https://github.com/digitalbitbox/bitbox-wallet-app/releases/download/v4.27.0/BitBox-4.27.0-macOS.zip.asc > BitBox-4.27.0-macOS.zip.asc
+curl https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.51.4/BitBox-4.51.4-macOS.dmg.asc > BitBox-4.51.4-macOS.dmg.asc
 
 # Signatur überprüfen
-gpg --verify BitBox-4.27.0-macOS.zip.asc
+gpg --verify BitBox-4.51.4-macOS.dmg.asc
 ```
 
 Im Erfolgsfall solltest du folgendes sehen:
 
 ```
 gpg: Signature made <DATE AND TIME>
-gpg:                using RSA key 2D8876810AB092E451DCA894804538928C37EAE8
-gpg: Good signature from "Marko Bencun <marko@shiftcrypto.ch>" [unknown]
-gpg:                 aka "Marko Bencun <mbencun+pgp@gmail.com>" [unknown]
+gpg:                using RSA key DD09E41309750EBFAE0DEF63509249B068D215AE
+gpg: Good signature from "ShiftCrypto Security <security@shiftcrypto.ch>" [unknown]
 gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
-Primary key fingerprint: 2260 E482 8888 2C76 AFAA  319D 67A2 B160 F74D B275
-     Subkey fingerprint: 2D88 7681 0AB0 92E4 51DC  A894 8045 3892 8C37 EAE8
+Primary key fingerprint: DD09 E413 0975 0EBF AE0D  EF63 5092 49B0 68D2 15AE
 ```
 
-Wichtig ist dabei der Teil `Good signature from "Marko Bencun <marko@shiftcrypto.ch>"`.
+Wichtig ist dabei der Teil `Good signature from "ShiftCrypto Security <security@shiftcrypto.ch>"`.
 Die Warnung und der Zusatz `[unknown]` erscheinen, da der Schlüssel in GPG unbestätigt ist.
 Dies wäre ein zusätzlicher Schritt, bei dem du bestätigst, dass du diesen Schlüssel auch sicher vom Hersteller direkt bekommen hast.
 Die Software kann unabhängig davon installiert werden, da du nun sichergestellt hast, dass sie vom Hersteller signiert wurde.
@@ -115,24 +117,21 @@ In dem Fall solltest du dich direkt an den Hersteller wenden und auf dieses Prob
 
 ## Beispiel: Specter Desktop App
 
-Weil es so viel Spaß macht, das Ganze nun auch noch mal für die [Specter Desktop App](https://github.com/cryptoadvance/specter-desktop/releases/tag/v1.3.0) (Version 1.3.0).
+Weil es so viel Spaß macht, das Ganze nun auch noch mal für die [Specter Desktop App](https://github.com/cryptoadvance/specter-desktop/releases/tag/v2.1.11) (Version 2.1.11).
 Die Downloads werden hier direkt auf GitHub angeboten, das Vorgehen ist aber relativ gleich.
 
 ![Specter Desktop verifizieren](./specter-desktop-verifizieren.png)
 
-Die Specter-Downloads werden mit [Ben Kaufman's Public Key](https://benkaufman.info/ben-kaufman.asc) signiert, den du direkt bei Ben auf der Website herunterladen kannst:
+Die Specter-Downloads werden mit dem ["Specter Signer 2026" Public Key](http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x9dc33ca830589de3b3225c26eef5756b2ea42349) signiert. Diesen holst du dir über einen GPG-Keyserver:
 
 ```bash
-# Public Key herunterladen
-curl https://benkaufman.info/ben-kaufman.asc > ben-kaufman.asc
-
-# Public Key importieren
-gpg --import ben-kaufman.asc
+# Public Key über einen Keyserver abrufen
+gpg --keyserver keyserver.ubuntu.com --recv-keys 9DC33CA830589DE3B3225C26EEF5756B2EA42349
 ```
 
-Auch hier ist es gut zu sehen, dass der öffentliche Schlüssel nicht Teil des gleichen GitHub Repositories ist, sondern von einer separaten Website geladen werden muss:
+Auch hier ist es gut zu sehen, dass der öffentliche Schlüssel nicht Teil des gleichen GitHub Repositories ist, sondern von einem Keyserver bzw. einer separaten Quelle bezogen wird:
 Wäre das Repository kompromitiert, wäre es leicht ebenso auch den Key auszutauschen.
-Stattdessen müssten in diesem Fall sowohl das Repository als auch Ben's Website gehackt werden.
+Stattdessen müssten in diesem Fall sowohl das Repository als auch die Schlüsselquelle gehackt werden.
 
 ### Prüfsumme und Signatur überprüfen
 
@@ -141,27 +140,30 @@ Du lädst die Software für dein Betriebssystem herunter, damit du die Prüfsumm
 ![Prüfsumme erstellen](./sha256-specter.png)
 
 Da Specter pro Release verschiedenste Dateien veröffentlicht, werden die Prüfsummen und Signaturdateien nicht einzeln angeboten.
-Stattdessen werden sie alle gesammelt in der Datei [sha256.signed.txt](https://github.com/cryptoadvance/specter-desktop/releases/download/v1.3.0/sha256.signed.txt) zusammengefasst.
-Diese Datei ist mit Ben Kaufman's Schlüssel signiert, so dass mit der Überprüfung der Signatur die Korrektheit der darin enthaltenen Prüfsummen sichergestellt werden kann.
+Stattdessen werden sie alle gesammelt in der Datei [SHA256SUMS](https://github.com/cryptoadvance/specter-desktop/releases/download/v2.1.11/SHA256SUMS) zusammengefasst.
+Die zugehörige Signatur liegt ebenfalls im Release-Ordner als [SHA256SUMS.asc](https://github.com/cryptoadvance/specter-desktop/releases/download/v2.1.11/SHA256SUMS.asc).
+Diese Datei ist mit dem "Specter Signer 2026" Schlüssel signiert, so dass mit der Überprüfung der Signatur die Korrektheit der darin enthaltenen Prüfsummen sichergestellt werden kann.
 
 ```bash
 # Signierte Prüfsummendatei herunterladen
-curl https://github.com/cryptoadvance/specter-desktop/releases/download/v1.3.0/sha256.signed.txt > sha256.signed.txt
+curl https://github.com/cryptoadvance/specter-desktop/releases/download/v2.1.11/SHA256SUMS > SHA256SUMS
+
+# Signatur herunterladen
+curl https://github.com/cryptoadvance/specter-desktop/releases/download/v2.1.11/SHA256SUMS.asc > SHA256SUMS.asc
 
 # Signatur überprüfen
-gpg --verify sha256.signed.txt
+gpg --verify SHA256SUMS.asc
 ```
 
 Im Erfolgsfall sollte die Meldung folgendermaßen aussehen:
 
 ```
 gpg: Signature made <DATE AND TIME>
-gpg:                using RSA key 277F910FF06DC7619A71C1F67DC93B9A38A23CB2
-gpg: Good signature from "Ben Kaufman <ben.kaufman10@gmail.com>" [unknown]
+gpg:                using RSA key 9DC33CA830589DE3B3225C26EEF5756B2EA42349
+gpg: Good signature from "Specter Signer 2026" [unknown]
 gpg: WARNING: This key is not certified with a trusted signature!
 gpg:          There is no indication that the signature belongs to the owner.
-Primary key fingerprint: 5DF6 A760 1DB8 B78E BDEC  18DB 5D27 DE56 4153 F2BD
-     Subkey fingerprint: 277F 910F F06D C761 9A71  C1F6 7DC9 3B9A 38A2 3CB2
+Primary key fingerprint: 9DC3 3CA8 3058 9DE3 B322  5C26 EEF5 756B 2EA4 2349
 ```
 
 Wenn du `Good signature` siehst, dann kannst du auch hier wieder von einer validen Signatur ausgehen.
@@ -170,7 +172,7 @@ Nun muss nur noch die Prüfsumme gecheckt werden:
 Dies geht indem du in der signierten Datei nach dem Ergebnis der `sha256sum` Funktion suchst …
 
 ```bash
-grep $(sha256sum SpecterDesktop-v1.3.0.dmg) sha256.signed.txt
+grep $(sha256sum Specter-v2.1.11.dmg) SHA256SUMS
 ```
 
 Wenn du die Zeile mit der Prüfsumme siehst ist alles gut:

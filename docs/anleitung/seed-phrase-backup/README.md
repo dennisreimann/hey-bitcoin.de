@@ -148,8 +148,8 @@ Ohne Passphrase ist die Seed Phrase wertlos – und umgekehrt.
 
 | Methode | Kosten | Komplexität | Sicherheit | Option für |
 |---------|--------|-------------|------------|---------------|
-| Papier | € | Niedrig | Mittel | Anfänger (<0,01 BTC) |
-| Metall | €€ | Mittel | Hoch | Standard-Nutzer (>0,01 BTC) |
+| Papier | € | Niedrig | Mittel | Anfänger (erste Tests) |
+| Metall | €€ | Mittel | Hoch | Standard-Nutzer (empfohlene Baseline) |
 | Digital | €€ | Hoch | Mittel-Hoch | Technisch affine Nutzer |
 | Shamir | €€€ | Hoch | Hoch | Fortgeschrittene Nutzer |
 

@@ -135,11 +135,11 @@ Die Dienste laufen zuverlässig.
 
 Folge diesen Schritten, um deinen Node in weniger als einer Stunde einzurichten — die anschließende Synchronisation dauert dann allerdings ein paar Tage.
 
-### Schritt 1: StartOS installieren (Stand v0.3.5)
+### Schritt 1: StartOS installieren (Stand v0.4.0)
 
 **Was du brauchst:** Deinen Mini-PC, einen USB-Stick (min. 8 GB), einen zweiten Computer für die Vorbereitung.
 
-1. **Image herunterladen:** [Lade das neueste StartOS-Image](https://docs.start9.com/0.3.5.x/flashing-guides/) für deine Hardware herunter (in der Regel x86_64).
+1. **Image herunterladen:** Lade das neueste StartOS-Image über die [offizielle Installationsanleitung](https://docs.start9.com/start-os/installing-startos.html) herunter (in der Regel `x86_64`).
 
 2. **USB-Stick vorbereiten:** Stecke den USB-Stick in deinen Computer.
     Lade ein Tool wie [BalenaEtcher](https://etcher.balena.io/) herunter und installiere es.
@@ -151,16 +151,15 @@ Folge diesen Schritten, um deinen Node in weniger als einer Stunde einzurichten 
     Wähle deinen USB-Stick als Boot-Gerät aus.
 
 4. **Installation durchführen:** Der StartOS-Installer startet, folge den Anweisungen:
-    - Wähle deine Sprache und Tastatur.
-    - Wähle die **2 TB SSD** als Installationsziel. **Achtung:** Hierbei werden alle darauf vorhandenen Daten gelöscht!
-    - Vergebe ein sicheres Passwort für den Administrator-Zugang.
+    - Wähle deine Sprache.
+    - Wähle die **2 TB SSD** als Ziel-Laufwerk für das Betriebssystem. **Achtung:** Hierbei werden alle darauf vorhandenen Daten gelöscht!
     - Der Installer kopiert nun StartOS auf deine SSD und startet neu.
 
 ### Schritt 2: Bitcoin Core über die StartOS-Oberfläche installieren
 
-1. **StartOS aufrufen:** Nach dem Neustart zeigt der Mini-PC eine IP-Adresse aus deinem Heimnetzwerk an (z.B. `192.168.1.50`).
-    Öffne einen Browser und gib diese IP-Adresse oder `https://startos.local` ein.
-    Melde dich mit deinem Passwort an.
+1. **StartOS aufrufen:** Nach dem Neustart ist dein Mini-PC im Netzwerk unter `start.local` bzw. einer angezeigten IP-Adresse aus deinem Heimnetzwerk erreichbar (z.B. `192.168.1.50`).
+    Öffne einen Browser und gib diese Adresse ein.
+    Beim ersten Start richtest du das System ein: Wähle **"Start fresh"**, vergebe ein sicheres **Master-Passwort** sowie einen Servernamen und vertraue dem [Root-Zertifikat](https://docs.start9.com/start-os/trust-ca.html).
 
 2. **Bitcoin Core installieren:** Du landest im "Home Screen" von StartOS.
     Klicke auf "Marketplace". Finde die App **"Bitcoin Core"** und klicke auf "Install".
