@@ -69,10 +69,13 @@ export default defineUserConfig({
         ],
       },
       {
-        text: 'SeedSigner',
+        text: 'Multi-Signatur',
         children: [
           '/anleitung/seedsigner-hardware/',
           '/anleitung/seedsigner-software-seedqr/',
+          '/anleitung/specter-diy-hardware-wallet/',
+          '/anleitung/multisig-bitcoin-wallet/',
+          '/anleitung/multisig-wallet-mit-sparrow/',
         ],
       },
       {

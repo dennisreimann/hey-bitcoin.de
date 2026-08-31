@@ -51,6 +51,15 @@ Für letzteres gibt es weitere Optionen, um dem Generierungsprozess eigene Enthr
 
 ![SeedSigner Software](./seedsigner-software-photo.jpg)
 
+Statt der Würfe hältst du die Kamera kurz auf eine Szene; die Bilddaten samt Live-Vorschaubildern fließen als Zufallsinput in die Seed-Erzeugung ein.
+Eine [detaillierte Analyse dieser Bild-Entropie](https://kdmukai-bot.github.io/seedsigner-ai-analysis/image-entropy/) hat gemessen, wie viel Unvorhersehbarkeit ein solches Foto wirklich mitbringt. Die Kernaussagen:
+
+- **Jede beleuchtete Szene ist genug**: Vom vollgeräumten Bücherregal bis zur leeren weißen Wand wurde deutlich mehr als das 2.000-fache der benötigten Entropie gemessen.
+- **Vorsicht bei Dunkelheit**: Ist die Linse verdeckt oder die Szene praktisch schwarz, bricht die Entropie zusammen und kann unter das benötigte Maß fallen.
+  Eine Aufnahme in beleuchteter Umgebung ist deshalb die wichtigste Regel.
+
+So nutzt du mit Würfeln oder Foto eine Zufallsquelle, die du selbst kontrollierst, und entkoppelst die Sicherheit deiner Wallet von der ungeprüften Güte des Geräte-Zufalls.
+
 #### Tools
 
 Neben dem direkten Einstieg zu den Optionen der Seedgenerierung findest du hier auch ein Tool um für einen bestehenden Seed das zwölfte bzw. 24. Wort auszurechnen

@@ -92,6 +92,35 @@ Dies ist der kritischste Moment.
 Bei der Ersteinrichtung sollte deine Hardware-Wallet vollkommen unbestückt daherkommen und es sollte auch kein bestehender Seed beiliegen.
 :::
 
+#### Eigene Entropie ist wichtig
+
+Viele Hardware-Wallets bieten an, die Seed-Generierung mit eigener Entropie anzureichern.
+Eine verbreitete Methode ist das Würfeln:
+Du würfelst 50–99× und gibst die Ergebnisse am Gerät ein, welches sie mit seinem eigenen Zufallsgenerator kombiniert.
+Das ist mehr als eine nette Spielerei: Es ist eine zusätzliche Rückversicherung gegen potenzielle Fehler auf Hardware- und Software-Seite.
+
+Im Sommer 2026 wurde bekannt, dass die Hardware-Wallet [ColdCard seit 2021 ihre Seeds nicht mehr mit dem eigentlichen Hardware-Zufallsgenerator erzeugt](https://wizardsardine.com/blog/coldcard-rng-vulnerability/), sondern mit einem statistisch erratbaren Software-Zufallsgenerator.
+Die betroffenen Wallets galten damit als kompromittiert, Tausende Bitcoin wurden gestohlen.
+Die Ausnahme waren genau jene Nutzer, die ihren Seed mit **mindestens 50 selbst geworfenen Würfelergebnissen** angereichert hatten.
+Ein Firmware-Update reparierte künftige Seeds, doch für bereits erzeugte blieb nur der Umzug auf eine neue Wallet.
+
+Drei Dinge solltest du für deinen eigenen Start mitnehmen:
+
+- **Biete deine eigene Entropie an, wo das Gerät es zulässt.**
+  Selbst wenn der Zufallsgenerator deines Geräts einen versteckten Fehler hat, bleibt deine persönlich geworfene Entropie davon unberührt.
+  Genau vor diesem Szenario schützt die würfelbasierte Anreicherung.
+- **Wie viele Würfe braucht es?** 50 Würfe mit einem Sechserwürfel ergeben rund 128 Bit Entropie (passend für einen 12-Wort-Seed), 99 Würfe rund 256 Bit (24-Wort-Seed).
+  Genaueres findest du in der [SeedSigner-Anleitung](https://github.com/SeedSigner/seedsigner/blob/dev/docs/dice_verification.md).
+- Die Idee ist es, die **hardware-eigene Zufälligkeit zu ergänzen**, nicht sie zu ersetzen.
+  Einen Seed komplett nach eigenem Ermessen zu wählen ist selbst für Fortgeschrittene eine der größten Fehlerquellen überhaupt.
+  Nimm das Gerät als Basis und würfle obendrauf.
+
+:::tip SeedSigner: Ein Foto als Zufallsquelle
+Der [SeedSigner](../seedsigner-hardware/) bietet neben dem Würfeln eine zweite, ungewöhnliche Zufallsquelle an: ein **Foto**.
+Statt der Würfe hältst du die Kamera kurz auf eine Szene; die Bilddaten samt Live-Vorschaubildern fließen als Zufallsinput in die Seed-Erzeugung ein.
+Der Ablauf am Gerät ist in der [Anleitung zur SeedSigner-Software](../seedsigner-software-seedqr/#seeds) beschrieben.
+:::
+
 ### Schritt 3: Die Seed Phrase sicher dokumentieren
 
 Führe diesen Schritt von Hand und offline durch!

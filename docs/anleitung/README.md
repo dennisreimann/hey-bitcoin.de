@@ -19,10 +19,13 @@ sidebar: false
 - [Sparrow Wallet: Dein Tool für Selbstverwahrung & Privatsphäre](./sparrow-wallet/)
 - [Bitcoin Fullnode mit der Wallet App verbinden](./bitcoin-fullnode-mit-wallet-verbinden/)
 
-## SeedSigner
+## Multi-Signatur mit SeedSigner und Specter-DIY
 
 - [Was ist der SeedSigner und was brauchst du an Hardware](./seedsigner-hardware/)
 - [SeedSigner: Installation, Software und SeedQR](./seedsigner-software-seedqr/)
+- [Specter: Die selbstgebaute Hardware-Wallet](./specter-diy-hardware-wallet/)
+- [MultiSig Teil 1: Theorie und Konzepte](./multisig-bitcoin-wallet/)
+- [MultiSig Teil 2: Praxis mit Sparrow](./multisig-wallet-mit-sparrow/)
 
 ## Lightning Netzwerk
 
