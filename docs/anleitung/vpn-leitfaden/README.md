@@ -47,6 +47,7 @@ Die Nutzung eines VPNs ist mit Trade-offs verbunden, die man kennen sollte.
     Du leitest deinen gesamten Datenverkehr über dessen Server.
     Wenn der Anbieter nicht vertrauenswürdig ist und heimlich Logs (Protokolle deiner Aktivitäten) führt, ist der Schaden möglicherweise größer als der Nutzen.
     Die Wahl des Anbieters ist daher die wichtigste Entscheidung.
+    Neuere Anbieter wie Obscura begegnen diesem Problem, indem sie ihre Architektur so bauen, dass sie deine Daten gar nicht erst einsehen können (siehe unten).
 
 - **Möglicher Geschwindigkeitsverlust:**
     Da deine Daten einen Umweg über den VPN-Server nehmen und dort verschlüsselt werden, kann es zu Geschwindigkeitseinbußen und einer höheren Latenz (Ping) kommen.
@@ -87,7 +88,29 @@ Hier ein paar Kriterien, die dir bei der Wahl eines guten Anbieters weiterhelfen
 **5. Anonyme Zahlungsmethoden:**
     Ein Anbieter, der Privatsphäre ernst nimmt, akzeptiert Zahlungen per Bitcoin/Lightning, Monero oder sogar Bargeld per Post, um keine Verbindung zwischen deiner Zahlung und deinem Account herstellen zu müssen.
 
-## Drei empfehlenswerte Anbieter im Check
+**6. Datenschutz durch Architektur statt Versprechen:**
+    Der wohl wichtigste Trend: Anbieter, die deine Daten gar nicht erst sehen können, statt sich auf "No-Log"-Policies zu verlassen.
+    Wenn die technische Konstruktion das Loggen unmöglich macht, musst du dem Anbieter auch nichts glauben.
+
+## Empfohlene Anbieter im Check
+
+### [Obscura VPN](https://obscura.com/) – primäre Empfehlung
+
+Obscura ist der erste Anbieter, der das klassische Trust-Problem von VPNs nicht per Policy, sondern per Konstruktion löst: Es ist ihm von der Architektur her **unmöglich, deinen Datenverkehr zu sehen**.
+
+- **Zwei voneinander unabhängige Hops ("Two-Party Relay"):**
+    Deine Verbindung läuft über zwei getrennte Betreiber statt einer einzigen Firma.
+    Dein Gerät verschlüsselt alle Pakete Ende-zu-Ende per WireGuard bis zum Exit-Server; die Server von Obscura leiten diesen Tunnel lediglich weiter und können ihn **nicht entschlüsseln**.
+    Als Exit (der letzte Hop, der dich mit dem Internet verbindet) fungiert im Hintergrund **Mullvad** – damit sieht die eine Seite nie deine Aktivitäten und die andere Seite nie deine Identität.
+    Im Klartext: Obscura kennt dich, aber nicht dein Surfverhalten; Mullvad kennt dein Surfverhalten, aber nicht deine echte IP-Adresse.
+    Keine der beiden Parteien hat allein genug Informationen, um deine Aktivitäten deiner Person zuzuordnen.
+- **Warum vertrauenswürdig:**
+    Es gibt keine "No-Log-Policy", die man missbrauchen könnte – das Loggen ist technisch ausgeschlossen.
+    Die [Client-Software ist vollständig open source](https://github.com/Sovereign-Engineering/obscuravpn-client) und stammt von einem Team um den Bitcoin-Entwickler **Carl Dong**, und du kannst in der App den WireGuard-Pubkey deines Exit-Hops gegen die von [Mullvad veröffentlichten Schlüssel](https://mullvad.net/servers) abgleichen.
+    Der Login erfolgt über eine anonymisierte Kontonummer statt einer E-Mail; bezahlt wird wahlweise per Kreditkarte, **Bitcoin über Lightning** oder **Monero**.
+- **Besonderheit:**
+    Das "Stealth-Protokoll" über QUIC lässt den VPN-Tunnel wie normalen HTTPS-Verkehr aussehen und ist dadurch in Netzwerken mit Zensur oder DPI-Filtern deutlich schwerer zu erkennen und zu blockieren.
+    Für Router bietet Obscura reguläre [WireGuard-Konfigurationen](https://obscura.com/account/tunnels/) an, die sich wie beim klassischen Mullvad in OpenWRT- oder ASUS-Routern einrichten lassen.
 
 ### [Mullvad VPN](https://mullvad.net/)
 
