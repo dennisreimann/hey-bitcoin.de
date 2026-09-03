@@ -83,6 +83,7 @@ export default defineUserConfig({
         children: [
           '/anleitung/lightning-network-zahlungskanal/',
           '/anleitung/lightning-network-routing/',
+          '/anleitung/lightning-network-privatsphaere/',
         ],
       },
       {
