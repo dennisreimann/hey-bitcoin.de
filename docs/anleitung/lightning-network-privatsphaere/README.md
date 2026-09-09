@@ -90,7 +90,7 @@ Alles, was du on-chain an Hygiene mitbringst, wirkt unmittelbar auf den Fußabdr
 
 - **Nutze die Coins gezielt für einen Kanal**, statt mehrere kleine UTXOs in kanalübergreifenden Transaktionen zu verschmelzen, die sich dann leicht zuordnen lassen.
 
-- **Entscheide bewusst zwischen öffentlichem und privatem Kanal.** Für reines Bezahlen und Empfangen ist ein [unannounced (privater) Kanal](#private-oder-unannounced-kanaele) oft die bessere Wahl — dann erfährt das Netzwerk weder deinen Node noch die Kapazität.
+- **Entscheide bewusst zwischen öffentlichem und privatem Kanal.** Für reines Bezahlen und Empfangen ist ein [unannounced (privater) Kanal](#private-oder-unannounced-kanale) oft die bessere Wahl — dann erfährt das Netzwerk weder deinen Node noch die Kapazität.
 
 **Weitere Überlegungen:**
 
@@ -101,7 +101,7 @@ Alles, was du on-chain an Hygiene mitbringst, wirkt unmittelbar auf den Fußabdr
 
 **Ein Blick in die Zukunft:**
 
-- Die Entwicklung geht in Richtung **Taproot-Kanäle** und **Splicing** — beides macht Funding und Schließung privater (dazu mehr im [Ausblick](#ausblick-taproot-kanaele-splicing-und-co)).
+- Die Entwicklung geht in Richtung **Taproot-Kanäle** und **Splicing** — beides macht Funding und Schließung privater (dazu mehr im [Ausblick](#ausblick-taproot-kanale-splicing-und-co)).
 
 - Zudem ist **Dual Funding** (beidseitig finanzierte Kanäle) Teil der [Lightning Network Spezifikation](https://github.com/lightning/bolts/blob/master/2-peer-protocol.md) geworden.
   Ein Hinweis dazu: Beim beidseitigen Funding offenbart jede Seite dem Gegenüber ein eigenes UTXO.
@@ -152,7 +152,7 @@ Im Normalfall einigen sich beide Parteien auf eine gemeinsame Schließungstransa
 Aus Sicht der Privatsphäre bedeutet das:
 ==Die finale Balance des Kanals wird als On-Chain-Auszahlung für beide Parteien öffentlich. Analysten können die Kanalendstände mit den Adressen und dem sonstigen UTXO-Set beider Parteien abgleichen.==
 Bei heutigen Legacy-Kanälen kommt hinzu: Die Schließungstransaktion gibt das 2-of-2-Multisig des Fundings preis — ein starkes Signal, dass hier ein Lightning-Kanal geschlossen wurde.
-Erst Taproot-Kanäle (siehe [Ausblick](#ausblick-taproot-kanaele-splicing-und-co)) ändern das.
+Erst Taproot-Kanäle (siehe [Ausblick](#ausblick-taproot-kanale-splicing-und-co)) ändern das.
 
 Schließe Kanäle **kooperativ** und nicht erzwungen, um die Details unter Verschluss zu halten.
 Schließe nicht viele Kanäle **zeitgleich** — das erzeugt auffällige Cluster, die schnell zusammengeführt werden.
@@ -192,18 +192,18 @@ Das ist gut, heißt aber nicht, dass **niemand** etwas sieht:
 - **Betrag und Zeitpunkt** sind für jeden Knoten auf dem Weg sichtbar.
 - Der **Zahlungsempfänger** sieht alle Pfade, über die Teile seiner Zahlung ankommen — insbesondere bei Multi-Path Payments (MPP).
   Verfolgt er die Pfade der Teile im Graphen rückwärts und schneiden sich diese in einem Knoten, steht dort mit hoher Wahrscheinlichkeit der Sender: die sogenannte *MPP Path-Intersection*.
-  Ein eher theoretischer, aber realer Angriff — Trampoline (siehe [Ausblick](#ausblick-taproot-kanaele-splicing-und-co)) adressiert genau diese Lücke.
+  Ein eher theoretischer, aber realer Angriff — Trampoline (siehe [Ausblick](#ausblick-taproot-kanale-splicing-und-co)) adressiert genau diese Lücke.
 
 ### HTLCs und ihre Preimage-Verknüpfung
 
-Zahlungen im Lightning Netzwerk werden über [HTLCs](../lightning-network-routing/#hash-time-locked-contracts-htlc) abgesichert.
+Zahlungen im Lightning Netzwerk werden über [HTLCs](../lightning-network-routing/#definitionen) abgesichert.
 Alle HTLCs derselben Zahlung — über alle Hops hinweg — nutzen **denselben Zahlungshash** (`payment_hash`), also den Hash des Preimages, das nur der Empfänger kennt.
 Routing-Knoten sehen diesen Hash bei jeder Weiterleitung.
 
 Das öffnet die Tür zur **Zahlungs-Korrelation**: Betreibt dieselbe Entität zwei Knoten auf der Route — einer sender-nah, einer empfänger-nah —, erkennen beide am identischen Hash, dass es sich um dieselbe Zahlung handelt.
 Kombiniert mit dem Wissen, dass ein Knoten direkt neben einer mobilen Wallet praktisch immer weiß, dass diese der Sender oder Empfänger ist, lässt sich so rekonstruieren, wer wen bezahlt.
 
-Genau das beseitigen **Point Time-Locked Contracts (PTLCs)**: Sie ersetzen den gemeinsamen Hash durch hop-individuelle Punkte auf der elliptischen Kurve — jeder Knoten sieht einen anderen, zufälligen Wert (mehr dazu im [Ausblick](#ausblick-taproot-kanaele-splicing-und-co)).
+Genau das beseitigen **Point Time-Locked Contracts (PTLCs)**: Sie ersetzen den gemeinsamen Hash durch hop-individuelle Punkte auf der elliptischen Kurve — jeder Knoten sieht einen anderen, zufälligen Wert (mehr dazu im [Ausblick](#ausblick-taproot-kanale-splicing-und-co)).
 
 ### Liquiditäts-Überwachung und Channel Probing
 

@@ -27,7 +27,7 @@ Der Specter vereint viele Funktionen, die ihn zu einem vollwertigen Keystore fü
 Der Name "Specter-DIY" steht für das **Basismodul** der Hardware-Wallet:
 Ein STM Discovery Board mit Touchscreen, Kamera und microSD-Slot.
 Das Basismodul allein hat **keinen SmartCard-Slot**.
-Dein Seed gelangt nur temporär in den Speicher, entweder über manuelle Eingabe oder via [SeedQR](#seedqr-die-alternative-ohne-smartcard).
+Dein Seed gelangt nur temporär in den Speicher, entweder über manuelle Eingabe oder via [SeedQR](#seedqr-die-alternative-zur-smartcard).
 Es wäre auch möglich, den Seed verschlüsselt persistent im Speicher oder auf einer SD-Karte abzulegen, davon wird jedoch explizit abgeraten.
 
 Die **SmartCard-Verwahrung** ist an eine Erweiterungsplatine gekoppelt, welche den **integrierten SmartCard-Slot** mitbringt.
@@ -104,7 +104,7 @@ Nutze aus Sicherheitsgründen den [Secure Bootloader](https://github.com/cryptoa
 Nach dem Zusammenbau und der Installation der Firmware:
 
 1. **Key erzeugen**: Leg dir einen frischen Seed an — inklusive optionaler [Passphrase](../bitcoin-wallet-grundlagen/#die-passphrase-ein-verstecktes-tresorfach).
-2. **Seed verwahren**: Nutzt du die Kombination mit dem [Specter Shield](#die-smartcard-dein-seed-in-der-hand), stecke deine SmartCard in den Slot und richte die Card-PIN ein — die [SeedQR-Variante](#seedqr-die-alternative-ohne-smartcard) als Backup kannst du zusätzlich erstellen.
+2. **Seed verwahren**: Nutzt du die Kombination mit dem [Specter Shield](#die-smartcard-dein-seed-in-der-hand), stecke deine SmartCard in den Slot und richte die Card-PIN ein — die [SeedQR-Variante](#seedqr-die-alternative-zur-smartcard) als Backup kannst du zusätzlich erstellen.
 3. **Wallet hinzufügen**: Importiere deinen Wallet-Descriptor per QR-Code, SD-Karte oder Datei.
 4. **Mit Sparrow verbinden**: Der [Sparrow Wallet](../sparrow-wallet/)-Artikel erklärt, wie du das Gerät als air-gapped Keystore importierst.
 

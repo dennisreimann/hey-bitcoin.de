@@ -14,7 +14,7 @@ Es ist im Grunde genommen sehr rudimentär und vergleichsweise einfach aufgebaut
 Deine Identität, deine Nachrichten und deine Verbindungen lassen sich hier nicht an einer Plattform festmachen, sondern an kryptografischen Schlüsseln und frei wählbaren Relays.
 Genau darin liegt die Stärke: Da das Netzwerk inzwischen deutlich gewachsen ist und etablierte Clients existieren, fällt der Einstieg heute leichter als je zuvor.
 
-Da der Datenaustausch über offene Standards (die sogenannten NIPs) läuft, entwickelt sich Nostr auch immer mehr zu einer Infrastruktur, welche mit dezentraler Identität, Nachrichten und Bezahlung im Bitcoin-Ökosystem zu tun hat — mehr dazu im Abschnitt [Nostr für Bitcoin-Nutzer](#nostr-für-bitcoin-nutzer-anwendungsfälle-für-privatsphäre-und-selbstsouveränität).
+Da der Datenaustausch über offene Standards (die sogenannten NIPs) läuft, entwickelt sich Nostr auch immer mehr zu einer Infrastruktur, welche mit dezentraler Identität, Nachrichten und Bezahlung im Bitcoin-Ökosystem zu tun hat — mehr dazu im Abschnitt [Nostr für Bitcoin-Nutzer](#nostr-fur-bitcoin-nutzer).
 
 ## Wie starte ich mit Nostr?
 
@@ -121,7 +121,7 @@ Unter `wss://nostr.einundzwanzig.space` betreiben wir bspw. für die Einundzwanz
 
 Wenn du selbst ein Relay aufsetzen möchtest, gibt es inzwischen mehrere sehr solide Optionen:
 [nostream](https://github.com/Cameri/nostream) ist weiterhin eine beliebte, produktionsreife Wahl, [strfry](https://github.com/hoytech/strfry) gilt als besonders performant.
-Wer maximale Selbstsouveränität will, betreibt sein eigenes "persönliches Relay" auf der eigenen Hardware – dafür gibt es sogar spezielle Software (siehe [HAVEN](#haven--nostr-vault--dein-eigenes-persönliches-relay)).
+Wer maximale Selbstsouveränität will, betreibt sein eigenes "persönliches Relay" auf der eigenen Hardware – dafür gibt es sogar spezielle Software (siehe [HAVEN](#haven-nostr-vault-–-dein-eigenes-personliches-relay)).
 
 ### IP-Adresse und Privatsphäre
 
