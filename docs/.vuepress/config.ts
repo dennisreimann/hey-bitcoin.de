@@ -66,6 +66,7 @@ export default defineUserConfig({
           '/anleitung/bitcoin-fullnode/',
           '/anleitung/sparrow-wallet/',
           '/anleitung/bitcoin-fullnode-mit-wallet-verbinden/',
+          '/anleitung/onchain-privatsphaere/',
         ],
       },
       {

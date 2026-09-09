@@ -97,7 +97,7 @@ Dabei stehen die in den Inputs versendeten Satoshis nach der Bestätigung einer 
 
 ## Gap-Limit
 
-Aus Performancegründen erstellen Onchain-Wallets in der Regel nur eine bestimmte Anzahl von Adressen (bspw. 20) und überwachen sie auf eingehende Transaktionen.
+Aus Performancegründen erstellen On-Chain-Wallets in der Regel nur eine bestimmte Anzahl von Adressen (bspw. 20) und überwachen sie auf eingehende Transaktionen.
 Wird eine dieser Adressen verwendet, wird eine neue generiert und überwacht.
 Da nur die aufeinanderfolgenden, bisher ungenutzten Adressen überwacht werden, werden eingehende Transaktionen auf darüber hinaus gehende Adressen nicht erkannt.
 
@@ -147,3 +147,36 @@ Wallets können die zu verwendenden UTXOs automatisch auswählen — es ist aus 
 Als Fiatgeld werden Zahlungsmittel bezeichnet, die von einer Regierung ausgegeben werden.
 Der Wert von Fiatgeld ist nicht durch Rohstoffe wie Gold oder Silber gedeckt oder daran gebunden, sondern ergibt sich aus dem Verhältnis zwischen Angebot und Nachfrage und der Stabilität der ausgebenden Regierung.
 Beispiele für Fiatgeld sind der Euro, US-Dollar oder der japanische Yen.
+
+## Chain-Analyse
+
+Die systematische Auswertung öffentlicher Blockchain-Daten mit dem Ziel, Transaktionen und Adressen zu Clustern (vermutlich identischen Besitzern) zusammenzuführen und diese mit realen Identitäten zu verknüpfen.
+Chain-Analyse-Firmen wie Chainalysis wenden dafür Heuristiken an — die bekannteste ist die **Common Input Ownership Heuristic**:
+Gibt eine Transaktion mehrere Inputs aus, wird angenommen, dass alle derselben Person gehören.
+Die Erkenntnisse werden an Börsen, Banken und Behörden verkauft und fließen in Compliance- und Risikobewertungen ein.
+
+## Anonymity Set
+
+Die Menge der Kandidaten, unter denen sich die tatsächliche Besitzerin einer Transaktionsausgabe verbirgt:
+Eine Adresse, die nur eine Person verwendet, hat den Anonymity Set 1 — bei einem CoinJoin-Output unter 100 identischen Outputs liegt der Anonymity Set bei 100, ein Beobachter weiß nur, dass einer dieser 100 Besitzer du bist.
+Der Anonymity Set ist eine Zahl und kein Dauerzustand:
+Wer einen gemischten Output später mit identifizierbaren UTXOs konsolidiert, verkleinert ihn wieder.
+
+## CoinJoin
+
+Eine kollaborative Transaktion, bei der mehrere Parteien ihre Inputs gemeinsam in einer einzigen Transaktion zusammenführen und sich dabei in Outputs gleichen Betrags mischen.
+Da die Transaktion von allen gemeinsam signiert wird, lässt sich on-chain nicht mehr nachvollziehen, welcher Input zu welchem Output gehört — die Common Input Ownership Heuristic greift ins Leere.
+Bekannte Implementierungen sind [Wasabi Wallet](https://www.wasabiwallet.io/) (WabiSabi-Protokoll mit Koordinator) und [JoinMarket NG](https://github.com/joinmarket-ng/joinmarket-ng) (dezentraler Marktplatz mit Liquiditätsanbietern).
+
+## PayJoin
+
+Eine Zahlungstechnik, bei der der Empfänger einer Zahlung eigene Inputs in die Transaktion des Senders einbringt.
+Aus Sicht der Blockchain sieht das aus wie eine gewöhnliche Transaktion mit mehreren Inputs — die Common Input Ownership Heuristic produziert dabei systematisch falsche Cluster.
+PayJoin v1 (BIP 78) erfordert beim Empfänger einen Server, v2 (BIP 77) funktioniert asynchron über ein untrusted Relay und ist damit für mobile Wallets praktikabel.
+Voraussetzung ist kompatible Software auf beiden Seiten.
+
+## Silent Payments
+
+Mit [BIP 352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki) standardisiertes Verfahren für eine statische Empfangsadresse (`sp1q…`), aus der Sender für jede Zahlung eine eigene, einmalige Taproot-Adresse ableiten.
+Beobachter können weder die Zahlungen einander noch der statischen Adresse zuordnen — Adress-Wiederverwendung entfällt kryptografisch.
+Der Aufwand liegt auf der Empfängerseite: Die Wallet muss die Blockchain nach für sie verschlüsselten Outputs durchsuchen, wofür Light Wallets Scan-Daten von einem Indexer beziehen.

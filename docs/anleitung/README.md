@@ -18,6 +18,7 @@ sidebar: false
 - [Die eigene Bitcoin Fullnode](./bitcoin-fullnode/)
 - [Sparrow Wallet: Dein Tool für Selbstverwahrung & Privatsphäre](./sparrow-wallet/)
 - [Bitcoin Fullnode mit der Wallet App verbinden](./bitcoin-fullnode-mit-wallet-verbinden/)
+- [On-Chain-Privatsphäre: CoinJoin, PayJoin und mehr](./onchain-privatsphaere/)
 
 ## Multi-Signatur mit SeedSigner und Specter-DIY
 

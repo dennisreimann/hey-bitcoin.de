@@ -37,7 +37,7 @@ Um deine Privatsphäre einzuschätzen, hilft ein Blick auf die Akteure und darau
 
 Unternehmen wie Chainalysis durchforsten die Blockchain und wenden Heuristiken an, um Adressen zu Personen und Organisationen zu clustern.
 Für Lightning bedeutet das: Analysiert wird vor allem das **On- und Off-Ramping**, also wenn Kanäle geöffnet, geschlossen oder erweitert (Splicing) werden.
-Jede Lightning-bezogene Onchain-Transaktion ist ein potenzieller Ankerpunkt, der deine Lightning-Aktivität mit deinen übrigen UTXOs verbindet.
+Jede Lightning-bezogene On-Chain-Transaktion ist ein potenzieller Ankerpunkt, der deine Lightning-Aktivität mit deinen übrigen UTXOs verbindet.
 
 ### Deine Kanalpartner sehen alles durch ihren Kanal
 
@@ -82,9 +82,9 @@ Der Kern aller Strategien: ==Die Funding-Transaktion ist eine ganz normale Bitco
 Alles, was du on-chain an Hygiene mitbringst, wirkt unmittelbar auf den Fußabdruck deines Kanals.
 
 - **Verwende ein „sauberes" UTXO.** Öffne Kanäle nicht mit frisch gekauften, an deine Identität gekoppelten Coins.
-  Verwende [gelabelte UTXOs](../utxo-management/), bei denen du die Herkunft kennst, und bereite das Funding ggf. per CoinJoin vor.
+  Verwende [gelabelte UTXOs](../utxo-management/), bei denen du die Herkunft kennst, und bereite das Funding ggf. per [CoinJoin](../onchain-privatsphaere/) vor.
 
-- **CoinJoin als Vorbereitung**: Funding-UTXOs aus einem [CoinJoin](../finanzielle-privatsphaere/) zu beziehen, ist die wirksamste Antwort auf die Common Input Ownership Heuristic. Analysetools sehen ein gemischtes UTXO statt deiner Wallet-Historie.
+- **CoinJoin als Vorbereitung**: Funding-UTXOs aus einem [CoinJoin](../onchain-privatsphaere/) zu beziehen, ist die wirksamste Antwort auf die Common Input Ownership Heuristic. Analysetools sehen ein gemischtes UTXO statt deiner Wallet-Historie.
 
 - **Non-KYC-Quellen:** Wer Kanäle mit non-KYC bezogenen Coins fundet, startet ohne Identitäts-Link ([siehe Artikel zum Bitcoin-Kauf](../bitcoin-kaufen-was-beachten/)).
 
@@ -338,7 +338,7 @@ Das würde die Netzwerk-Topologie für Außenstehende verschleiern — ein tiefg
 
 ### On-Chain-Begleittechnologien
 
-Auch **Silent Payments** und **Payjoin** machen deine On-Chain-Wallet privater — und damit auch dein On-/Off-Ramping beim Lightning.
+Auch **Silent Payments** und **PayJoin** machen deine On-Chain-Wallet privater — und damit auch dein On-/Off-Ramping beim Lightning (siehe den [Artikel zur On-Chain-Privatsphäre](../onchain-privatsphaere/)).
 Sie sind kein Ersatz für Kanal-Hygiene, aber ein wichtiger Baustein beim Bau deines privaten Finanz-Setups.
 
 ## Checkliste: Dein privater Lightning-Knoten

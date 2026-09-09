@@ -139,7 +139,7 @@ Der beste Zeitpunkt, um mit dem Schutz deiner finanziellen Privatsphäre zu begi
 4. **Nutze [Sparrow Wallet](../sparrow-wallet/) und label deine UTXOs:** Halte in deiner Wallet fest, woher deine Bitcoin stammen.
   So behältst du den Überblick und kannst fundierte Entscheidungen treffen.
 
-Fortgeschrittene Techniken wie die Nutzung von CoinJoin, PayJoin oder dem **Lightning-Netzwerk** bieten noch stärkere Privatsphäre-Garantien und sind nach den genannten Basics der nächste Schritt auf deiner Reise.
+Fortgeschrittene Techniken wie [CoinJoin, PayJoin und Silent Payments](../onchain-privatsphaere/) oder das [Lightning-Netzwerk](../lightning-network-privatsphaere/) bieten noch stärkere Privatsphäre-Garantien und sind nach den genannten Basics der nächste Schritt auf deiner Reise.
 
 ## Finanzielle Privatsphäre ist dein gutes Recht
 
