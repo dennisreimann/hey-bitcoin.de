@@ -64,7 +64,7 @@ Wenn für Änderungen keine Mehrheit gefunden werden kann, dann zweigt ggf. eine
 
 Aus ökonomischer Sicht entsteht dabei eine separate Währung, die nicht mehr direkt mit dem ursprünglichen Netzwerk kompatibel ist:
 So wie du eine Euro-Rechnung nicht ohne Umtausch mit Dollar begleichen kannst, kannst du bspw. auch keine BTC-Transaktion direkt mit BCH ausführen.
-Daher: Augen auf beim [Satoshi](../glossar/#satoshis)-Kauf.
+Daher: Augen auf beim [Satoshi](/glossar/#satoshis)-Kauf.
 
 ## Was ist mit allen anderen Coins?
 
@@ -88,7 +88,7 @@ Die Blockchain ist das öffentliche Grundbuch, in das jede Transaktion hineinges
 Jeder kann diese Daten einsehen und prüfen, beispielsweise mit dem eigenen Bitcoin-Node oder einem Block Explorer.
 Jeder Bitcoin-Node hat eine Kopie der Blockchain, mit der die Gültigkeit neuer Transaktionen verifiziert wird.
 
-Damit du eine gültige Transaktion erstellen und mit deinen Bitcoins versenden kannst, benötigst du deinen [privaten Schlüssel](../glossar/#private-key-und-seed-phrase).
+Damit du eine gültige Transaktion erstellen und mit deinen Bitcoins versenden kannst, benötigst du deinen [privaten Schlüssel](/glossar/#private-key-und-seed-phrase).
 Allein dieser Schlüssel gibt dir Zugriff auf deine Coins und er ist daher das, was deine Bitcoins ausmacht:
 Verlierst du den privaten Schlüssel, sind deine Coins zwar nicht direkt verloren; du wirst sie jedoch nicht mehr versenden können, was dann praktisch dem Verlust entspricht.
 Die Frage ist daher also eher, ob dein privater Schlüssel sicher abgelegt ist – was wiederum ein Thema für sich ist.
