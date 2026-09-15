@@ -19,8 +19,10 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.31",
     "@vuepress/plugin-markdown-ext": "2.0.0-rc.134",
+    "@vuepress/plugin-search": "2.0.0-rc.134",
     "@vuepress/plugin-seo": "2.0.0-rc.134",
     "@vuepress/plugin-sitemap": "2.0.0-rc.134",
+    "@vuepress/plugin-search": "2.0.0-rc.134",
     "@vuepress/theme-default": "2.0.0-rc.134",
     "markdown-it-abbr": "2.0.0",
     "markdown-it-mark": "4.0.0",
