@@ -106,7 +106,7 @@ cat > /live/persistence/TailsData_unlocked/dotfiles/.local/share/applications/Sp
 [Desktop Entry]
 Name=Sparrow
 Comment=Sparrow
-Exec=/home/amnesia/Persistent/Sparrow/bin/Sparrow %U
+Exec=/home/amnesia/Persistent/Sparrow/bin/Sparrow -d /home/amnesia/Persistent/Sparrow/data %U
 Icon=/home/amnesia/Persistent/Sparrow/lib/Sparrow.png
 Terminal=false
 Type=Application
