@@ -46,7 +46,7 @@ Leg los und mach dich finanziell souverän. Dein Node wartet darauf, gestartet z
 
 Die gute Nachricht: Du brauchst kein High-End-Gaming-Computer.
 Die schlechte Nachricht: mit einem uralten Laptop oder einem Raspberry Pi 4 wirst du heute jedoch auch nicht mehr glücklich.
-Die Bitcoin-Blockchain wächst stetig, und die Anforderungen für eine Node mit Zusatzdiensten haben sich in den letzten Jahren weiterentwickelt.
+Die Bitcoin-Blockchain wächst stetig, und die Anforderungen für einen Node mit Zusatzdiensten haben sich in den letzten Jahren weiterentwickelt.
 Diese Einkaufsliste hilft dir, ein zukunftssicheres Setup aufzubauen.
 
 ### Anforderungen und Überlegungen für einen modernen Node (2025)
@@ -54,9 +54,9 @@ Diese Einkaufsliste hilft dir, ein zukunftssicheres Setup aufzubauen.
 | Komponente                | **Empfohlenes Minimum** | **Warum?** |
 | :---                      | :---                    | :---       |
 | **CPU (Prozessor)**       | Intel i5 oder AMD Ryzen 5 (ab Gen 8) | Die anfängliche Synchronisation (**Initial Block Download, IBD**) ist sehr CPU-intensiv. Eine schwache CPU braucht Wochen statt Tage. |
-| **Arbeitsspeicher**       | 16 GB RAM               | Je mehr Extraservices du betreiben möchtest (bspw. deine eigene Mempool.space Instanz), umso mehr solltest du nehmen. 16 GB sind ausreichend, 32 GB groß dimensioniert. |
+| **Arbeitsspeicher**       | 16 GB RAM               | Je mehr Extraservices du betreiben möchtest (bspw. eine eigene Mempool.space-Instanz), umso mehr solltest du nehmen. 16 GB sind ausreichend, 32 GB groß dimensioniert. |
 | **Festplatte**            | 2 TB SSD | **Die SSD ist nicht verhandelbar.** Eine HDD ist 10-20x langsamer – der IBD würde ewig dauern. Die Blockchain ist ~700 GB groß, 2 TB geben Luft für Jahre. NVMe ist schneller als SATA. |
-| **Stromverbrauch**        | ~20 W (Mini-PC)<br>~100 W (Laptop)   | Ein Mini-PC kostet im Dauerbetrieb nur **ca. 20 € pro Jahr**. Ein alter Laptop leicht das 5-fache. |
+| **Stromverbrauch**        | ~20 W (Mini-PC)<br>~100 W (Laptop)   | Ein Mini-PC kostet im Dauerbetrieb nur **ca. 50 € pro Jahr**. Ein alter Laptop verbraucht ein Vielfaches davon. |
 | **Netzwerk**              | Kabelgebunden        | Eine kabelgebundene LAN-Verbindung ist stabiler und zuverlässiger. Dein Node sollte nicht wegen einer schlechten WLAN-Verbindung ausfallen. |
 
 ### Option 1: Dedizierter Mini-PC <Badge type="tip" text="Empfehlung" vertical="middle" />
@@ -71,7 +71,7 @@ Ein kleiner, leiser und extrem effizienter Computer, der nur eine Aufgabe hat �
 
 **Konkrete Einkaufsliste:**
 
-1. **Mini-PC:** Günstig sind wiederaufbereitete Geräte wie z.B. **Dell Optiplex 7050**, **Lenovo Thinkcenter M720q** oder vergleichbare Modelle wie ein Intel NUC liegen preislich um die 200 EUR.
+1. **Mini-PC:** Günstig sind wiederaufbereitete Geräte wie z.B. **Dell Optiplex 7050**, **Lenovo ThinkCentre M720q** oder vergleichbare Modelle wie ein Intel NUC liegen preislich um die 200 EUR.
 2. **Separate SSD:** Oft ist es günstiger, einen Mini-PC mit kleiner SSD zu kaufen und diese dann gegen eine große, eigene auszutauschen.
    Beispiele wären eine **Samsung 970 Evo Plus NVMe**, **Samsung 870 EVO SATA** oder **Crucial P3**.
 
@@ -98,14 +98,14 @@ Heute sind die Anforderungen höher und Single-Board-Computer vom Preis-Leistung
     Als Notlösung machbar, aber dann unter Verzicht auf Extraservices.
 - **Probleme:** Häufigere Synchronisationsverzögerungen, besonders unter Last.
     Einen Lightning-Node sollte man damit nicht mehr betreiben.
-- **Einschätzung:** Die Preise für Pi's sind stark gestiegen, während preiswerte Mini-PCs mehr Leistung für ähnliches Geld bieten.
+- **Einschätzung:** Die Preise für Pis sind stark gestiegen, während preiswerte Mini-PCs mehr Leistung für ähnliches Geld bieten.
 
 :::tip Zusammenfassung und Empfehlung
 Dein Node läuft **24/7**, es geht um Stabilität und Effizienz.
 
 **Investiere in einen energieeffizienten Mini-PC mit mindestens 16 GB RAM und einer 2 TB SSD.**
 
-Diese einmalige Investition gibt dir **Jahre** lang ein sicheres, schnelles und souveränes Bitcoin-Fundament, das alle fortgeschrittenen Features (wie einen Lightning-Node, eigener Mempool.space Instanz und Indexer) problemlos mitmacht.
+Diese einmalige Investition gibt dir **Jahre** lang ein sicheres, schnelles und souveränes Bitcoin-Fundament, das alle fortgeschrittenen Features (wie einen Lightning-Node, eine eigene Mempool.space-Instanz und Indexer) problemlos mitmacht.
 Du umgehst einige Fallstricke und sparst langfristig sogar Stromkosten.
 :::
 
@@ -126,7 +126,7 @@ Hier die wichtigsten Punkte auf einen Blick:
 :::tip Warum ich StartOS empfehle
 
 Es bietet die perfekte Balance aus Einfachheit und stabiler Performance.
-Die wichtigsten Zusatzdienste wie eigene Mempool.space Instanz, verschiedene Indexer und Lightning-Implementierungen werden unterstützt.
+Die wichtigsten Zusatzdienste wie eine eigene Mempool.space-Instanz, verschiedene Indexer und Lightning-Implementierungen werden unterstützt.
 Das Ganze lässt sich mit einer benutzerfreundlichen Web-Oberfläche konfigurieren und bedienen.
 Die Dienste laufen zuverlässig.
 :::

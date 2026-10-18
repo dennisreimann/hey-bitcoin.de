@@ -132,7 +132,7 @@ Wenn du Tails für sensible Bitcoin-Transaktionen oder zum Schutz deiner Finanzd
     Tails startet nun und du gelangst in die Tails-Umgebung.
 4. **Tor-Verbindung:** Starte die Tor-Verbindung, um sicherzustellen, dass du anonym unterwegs bist.
     Der Tor-Browser ist standardmäßig auf Tails installiert und bietet eine sichere Möglichkeit, das Internet zu nutzen.
-5. **Bitcoin-Wallet:** Öffne deine Bitcoin-Wallet-Software (Electrum ist vorinstalliert, [Sparrow kann man sich persistieren](../tails-os-sparrow-wallet/)), und stelle sicher, dass sie korrekt konfiguriert ist.
+5. **Bitcoin-Wallet:** Öffne deine Bitcoin-Wallet-Software (Electrum ist vorinstalliert, [Sparrow lässt sich persistent installieren](../tails-os-sparrow-wallet/)), und stelle sicher, dass sie korrekt konfiguriert ist.
 6. **Transaktionen durchführen:** Führe deine Bitcoin-Transaktionen durch, indem du die Wallet-Software nutzt.
     Achte darauf, dass du die richtigen Empfangsadressen und Beträge verwendest.
 7. **System herunterfahren:** Wenn du mit deinen Transaktionen fertig bist, fahre das System herunter.
@@ -145,7 +145,7 @@ Handle nach diesen fundamentalen Regeln, um Risiken zu minimieren:
 - **Persistenz mit Vorsicht nutzen**: Nur für unkritische Daten, starkes Passwort
 - **Keine Browser-Addons installieren**: Kompromittiert Anonymität
 - **System regelmäßig updaten**: Bei jedem Start auf Aktualisierungen prüfen
-- **Dateien doppelt verschlüsseln**: Selbst im Persistenten Speicher
+- **Dateien doppelt verschlüsseln**: Selbst im persistenten Speicher
 
 Achte auf folgende **Warnsignale**:
 

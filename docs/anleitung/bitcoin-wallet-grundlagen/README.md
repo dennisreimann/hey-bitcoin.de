@@ -31,7 +31,9 @@ Womit wir direkt beim nächsten Thema wären ...
 
 ## Derivation Paths: Ableitungspfade der Adressen
 
-Ein Derivation Path ist eine standardisierte "Formel", die angibt, wie aus deiner Seed Phrase hierarchisch die einzelnen Private Keys und damit die Empfangsadressen abgeleitet werden. Dies ist in [BIP 44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) definiert.
+Ein Derivation Path ist eine standardisierte "Formel", die angibt, wie aus deiner Seed Phrase hierarchisch die einzelnen Private Keys und damit die Empfangsadressen abgeleitet werden.
+Die Hierarchie dafür ist in [BIP 44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) definiert;
+die Ableitungspfade der einzelnen Wallet-Typen sind in [BIP 84](https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki) (Native SegWit) bzw. [BIP 86](https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki) (Taproot) standardisiert.
 Er sieht aus wie ein Dateipfad, bspw. `m/84'/0'/0'`.
 
 Warum ist das wichtig?

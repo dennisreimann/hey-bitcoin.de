@@ -121,4 +121,4 @@ Abschließend noch einmal eine Auflistung der Komponenten und ihrer ungefähren 
 
 Macht im günstigsten Fall also insgesamt etwas um die 50 Euro für die Hardware, zu denen dann noch das Gehäuse kommt.
 
-Wenn du einen fertigen SeedSigner hast, kannst du direkt mir der Anleitung zur [SeedSigner Software und SeedQR](../seedsigner-software-seedqr/) weiter machen.
+Wenn du einen fertigen SeedSigner hast, kannst du direkt mit der Anleitung zur [SeedSigner Software und SeedQR](../seedsigner-software-seedqr/) weitermachen.

@@ -3,7 +3,7 @@
 ## Was und warum?
 
 Die meisten seriösen Webseiten, auf denen du Bitcoin-bezogene Software herunterladen kannst, weisen dich drauf hin, den Download zu verifizieren.
-Dies ist wichtig um sicherzustellen, dass du auch wirklich die vom Hersteller angebotene Software installierst.
+Dies ist wichtig, um sicherzustellen, dass du auch wirklich die vom Hersteller angebotene Software installierst.
 
 Es gibt einige potentielle Möglichkeiten, mit denen Angreifer dir eine schadhafte Software-Version unterschieben können.
 Herkömmlicherweise werden die meisten dieser Angriffsszenarien durch die App Stores von Apple, Google, Microsoft, etc. überprüft.
@@ -25,20 +25,20 @@ Bevor wir loslegen noch ein paar Begriffe, die du während des Vorgangs gebrauch
 
 - **Private Key**: Der private Schlüssel, mit dem der Software-Hersteller die Datei signiert. Nur der Hersteller hat diesen Schlüssel und er kann damit öffentlich einsehbare Signaturen erstellen.
 - **Signature**: Öffentlich zugängliche Information, mit der sichergestellt werden kann, dass sie vom Besitzer eines bestimmten privaten Schlüssels erstellt wurde.
-- **Public Key**: Dieser Schlüssel ist das öffentliche Gegenstück zum privaten Schlüssel, mit denen die Allgemeinheit die Signatur des Herstellers überprüfen kann.
+- **Public Key**: Dieser Schlüssel ist das öffentliche Gegenstück zum privaten Schlüssel, mit dem die Allgemeinheit die Signatur des Herstellers überprüfen kann.
 - **Checksum**: Prüfsumme, die den Dateiinhalt kryptografisch beschreibt. Ändert sich der Dateiinhalt auch nur im geringsten, dann erhält man auch eine andere Prüfsumme.
 - **SHA256**: Die kryptografische Funktion, mit der die Prüfsumme erstellt wird. Sie wird mit dem Dateinamen der zu überprüfenden Datei aufgerufen. Die Funktion liefert unabhängig vom Betriebssystem bei gleichem Dateiinhalt immer das gleiche Ergebnis.
 
 Der Ablauf ist dabei immer gleich:
 
-0. Öffentlichen Schlüssel des Herstellers herunterladen und importieren: Dies ist nur beim ersten Mal  nötig (oder bei Änderungen des Schlüssels). Im Idealfall bezieht man den öffentlichen Schlüssel vom Hersteller direkt und unabhängig von der Software-Downloadseite.
+0. Öffentlichen Schlüssel des Herstellers herunterladen und importieren: Dies ist nur beim ersten Mal nötig (oder bei Änderungen des Schlüssels). Im Idealfall bezieht man den öffentlichen Schlüssel vom Hersteller direkt und unabhängig von der Software-Downloadseite.
 1. Software-Datei herunterladen
 2. Prüfsumme erstellen und vergleichen
 3. Signatur-Datei herunterladen
 4. Signatur der Software-Datei verifizieren
 
 Je nach Betriebssystem und GPG-Software kannst du einzelne Teilschritte der Verifizierung auch in der grafischen Benutzeroberfläche machen.
-Den vollständigen Weg gehen wir im folgenden aber auf der Kommandozeile durch – keine Angst, es ist einfacher als es zunächst klingt. 😉
+Den vollständigen Weg gehen wir im Folgenden aber auf der Kommandozeile durch – keine Angst, es ist einfacher als es zunächst klingt. 😉
 
 ## Beispiel: BitBox App
 
@@ -62,7 +62,7 @@ Die Prüfsumme stimmt – das ist schon mal ein guter erster Schritt.
 
 ::: tip HINWEIS
 Bis hierhin kann die Sache aber immer noch einen Haken haben:
-Hat ein Angreifer die Download-Seite kompromitiert, wäre es ihm wahrscheinlich sehr leicht möglich, neben der Datei auch die Prüfsumme auszutauschen.
+Hat ein Angreifer die Download-Seite kompromittiert, wäre es ihm wahrscheinlich sehr leicht möglich, neben der Datei auch die Prüfsumme auszutauschen.
 Daher sollte nicht nur die Prüfsumme, sondern auch die Signatur der heruntergeladenen Datei gecheckt werden!
 :::
 
@@ -130,7 +130,7 @@ gpg --keyserver keyserver.ubuntu.com --recv-keys 9DC33CA830589DE3B3225C26EEF5756
 ```
 
 Auch hier ist es gut zu sehen, dass der öffentliche Schlüssel nicht Teil des gleichen GitHub Repositories ist, sondern von einem Keyserver bzw. einer separaten Quelle bezogen wird:
-Wäre das Repository kompromitiert, wäre es leicht ebenso auch den Key auszutauschen.
+Wäre das Repository kompromittiert, wäre es leicht ebenso auch den Key auszutauschen.
 Stattdessen müssten in diesem Fall sowohl das Repository als auch die Schlüsselquelle gehackt werden.
 
 ### Prüfsumme und Signatur überprüfen
@@ -169,13 +169,13 @@ Primary key fingerprint: 9DC3 3CA8 3058 9DE3 B322  5C26 EEF5 756B 2EA4 2349
 Wenn du `Good signature` siehst, dann kannst du auch hier wieder von einer validen Signatur ausgehen.
 
 Nun muss nur noch die Prüfsumme gecheckt werden:
-Dies geht indem du in der signierten Datei nach dem Ergebnis der `sha256sum` Funktion suchst …
+Dies geht, indem du in der signierten Datei nach dem Ergebnis der `sha256sum` Funktion suchst …
 
 ```bash
 grep $(sha256sum Specter-v2.1.11.dmg) SHA256SUMS
 ```
 
-Wenn du die Zeile mit der Prüfsumme siehst ist alles gut:
+Wenn du die Zeile mit der Prüfsumme siehst, ist alles gut:
 
 ![Prüfsumme checken](./grep-sha256-specter.png)
 

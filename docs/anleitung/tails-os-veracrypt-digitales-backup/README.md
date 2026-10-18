@@ -4,7 +4,7 @@ Digitale Backups haben einen zweifelhaften Ruf – und das zu Recht, denn es gib
 In Kombination mit [Tails OS](../tails-os-privatsphaere-betriebssystem/) (wenn amnesisch und offline genutzt) und [VeraCrypt](https://veracrypt.io/en/) (auditierte Verschlüsselung) wird das Risiko jedoch kontrollierbar.
 Dieser Artikel zeigt dir, wie du ein air-gapped, verschlüsseltes Backup deiner Seed Phrase erstellst, das **neben deinen physischen Metall-Backups als zusätzliche Sicherung** dienen kann.
 
-## Warum digitale Backups trotz Risiken sinnvoll seien können
+## Warum digitale Backups trotz Risiken sinnvoll sein können
 
 **Vorteile**: Kompakt, einfach zu duplizieren, platzsparend. Du kannst 10 Kopien an 10 Orten lagern, ohne dass es auffällt.
 Ein verschlüsselter USB-Stick in einem Bankschließfach fällt nicht als "Wertsache" auf und ist auch ein unauffälliger Reisebegleiter.
@@ -90,7 +90,7 @@ Gehe folgendermaßen vor:
 
 Jetzt wo VeraCrypt nutzbar ist, **stelle erneut sicher, dass du offline bist**, bevor du dich den kommenden Schritten widmest.
 
-Wir werden im folgenden größtenteils die voreingestellten Optionen nutzen.
+Wir werden im Folgenden größtenteils die voreingestellten Optionen nutzen.
 Wenn du tiefer einsteigen und weitere Informationen zu den einzelnen Optionen möchtest, findest du alle Details in der [VeraCrypt Dokumentation](https://veracrypt.io/en/Documentation.html).
 
 1. Leg dein Backup-Medium (USB-Stick, SD-Karte) ein
@@ -149,7 +149,7 @@ Nun endlich haben wir das Backup-Medium verschlüsselt und können unsere Daten 
 Prüfe mit den folgenden Schritten, dass alles geklappt hat:
 
 1. In VeraCrypt, wähle <kbd>Select Device…</kbd> im `Volume` Feld unten.
-2. Wahle das Gerät oder die Partition, die du in den vorigen Schritten verschlüsselt hast.
+2. Wähle das Gerät oder die Partition, die du in den vorigen Schritten verschlüsselt hast.
 3. Wähle <kbd>Mount</kbd> und gib das Passwort für das Standard Volume an.
 4. Du solltest das Volume nun durch Doppelklick öffnen können und deine Decoy-Dateien sehen.
 5. Wähle <kbd>Unmount All</kbd>, um das Medium auszuwerfen.
@@ -164,7 +164,7 @@ Wir starten nun zunächst Tails neu, um sicherzustellen, dass wir **offline arbe
     - **im Offline-Modus**: <kbd>Additional Settings › Offline Mode › Disable all networking</kbd>
     - **ohne Persistent Storage**: Wir wollen ein sauberes, amnesisches System.
 2. Unter <kbd>Apps › Utilities › Unlock VeraCrypt Volumes</kbd> kannst du nun das mit Tails OS gelieferte Tool zum Entschlüsseln deines Backup-Mediums nutzen.
-3. Wahle das Gerät oder die Partition, die du in den vorigen Schritten verschlüsselt hast und klicke <kbd>Unlock</kbd>
+3. Wähle das Gerät oder die Partition, die du in den vorigen Schritten verschlüsselt hast und klicke <kbd>Unlock</kbd>
 4. Im darauffolgenden Dialog eine der beiden Optionen, je nach deinem Anwendungsfall:
     - Standard Volume: Passwort A
     - Hidden Volume: Passwort B und die Option <kbd>Hidden Volume</kbd>

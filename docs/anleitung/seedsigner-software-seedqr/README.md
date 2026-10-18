@@ -44,7 +44,7 @@ Einen bestehenden Seed oder auch eine Transaktion (wird im PSBT-Format von deine
 #### Seeds
 
 Hier kannst du 12 oder 24 Wort-Seeds manuell eingeben oder dir einen neuen Seed generieren.
-Für letzteres gibt es weitere Optionen, um dem Generierungsprozess eigene Enthropie hinzuzufügen:
+Für letzteres gibt es weitere Optionen, um dem Generierungsprozess eigene Entropie hinzuzufügen:
 
 - Du kannst [Würfel werfen](https://github.com/SeedSigner/seedsigner/blob/dev/docs/dice_verification.md) (50× für 12 Wörter, 99× für 24 Wörter)
 - Oder mit der Kamera ein Foto machen, dessen Pixel als Zufallsinput genommen werden
@@ -160,4 +160,4 @@ für den Praxiseinsatz solltest du dies am besten auch mit Schlagbuchstaben mach
 ## Weitere Links
 
 Wenn du dich darüber hinaus für weitere Aspekte interessierst, sieh dir den [Einundzwanzig Stammtisch zum SeedSigner](https://www.youtube.com/watch?v=xMUEBTzTM6U) an.
-Es gibt ebenso einen sehr guten [Artikel zum SeedSigner im Bitcoin Magazine](https://bitcoinmagazine.com/guides/how-to-use-seedsigner-for-secure-bitcoin), dieser ist allerdings auf englisch.
+Es gibt ebenso einen sehr guten [Artikel zum SeedSigner im Bitcoin Magazine](https://bitcoinmagazine.com/guides/how-to-use-seedsigner-for-secure-bitcoin), dieser ist allerdings auf Englisch.

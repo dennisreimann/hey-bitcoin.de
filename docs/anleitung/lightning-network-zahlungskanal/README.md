@@ -38,7 +38,7 @@ Sobald die Eröffnungstransaktion genügend Bestätigungen hat, gilt der Zahlung
 
 :::tip Zusatzinformation
 Aktuell kann nur eine der beteiligten Parteien das Geld für die Eröffnung eines neuen Zahlungskanals bereitstellen.
-Zukünftige Versionen der [Lightning Network Spezifikation](https://github.com/lightningnetwork/lightning-rfc) sehen aber das Öffnen von beidseitig finanzierten Kanälen vor.
+Zukünftige Versionen der [Lightning Network Spezifikation](https://github.com/lightning/bolts) sehen aber das Öffnen von beidseitig finanzierten Kanälen vor.
 :::
 
 ## Verbindlichkeitstransaktionen
@@ -51,27 +51,27 @@ Jede neue Verbindlichkeitstransaktion invalidiert die vorherigen, da das nun bek
 
 ![Verbindlichkeitstransaktion Nr. 1: Es wird der neue Transaktionshash, sowie das vorherige Secret ausgetauscht.](./verbindlichkeit-1.png)
 
-Nach der ersten Transaktion innerhalb des Kanals, bei der sich die Verteilung der Beträge geändert hat, sieht der Stand von Alice's Verbindlichkeitstransaktion nun folgendermaßen aus:
+Nach der ersten Transaktion innerhalb des Kanals, bei der sich die Verteilung der Beträge geändert hat, sieht der Stand von Alices Verbindlichkeitstransaktion nun folgendermaßen aus:
 
 - 4 mBTC für Bob und
 - entweder: 6 mBTC für Alice nach 1000 Blöcken
-- oder: 6 mBTC für Bob wenn er Alice's Secret kennt
+- oder: 6 mBTC für Bob wenn er Alices Secret kennt
 
-Bob's Verbindlichkeitstransaktion ist das exakte Gegenteil zu Alice's Stand:
+Bobs Verbindlichkeitstransaktion ist das exakte Gegenteil zu Alices Stand:
 
 - 6 mBTC für Alice und
 - entweder: 4 mBTC für Bob nach 1000 Blöcken
-- oder: 4 mBTC für Alice wenn sie Bob's Secret kennt
+- oder: 4 mBTC für Alice wenn sie Bobs Secret kennt
 
 Das macht Spaß – weiter geht's und wir sehen uns an, was es mit diesen magischen *1000 Blöcken Wartezeit* (etwa 7 Tage) auf sich hat …
 
 ![Verbindlichkeitstransaktion Nr. 2: Wieder wird der neue Transaktionshash, sowie das vorherige Secret ausgetauscht.](./verbindlichkeit-2.png)
 
-Nach einer erneuten Zahlung über 4 mBTC von Alice an Bob sieht Alice's Stand so aus:
+Nach einer erneuten Zahlung über 4 mBTC von Alice an Bob sieht Alices Stand so aus:
 
 - 8 mBTC für Bob und
 - entweder: 2 mBTC für Alice nach 1000 Blöcken
-- oder: 2 mBTC für Bob wenn er Alice's Secret kennt
+- oder: 2 mBTC für Bob wenn er Alices Secret kennt
 
 Die 1000 Blöcke Wartezeit werden nun interessant, wenn es zu einem der möglichen Szenarien der Kanalschließung kommt …
 
@@ -92,26 +92,26 @@ Beide Parteien sind glücklich und die Kanalschließung wird mit der Blockchain-
 
 ### Erzwungene Kanalschließung
 
-Sagen wir Alice's Node verschwindet und Bob kann daher nicht den einvernehmlichen und kooperativen Weg gehen:
+Sagen wir, Alices Node verschwindet und Bob kann daher nicht den einvernehmlichen und kooperativen Weg gehen:
 Er kann den Kanal nicht mehr nutzen und muss die Schließung seinerseits erzwingen, um sich seinen Teil der Verbindlichkeiten wieder on-chain auszahlen zu lassen.
 
 In diesem Fall kommen die 1000 Blöcken Wartezeit (etwa 7 Tage) ins Spiel, die wiederum Alice die Chance geben, auf diese einseitig initiierte Schließung zu reagieren und sie ggf. zu widerrufen.
 
 ![Erzwungene Kanalschließung: Bob veröffentlicht seine aktuelle Verbindlichkeitstransaktion.](./schliessung-erzwungen.png)
 
-Kommt Alice in dieser Zeit nicht wieder online oder sie akzeptiert den von Bob veröffentlichten Stand, wird der Kanal nach 1000 Blöcken regulär geschlossen und die beiden Parteien bekommen on-chain ihre jeweiligen Beträge (auf Basis von Bob's Verbindlichkeitstransaktion) ausgezahlt.
+Kommt Alice in dieser Zeit nicht wieder online oder sie akzeptiert den von Bob veröffentlichten Stand, wird der Kanal nach 1000 Blöcken regulär geschlossen und die beiden Parteien bekommen on-chain ihre jeweiligen Beträge (auf Basis von Bobs Verbindlichkeitstransaktion) ausgezahlt.
 
 Aber Moment …
 
 ### Was passiert wenn ein falscher Stand veröffentlicht wird?
 
-Nehmen wir an Bob's Node verschwindet und Alice veröffentlicht einen veralteten Stand, welcher sie bevorteilt.
+Nehmen wir an, Bobs Node verschwindet und Alice veröffentlicht einen veralteten Stand, welcher sie bevorteilt.
 Dies kann entweder beabsichtigt vorkommen (das wäre gemein, um nicht zu sagen Betrug) oder versehentlich, bspw. durch das Wiederherstellen eines veralteten Stands aus einem Backup.
 
 ![Schließung des Zahlungskanals mit einem veralteten Stand](./schliessung-vertragsbruch-1.png)
 
 Die 1000 Blöcke Wartezeit geben Bob nun die Gelegenheit, seinerseits wieder online zu kommen und den von Alice veröffentlichten Stand zu widerrufen:
-Er kennt und veröffentlicht dafür das Secret für Alice's veraltete Verbindlichkeitstransaktion und kann somit nachweisen, dass dies nicht die aktuellste Version ist.
+Er kennt und veröffentlicht dafür das Secret für Alices veraltete Verbindlichkeitstransaktion und kann somit nachweisen, dass dies nicht die aktuellste Version ist.
 
 ![Bestrafung für das Schließen des Zahlungskanals mit einem veralteten Stand](./schliessung-vertragsbruch-2.png)
 

@@ -24,7 +24,7 @@ Während die Blockchain ein [einsehbares Kassenbuch](../finanzielle-privatsphaer
 Der Blick von außen ist jedoch nicht der einzige Blick:
 
 - Ein Beobachter der Blockchain sieht **Kanaleröffnung und -schließung** und damit Kapazitäten, Zeitpunkte und könnte über die [UTXOs](../utxo-management/) Rückschlüsse auf die beteiligten Parteien ziehen.
-- Dein **Kanalpartner** sieht zu jeder Zahlung, die durch euren Kanal läuft den Betrag, die Richtung und den Zeitpunkt.
+- Dein **Kanalpartner** sieht zu jeder Zahlung, die durch euren Kanal läuft, den Betrag, die Richtung und den Zeitpunkt.
 - Ein **Routing-Knoten** auf deinem Zahlungsweg sieht die Nachbarbeziehungen, den Betrag und den Zeitpunkt der Weiterleitung.
 - Wer deinen **Node betreibt oder beobachtet** (Hosting-Anbieter, Internet-Provider), sieht Verbindungsdaten.
 
@@ -212,7 +212,7 @@ Aktiv lässt sich ein Kanal durchaus austesten:
 
 - **Probing:** Mit gezielt gewählten Beträgen — die typischerweise fehlschlagen — lässt sich austesten, wie viel Liquidität in Richtung eines Kanals verfügbar ist.
   Über viele Probes ergibt das ein ziemlich genaues Bild der Verteilung, die sogenannte *Balance Discovery*.
-- **Rechnungs-Probing** verhindert das `payment_secret` in heutigen Rechnungen: Dieses Geheimnis erhält nur der echte Zahlende direkt vom Empfänger.
+- Das `payment_secret` in heutigen Rechnungen verhindert Rechnungs-Probing: Dieses Geheimnis erhält nur der echte Zahlende direkt vom Empfänger.
   Zwischenknoten können ohne es keine gültigen HTLCs an den Empfänger bauen — und deine Rechnung damit nicht „anpingen".
 - **Graph-Monitoring:** Unabhängig von aktiven Probes wird der öffentliche Graph dauerhaft beobachtet — Kanal-Öffnungen und -Schließungen, Gebühren-Updates, Uptime.
   Dienste und Analysten bauen daraus Profile und Historien von Nodes.

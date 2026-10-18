@@ -80,7 +80,7 @@ Jetzt fügen wir die drei Keystores in Sparrow zu einer gemeinsamen Wallet zusam
       Unter <kbd>Settings › Advanced</kbd> aktivierst du unter <kbd>Sig types</kbd> die Signaturoption **Multisig** und unter <kbd>Script types</kbd> als Script-Typ **Native Segwit**.
       Damit exportiert der SeedSigner den MultiSig-xpub mit dem Ableitungspfad `m/48'/0'/0'/2'` statt eines Single-Sig-Schlüssels.
       :::tip Weitere Accounts
-      Möchtest du später mehrere Account nutzen, musst du unter <kbd>Script types</kbd> ebenfalls **Custom Derivation** aktivieren.
+      Möchtest du später mehrere Accounts nutzen, musst du unter <kbd>Script types</kbd> ebenfalls **Custom Derivation** aktivieren.
       Beim Export kannst du dann anstatt **Native Segwit** die Option **Custom Derivation** wählen und den Ableitungspfad manuell eingeben (bspw. `m/48'/0'/1'/2'` für Account 1).
       :::
 

@@ -49,7 +49,7 @@ Statt einem Account hast du einen privaten Schlüssel (nsec) und einen öffentli
 Der öffentliche Schlüssel kann wie ein Benutzername behandelt werden:
 Er ist deine persönliche Kennung über die dich andere identifizieren.
 Der private Schlüssel hingegen ist wie dein Passwort zu sehen:
-Mit ihm werden deine Nachrichten signiert und sollte er öffentlich bekannt werden, ist die damit verbundene Identität kompromitiert, da der private Schlüssel vollen Zugriff liefert.
+Mit ihm werden deine Nachrichten signiert und sollte er öffentlich bekannt werden, ist die damit verbundene Identität kompromittiert, da der private Schlüssel vollen Zugriff liefert.
 Ein privater Schlüssel lässt sich mit [NIP-49](https://github.com/nostr-protocol/nips/blob/master/49.md) verschlüsselt sichern – vergleichbar damit, deine Nostr-Identität mit einer zusätzlichen Passphrase zu sichern.
 
 ### Eine Identität anlegen
@@ -58,7 +58,7 @@ Lass deinen privaten Schlüssel möglichst **nie im Browser** generieren oder hi
 Moderne Clients bieten Signer-Integrationen an, die den privaten Schlüssel isoliert von der eigentlichen App verwalten:
 
 - [Amber](https://amber.green/) (Android) hält den nsec auf dem Gerät und gibt ihn nicht an Clients weiter – der Schlüssel verlässt dein Handy nie.
-- Die [Alby-Erweiterung](https://getalby.com/) (Browser) verwaltet deinen Schlüssel in der Erweiterung und kann ihn gezielt für einzelne Anwendungen freigeben; sie kann die Identität auch mit einem Lightning-Wallet koppeln.
+- Die [Alby-Erweiterung](https://getalby.com/) (Browser) verwaltet deinen Schlüssel in der Erweiterung und kann ihn gezielt für einzelne Anwendungen freigeben; sie kann die Identität auch mit einer Lightning-Wallet koppeln.
 - [nsecBunker](https://github.com/kindlyfire/nsecbunker) (NIP-46) stellt den Schlüssel als "Bunker" bereit, sodass sich Clients über eine eigene, kontrollierbare Schnittstelle signieren lassen.
 
 Generiere deine Identität am besten direkt in einem dieser Signer und importiere sie dort von Anfang an.
@@ -125,7 +125,7 @@ Wer maximale Selbstsouveränität will, betreibt sein eigenes "persönliches Rel
 
 ### IP-Adresse und Privatsphäre
 
-Relay-Betreiber können die IP-Adressen der Benutzer sehen, da die Verbindung zu einem Relays direkt auf Socket-Basis hergestellt wird.
+Relay-Betreiber können die IP-Adressen der Benutzer sehen, da die Verbindung zu einem Relay direkt auf Socket-Basis hergestellt wird.
 Deine IP-Adresse ist eine eindeutige numerische Kennung deiner Internetverbindung.
 Sie dient deinem Internetanbieter zur Identifizierung und gibt auch Rückschlüsse über deinen Standort.
 
@@ -207,7 +207,7 @@ Wer Buzz für sein Team testen will, nimmt die [Open-Source-Version](https://git
 - **eCash-Wallets (NIP-60)** bringen [Cashu](https://cashu.space/)-Tokens auf Nostr: Dein Guthaben liegt als kryptographisches Versprechen eines Mint vor und lässt sich in Nostr-Events sichern (z. B. über ein persönliches Relay wie HAVEN).
   Selbst wenn Plattformen ausfallen, bleibt dein Geld in deinem Besitz, solange du deine Keys hast.
 
-Auch klassisches Publizieren bleibt gepflegt: Lange Artikel (NIP-23) und Plattformen wie [Stacker News](https://stacker.news/) oder der [Eiunundzwanzig Aggregator](https://discover.einundzwanzig.space/) zeigen, dass Nostr als Content- und Diskussionsschicht für die Bitcoin-Community fest etabliert ist.
+Auch klassisches Publizieren bleibt gepflegt: Lange Artikel (NIP-23) und Plattformen wie [Stacker News](https://stacker.news/) oder der [Einundzwanzig Aggregator](https://discover.einundzwanzig.space/) zeigen, dass Nostr als Content- und Diskussionsschicht für die Bitcoin-Community fest etabliert ist.
 
 ## Weitere Links und Anwendungsfälle
 

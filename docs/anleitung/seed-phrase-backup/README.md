@@ -85,7 +85,7 @@ Dabei solltest du aber nicht über Password-Manager nachdenken, sondern wenn dan
 ## Aufteilung nach Shamir Secret Sharing
 
 Wenn du dich über Backup-Methoden informierst, kommst du oft auch an der Aufteilung des Backups in mehrere Fragmente vorbei.
-Dies ist mit den oben beschriebenen Methoden kombinierbar, birgt jedoch zusätzliche Risiken in Form erhöhrer Komplexität.
+Dies ist mit den oben beschriebenen Methoden kombinierbar, birgt jedoch zusätzliche Risiken in Form erhöhter Komplexität.
 
 Die bekannteste Lösung dafür ist das **Shamir Secret Sharing**:
 Es teilt deine Seed Phrase in N Teile auf, von denen M Teile zur Wiederherstellung ausreichen (z.B. 3 von 5).

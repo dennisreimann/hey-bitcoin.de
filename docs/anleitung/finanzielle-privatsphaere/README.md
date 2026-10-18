@@ -56,9 +56,9 @@ Sie bleiben für immer öffentlich einsehbar und die mit einzelnen Transaktionen
 
 ## Wer sieht deine Daten und warum?
 
-Finanziellen Daten sind wertvoll.
+Finanzielle Daten sind wertvoll.
 Eine Vielzahl von Akteuren hat Interesse daran, sie zu lesen und auszuwerten.
-Dies ist auch gut in folgender Visualisierung zu erkennen, mit der Rebecca Ricks einmal [Paypal's Datenweitergabe an Drittanbieter](https://www.paypal.com/de/legalhub/paypal/third-parties-list) dargestellt hatte ([Quelle](https://www.infosecurity.us/blog/2018/1/22/becca-ricks-how-paypal-shares-your-data), das Original ist mittlerweile leider offline).
+Dies ist auch gut in folgender Visualisierung zu erkennen, mit der Rebecca Ricks einmal [PayPals Datenweitergabe an Drittanbieter](https://www.paypal.com/de/legalhub/paypal/third-parties-list) dargestellt hatte ([Quelle](https://www.infosecurity.us/blog/2018/1/22/becca-ricks-how-paypal-shares-your-data), das Original ist mittlerweile leider offline).
 
 !["How Paypal Shares Your Data"](./paypal.png)
 
@@ -93,7 +93,7 @@ Wie sieht solch eine Liste von Akteuren im Bitcoin-Kosmos aus und wie nutzen sie
 ### Kriminelle Akteure
 
 - **Was sie tun:** Sie suchen nach "reichen" Wallets, die viel Wert angesammelt haben.
-- **Das Risiko für dich:** Zielgerichtete Angriffe, von Phishing-E-Mails ("Wir haben eine Sicherheitswarnung für Ihre Wallet Adresse bc1q...") bis hin zur physischen Bedrohung, der sogenannten "5$-Wrench-Attacke".
+- **Das Risiko für dich:** Zielgerichtete Angriffe, von Phishing-E-Mails ("Wir haben eine Sicherheitswarnung für Ihre Wallet Adresse bc1q...") bis hin zur physischen Bedrohung, der sogenannten "$5-Wrench-Attacke".
   Warum sich die Mühe machen, deine Wallet zu hacken, wenn man dich mit einem einfachen Schraubenschlüssel bedrohen kann?
 
 ### Übergriffige Regierungen oder Entitäten
@@ -105,7 +105,7 @@ Eine heute getätigte Transaktion könnte in zehn Jahren ungeahnte Konsequenzen 
 
 ## So schadet dir mangelnde Privatsphäre im Alltag
 
-Theorie ist gut, aber machen wir es mit ein paar potenziellen Praxisbeispielen greifbaren:
+Theorie ist gut, aber machen wir es an ein paar potenziellen Praxisbeispielen greifbar:
 
 - **Dein Gehalt:** Du bekommst deine Arbeit in Bitcoin bezahlt.
   Bei der Ausgabe deines monatlichen Gehalts-UTXOs gilt es extra Vorkehrungen zu treffen, so dass die Empfänger nicht nachvollziehen können, wie viel du verdient hast.

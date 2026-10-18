@@ -51,7 +51,7 @@ Hier geht es direkt gegen die Chatkontrolle und die Datensammelwut von Google & 
 
 Der größte Mythos über Privacy-OS ist, dass sie unbrauchbar seien. GrapheneOS widerlegt dies.
 
-- **Sandboxed Google Play:** Du kannst Google Play Services **optional** als normale, sandboxed App installieren. So funktionieren Banking-Apps, bestimmte Messengern oder Navigation – aber sie sind strikt vom Rest des Systems isoliert und können es nicht überwachen.
+- **Sandboxed Google Play:** Du kannst Google Play Services **optional** als normale, sandboxed App installieren. So funktionieren Banking-Apps, bestimmte Messenger oder Navigation – aber sie sind strikt vom Rest des Systems isoliert und können es nicht überwachen.
 - **Volle App-Kompatibilität:** Apps von F-Droid (Open-Source), Aurora Store (anonymer Zugang zum Play Store) oder als APK installiert, laufen problemlos.
 - **Performance & Akku:** Da Hintergrundaktivitäten und Tracking-Dienste fehlen, läuft GrapheneOS oft sogar flüssiger und akkuschonender als Stock-Android.
 

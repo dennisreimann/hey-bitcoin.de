@@ -169,6 +169,6 @@ Um deine Privatsphäre und Souveränität weiter zu stärken, empfehle ich dir d
 
 - Mach dich mit den Wallet Grundlagen vertraut und lerne die Konzepte [Accounts, Derivation Paths und Passphrases](../bitcoin-wallet-grundlagen/) kennen.
 - Für maximale Privatsphäre: Lass [deinen eigenen Bitcoin-Node](../bitcoin-fullnode/) laufen
- und [verbinde deine Wallet mit deiner Bitcoin-Node](../bitcoin-fullnode-mit-wallet-verbinden/).
+ und [verbinde deine Wallet mit deinem Bitcoin-Node](../bitcoin-fullnode-mit-wallet-verbinden/).
   Dies verhindert, dass du dich auf die Server Dritter verlassen musst und diese deine IP sowie Transaktionsdaten nachvollziehen können.
 - Für fortgeschrittene Nutzer: Die Kombination aus einer Hardware-Wallet und der leistungsstarken Software [Sparrow Wallet](../sparrow-wallet/) auf einem sicheren System bietet dir ein Maximum an Sicherheit und Kontrolle. Ich werde diese Serie bei Gelegenheit um weitere Artikel dazu erweitern.

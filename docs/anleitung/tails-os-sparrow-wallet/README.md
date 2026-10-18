@@ -167,4 +167,4 @@ Was **niemals** hier landen darf:
 
 ### Quellen & Danksagung
 
-Diese Anleitung basiert auf Daniel Costas' Artikel [Installing Sparrow Wallet on TailsOS persistently](https://danielpcostas.dev/installing-sparrow-wallet-on-tailsos-persistently/), welcher wiederum die [Anleitung: Tails Linux mit Sparrow Wallet](https://forum.blocktrainer.de/t/anleitung-tails-linux-mit-sparrow-wallet/28775) als Grundlage nutze.
+Diese Anleitung basiert auf Daniel Costas' Artikel [Installing Sparrow Wallet on TailsOS persistently](https://danielpcostas.dev/installing-sparrow-wallet-on-tailsos-persistently/), welcher wiederum die [Anleitung: Tails Linux mit Sparrow Wallet](https://forum.blocktrainer.de/t/anleitung-tails-linux-mit-sparrow-wallet/28775) als Grundlage nutzte.

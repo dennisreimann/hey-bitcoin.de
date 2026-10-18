@@ -68,7 +68,7 @@ Nämlich in dem Fall, dass Bobs ausgehende Kapazität zu Charlie nicht ausreiche
 Was die meisten Menschen in ihrem Verständnis stört:
 Bob kann die 4 mBTC, die er von Alice erhalten hat, nicht nehmen und sie in seinen Kanal mit Charlie verschieben und weitergeben.
 ==Der Betrag kann nicht direkt den Kanal wechseln, da die Kapazität eines jeden Kanals festgelegt ist.==
-Die Weiterleitung funktioniert nur, wenn Bob's ausgehende Kapazität in seinem Kanal mit Charlie auch mindestens 4 mBTC beträgt …
+Die Weiterleitung funktioniert nur, wenn Bobs ausgehende Kapazität in seinem Kanal mit Charlie auch mindestens 4 mBTC beträgt …
 
 ## Änderung der Verteilung
 
@@ -81,9 +81,9 @@ Alice zahlt Bob 4 mBTC (grüne Linie) und Bob zahlt Charlie 4 mBTC (gestrichelte
 
 So sieht die Verteilung aus, nachdem die Weiterleitung erfolgreich durchgeführt wurde:
 
-![Alice's Weiterleitung über Bob hat die Verteilung zwischen Bob und Charlie angepasst.](./routing-A-B-C-3.png)
+![Alices Weiterleitung über Bob hat die Verteilung zwischen Bob und Charlie angepasst.](./routing-A-B-C-3.png)
 
-Alice's Weiterleitung über Bob hat die Verteilung zwischen Bob und Charlie angepasst.
+Alices Weiterleitung über Bob hat die Verteilung zwischen Bob und Charlie angepasst.
 
 :::tip Hinweis
 Aufgrund der HTLCs sind die Routing-Operationen atomar.
@@ -103,7 +103,7 @@ Um diese Punkte kurz zusammenzufassen, könnte man sagen:
 
 - Händler brauchen eingehende Liquidität.
 - Kunden benötigen ausgehende Liquidität.
-- Routingkonten-Betreiber müssen die Verteilungen für die Geldströme anpassen.
+- Routingknoten-Betreiber müssen die Verteilungen für die Geldströme anpassen.
 
 Diese Punkte sind derzeit ein großes Thema beim Aufbau der Kanäle eines neuen Lightning-Knotens:
 Da Kanalkapazität und Liquidität die einschränkenden Faktoren sind, gibt es Dienste, die auf die Bedürfnisse von Händlern eingehen:
@@ -116,7 +116,7 @@ Wie wir gesehen haben, stoßen die Kunden aufgrund der Länge ihres Zahlungswege
 
 Um dies zu beheben, wird bereits an Lösungen wie [Multi-Path Payments](https://lightning.engineering/posts/2020-05-07-mpp/) gearbeitet:
 Statt über eine einzige Route zu gehen, kann der gesendete Betrag aufgeteilt werden und mehrere verschiedene Routen nehmen.
-Auf diese Weise werden größere Zahlungen ermöglicht, da die Kapazität und die Verteiliung mehrerer Kanäle berücksichtigt werden können.
+Auf diese Weise werden größere Zahlungen ermöglicht, da die Kapazität und die Verteilung mehrerer Kanäle berücksichtigt werden können.
 Ein Beispiel: Mit MPP könnte die Zahlung von Alice an Charlie so aufgeteilt werden, dass 2 mBTC über Bob gehen und die anderen 2 mBTC über einen anderen Knoten **D** als Zwischenschritt.
 
 Dies ist nur eines von vielen spannenden Features, die derzeit ihren Weg in die Lightning Network Spezifikation finden. 😀

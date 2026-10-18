@@ -43,7 +43,7 @@ Die beste Option zum Ausgleich der Schwankungen ist historisch gesehen ein tägl
 
 Zunächst stellt sich die Frage wo und wie du deine ersten Satoshis bekommst:
 Die meisten Leute erwerben Bitcoin, indem sie es für staatliche Währungen wie den Euro kaufen.
-Daneben gibt es aber auch den Weg, Bitcoin zu verdienen oder gegen etwas anders einzutauschen.
+Daneben gibt es aber auch den Weg, Bitcoin zu verdienen oder gegen etwas anderes einzutauschen.
 Ich erwähne das direkt, weil es noch eine eher unübliche Variante ist, die zunächst auch gar nicht gesehen wird.
 Und es hat einige Vorteile, wie du gleich feststellen wirst …
 
@@ -59,7 +59,7 @@ Auch wenn dies wie der schnellste und zugänglichste Weg aussieht, solltest du d
   Sie bieten daher in der Regel jede Menge Shitcoins an, da das Verführen zum Zocken ein sehr lukratives Geschäft für sie ist.
   Nicht umsonst werden zentrale Börsen daher auch als Shitcoin-Casinos bezeichnet.
 - Bei zentralen Börsen hältst du nicht selbst den eigenen [privaten Schlüssel](/glossar/#private-key-und-seed-phrase), sondern vertraust dem Anbieter.
-  Während die Coins auf der Börse liegen, hast du nur vermindert Kontrolle darüber und bist auf die Sicherheit und Loyalität der Börse angewiesen.
+  Während die Coins auf der Börse liegen, hast du nur eine verminderte Kontrolle darüber und bist auf die Sicherheit und Loyalität der Börse angewiesen.
   Es gibt bereits leider einige Beispiele, aus denen das Mantra "Nicht deine Schlüssel, nicht deine Coins" entstanden ist.
 
 Das muss nicht zwangsläufig heißen, dass zentrale Börsen generell ein Problem sind.
@@ -96,7 +96,7 @@ Hier halte ich [Bisq](https://bisq.network/) für die beste Option:
 Zugegebenermaßen ist dies für Einsteiger aber wahrscheinlich aus mehreren Gründen keine direkte Option.
 Das Vorgehen ist komplexer und wirkt sicherlich auch für den unbedarften Nutzer befremdlich und abschreckend …
 
-- Die größte Hürde: Es muss zunächst ein Pfand von 0.01 Bitcoin hinterlegt werden.
+- Die größte Hürde: Es muss zunächst ein Pfand hinterlegt werden (je nach Angebot in der Größenordnung von 0.01 Bitcoin).
   Dies ist für den Fall, dass es beim Handel Probleme gibt und bspw. deine Überweisung nicht stattfindet.
   In so einem Fall würde Bisq sich einschalten und zwischen dir und dem Verkäufer vermitteln.
   Das Pfand dient dabei als Sicherheit für die Schlichtung.
@@ -109,7 +109,7 @@ Vielleicht hast du aber ja auch einen erfahrenen Bitcoiner in deinem Umfeld, der
 
 ### Bitcoin verdienen/tauschen
 
-Zu guter letzt die meiner Meinung nach beste Option: Bitcoin nicht kaufen, sondern verdienen oder tauschen.
+Zu guter Letzt die meiner Meinung nach beste Option: Bitcoin nicht kaufen, sondern verdienen oder tauschen.
 In technischen Jobs ist man oftmals näher an dem Thema und es ist auch für Kunden aus dem Ausland eine gute Zahlungsoption:
 Die Bezahlung ist schnell, verlässlich und im Vergleich zu herkömmlichen Banküberweisungen mit geringen Gebühren verbunden.
 
@@ -143,6 +143,6 @@ Warum sollte in Zukunft der Kioskbesitzer wissen wieviel du verdienst, nur weil
 Oder du möchtest dich davor schützen, unerwarteten Besuch zu bekommen, weil nach einem Börsenhack bekannt wurde, wie viel Bitcoin du besitzt und wo du wohnst.
 
 Ich möchte dich damit nicht abschrecken, auf der anderen Seite aber auch klar machen, dass dieses Thema wichtig ist:
-Sind deine Daten erst einmal draußen ist es fast unmöglich sie zu kontrollieren und wieder zurückzubekommen.
+Sind deine Daten erst einmal draußen, ist es fast unmöglich, sie zu kontrollieren und wieder zurückzubekommen.
 Du wirst vieles im Laufe der Zeit ausbauen und verbessern können, aber bitte starte nicht einfach vollkommen unbedarft und leichtgläubig.
 Lerne mehr dazu, [warum finanzielle Privatsphäre in Bitcoin jeden etwas angeht](../finanzielle-privatsphaere/).

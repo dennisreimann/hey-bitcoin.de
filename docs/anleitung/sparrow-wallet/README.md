@@ -1,7 +1,7 @@
 # Sparrow Wallet: Dein Tool für Selbstverwahrung & Privatsphäre
 
 [Sparrow Wallet](https://sparrowwallet.com/) ist die professionelle Wahl für Bitcoin-Selbstverwahrung und bietet exzellente Features für professionelles [UTXO-Management](../utxo-management/).
-Dieser Artikel erklärt dir die Einrichtung mit Hardware Wallets, fortgeschrittenes UTXO-Management und wie du maximale Privatsphäre mit deiner [eigenen Bitcoin-Node](../bitcoin-fullnode/) erreichst.
+Dieser Artikel erklärt dir die Einrichtung mit Hardware Wallets, fortgeschrittenes UTXO-Management und wie du maximale Privatsphäre mit deinem [eigenen Bitcoin-Node](../bitcoin-fullnode/) erreichst.
 
 ## Warum Sparrow Wallet?
 
@@ -12,7 +12,7 @@ Sparrow Wallet richtet sich an Nutzer, die:
 
 - Sicherheitsbewusst sind und Wert auf Selbstverwahrung legen
 - Privatsphäre aktiv schützen möchten
-- Die Vorteile einer eigenen Bitcoin-Node nutzen wollen
+- Die Vorteile eines eigenen Bitcoin-Nodes nutzen wollen
 - Fortgeschrittene Features wie Coin Control und Multi-Sig schätzen
 - Bereit sind, sich in eine professionelle Oberfläche einzuarbeiten
 
@@ -99,7 +99,7 @@ Warum dieser Ansatz sicherer ist:
    ![Die Wallet-Import Optionen in Sparrow](./import-wallet.png)
 4. Klicke auf <kbd>Import Keystore</kbd> und vergebe einen Namen und ein Passwort für die Wallet.
    Letzteres ist optional, du solltest aber ein Passwort vergeben, da Sparrow dieses zur Verschlüsselung der auf dem Computer gespeicherten Walletdaten nutzt.
-5. Sparrow liest nun den öffentlichen Schlüssel (xpub) von deinem Gerät aus und läd damit vom konfigurierten Node die damit verbundenen Transaktionsdaten.
+5. Sparrow liest nun den öffentlichen Schlüssel (xpub) von deinem Gerät aus und lädt damit vom konfigurierten Node die damit verbundenen Transaktionsdaten.
 
 Deine Wallet erscheint jetzt als neuer Tab und in der linken Seitenleiste findest du nun alle Möglichkeiten, um mit der Wallet zu interagieren.
 
@@ -136,7 +136,7 @@ Durch das Aufklappen einer Transaktionszeile siehst du auch die in ihr verwendet
 Ebenso hast du die Möglichkeit durch einen Klick auf die Lupe noch weiter einzusteigen und dir sämtliche Transaktionsdetails anzeigen zu lassen.
 
 Dort wird dir bspw. der UTXO-Fluss mit den Inputs und Outputs visualisiert.
-Es lohnt sich diesen Bereich näher zu erkunden, denn Sparrow stellt die technischen Details gut dar und man kann intuitiv sehen, wie eine Bitcoin-Transaktion aufgebaut ist.
+Es lohnt sich, diesen Bereich näher zu erkunden, denn Sparrow stellt die technischen Details gut dar und man kann intuitiv sehen, wie eine Bitcoin-Transaktion aufgebaut ist.
 
 ### Senden
 
@@ -170,7 +170,7 @@ Dieser Tab ist recht simpel und intuitiv, daher gehen wir nur auf folgendes Feat
 
 Diese beiden Tabs funktionieren recht ähnlich und bieten dir zusätzliche Management-Optionen.
 
-- Adressen: Hier bekommst du eine Übersicht deiner Empfangs und Wechselgeld-Adressen.
+- Adressen: Hier bekommst du eine Übersicht deiner Empfangs- und Wechselgeld-Adressen.
   Du siehst, welche Adressen bereits genutzt wurden und kannst die Listen filtern und exportieren.
 - UTXOs: Hier kannst du deine UTXOs nach Datum, Größe, oder Labels filtern.
   Ebenso kannst du bestimmte UTXOs "freezen", so dass sie nicht für die automatische Auswahl beim Senden berücksichtigt werden.
