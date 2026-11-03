@@ -25,7 +25,7 @@ Beispiel mit drei Accounts, welche durch dieselbe Seed Phrase verwaltet werden, 
 
 - Account 1 (Hauptdepot): Der Ableitungspfad ist `m/84'/0'/0'`
 - Account 2 (Tägliche Ausgaben): Der Ableitungspfad ist `m/84'/0'/1'`
-- Account 3 (Sparplan): Der Ableitungspfad ist `m/84'/0'/3'`
+- Account 3 (Sparplan): Der Ableitungspfad ist `m/84'/0'/2'`
 
 Womit wir direkt beim nächsten Thema wären ...
 
@@ -132,5 +132,6 @@ Hierarchisch dargestellt ergibt sich folgende Staffelung:
     - Accounts / Unterkonten
       - Derivation Paths / Ableitungspfade
         - Adressen
+          - UTXOs
 
 Jetzt wo du diese Werkzeuge und Konzepte kennen gelernt hast, kannst du die Funktionen wählen, die zu deinem Sicherheitsbedürfnis und Komfortlevel passen.
