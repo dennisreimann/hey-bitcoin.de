@@ -102,6 +102,7 @@ export default defineUserConfig({
         children: [
           '/anleitung/software-verifizieren/',
           '/anleitung/vpn-leitfaden/',
+          '/anleitung/self-hosting/',
           '/anleitung/grapheneos-sicherheit-privatsphaere/',
           '/anleitung/nostr-dezentrale-twitter-alternative/',
         ],
