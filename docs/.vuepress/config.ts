@@ -6,16 +6,24 @@ import { markdownExtPlugin } from '@vuepress/plugin-markdown-ext'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { seoPlugin } from '@vuepress/plugin-seo'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import { ogImagesPlugin } from './plugins/ogImages'
 import markdownItAbbr from 'markdown-it-abbr'
 import markdownItMark from 'markdown-it-mark'
 
 const __dirname = import.meta.dirname || getDirname(import.meta.url)
-const baseUrl = 'https://hey-bitcoin.de'
+
+// vuepress build setzt NODE_ENV=production, dev =development — so zeigen die
+// absoluten og:image/og:url URLs im Dev-Server auf localhost statt auf production
+const isDev = process.env.NODE_ENV === 'development'
+const baseUrl = isDev
+  ? (process.env.DEV_BASE_URL ?? 'http://localhost:8080')
+  : 'https://hey-bitcoin.de'
 
 export default defineUserConfig({
   bundler: viteBundler(),
   title: 'Hey Bitcoin!',
   plugins: [
+    ogImagesPlugin,
     markdownExtPlugin({
       breaks: false,
       gfm: true
@@ -23,7 +31,9 @@ export default defineUserConfig({
     searchPlugin({}),
     seoPlugin({
       hostname: baseUrl,
-      author: { name: 'Dennis', url: 'https://d11n.net', email: "mail@d11n.net"}
+      author: { name: 'Dennis', url: 'https://d11n.net', email: "mail@d11n.net"},
+      // used for og:image on pages without banner and without content images
+      fallBackImage: `${baseUrl}/index.jpg`,
     }),
     sitemapPlugin({
       hostname: baseUrl,

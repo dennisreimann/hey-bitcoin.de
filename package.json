@@ -14,6 +14,7 @@
   "scripts": {
     "start": "vuepress dev docs --clean-cache",
     "build": "vuepress build docs",
+    "images": "node scripts/missing-images.mjs",
     "update-package": "npx vp-update"
   },
   "devDependencies": {
@@ -25,7 +26,7 @@
     "@vuepress/theme-default": "2.0.0-rc.137",
     "markdown-it-abbr": "2.0.0",
     "markdown-it-mark": "4.0.0",
-    "sass-embedded": "1.107.1",
+    "sass-embedded": "1.108.1",
     "vue": "^3.5.45",
     "vuepress": "2.0.0-rc.31"
   },
