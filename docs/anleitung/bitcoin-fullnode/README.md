@@ -49,12 +49,12 @@ Die schlechte Nachricht: mit einem uralten Laptop oder einem Raspberry Pi 4 wirs
 Die Bitcoin-Blockchain wächst stetig, und die Anforderungen für einen Node mit Zusatzdiensten haben sich in den letzten Jahren weiterentwickelt.
 Diese Einkaufsliste hilft dir, ein zukunftssicheres Setup aufzubauen.
 
-### Anforderungen und Überlegungen für einen modernen Node (2025)
+### Anforderungen und Überlegungen für einen modernen Node (2026)
 
 | Komponente                | **Empfohlenes Minimum** | **Warum?** |
 | :---                      | :---                    | :---       |
 | **CPU (Prozessor)**       | Intel i5 oder AMD Ryzen 5 (ab Gen 8) | Die anfängliche Synchronisation (**Initial Block Download, IBD**) ist sehr CPU-intensiv. Eine schwache CPU braucht Wochen statt Tage. |
-| **Arbeitsspeicher**       | 16 GB RAM               | Je mehr Extraservices du betreiben möchtest (bspw. eine eigene Mempool.space-Instanz), umso mehr solltest du nehmen. 16 GB sind ausreichend, 32 GB groß dimensioniert. |
+| **Arbeitsspeicher**       | 32 GB RAM               | Je mehr Extraservices du betreiben möchtest (bspw. eine eigene Mempool.space-Instanz), umso mehr brauchst du. Für einen reinen Bitcoin-Knoten reichen 16 GB, aber Mempool-Instanz und Indexer sind hungrig — 32 GB sind heute der Standard. \*\*Achtung:\*\* Die RAM-Preise sind zuletzt stark gestiegen (Stand: Anfang 2026), plane den Speicher als eigenen Posten ins Budget ein. |
 | **Festplatte**            | 2 TB SSD | **Die SSD ist nicht verhandelbar.** Eine HDD ist 10-20x langsamer – der IBD würde ewig dauern. Die Blockchain ist ~700 GB groß, 2 TB geben Luft für Jahre. NVMe ist schneller als SATA. |
 | **Stromverbrauch**        | ~20 W (Mini-PC)<br>~100 W (Laptop)   | Ein Mini-PC kostet im Dauerbetrieb nur **ca. 50 € pro Jahr**. Ein alter Laptop verbraucht ein Vielfaches davon. |
 | **Netzwerk**              | Kabelgebunden        | Eine kabelgebundene LAN-Verbindung ist stabiler und zuverlässiger. Dein Node sollte nicht wegen einer schlechten WLAN-Verbindung ausfallen. |
@@ -66,12 +66,13 @@ Ein kleiner, leiser und extrem effizienter Computer, der nur eine Aufgabe hat �
 
 - **Energieeffizient:** Läuft für nur wenige Cent am Tag.
 - **Leise & kompakt:** Ist unauffällig in einer Ecke oder einem Schrank platziert.
-- **Preis-Leistung:** Eine einmalige Investition von **ca. 300-500 €** für Jahre sorgenfreien Betriebs.
+- **Preis-Leistung:** Eine einmalige Investition von **ca. 300-600 €** für Jahre sorgenfreien Betriebs — durch die gestiegenen RAM-Preise eher am oberen Ende, wenn du gleich 32 GB einplanst.
 - **Zweckgebunden:** Keine Risiken durch andere Software, das Gerät wird nur für den Node genutzt.
 
 **Konkrete Einkaufsliste:**
 
 1. **Mini-PC:** Günstig sind wiederaufbereitete Geräte wie z.B. **Dell Optiplex 7050**, **Lenovo ThinkCentre M720q** oder vergleichbare Modelle wie ein Intel NUC liegen preislich um die 200 EUR.
+   Diese kommen meist nur mit 8-16 GB RAM — durch die aktuell hohen Speicherpreise ist die Aufrüstung auf 32 GB inzwischen oft der teuerste Baustein. Kauf das Gerät möglichst direkt mit passendem RAM oder rechne das Upgrade als eigenen Posten ein.
 2. **Separate SSD:** Oft ist es günstiger, einen Mini-PC mit kleiner SSD zu kaufen und diese dann gegen eine große, eigene auszutauschen.
    Beispiele wären eine **Samsung 970 Evo Plus NVMe**, **Samsung 870 EVO SATA** oder **Crucial P3**.
 
@@ -103,7 +104,7 @@ Heute sind die Anforderungen höher und Single-Board-Computer vom Preis-Leistung
 :::tip Zusammenfassung und Empfehlung
 Dein Node läuft **24/7**, es geht um Stabilität und Effizienz.
 
-**Investiere in einen energieeffizienten Mini-PC mit mindestens 16 GB RAM und einer 2 TB SSD.**
+**Investiere in einen energieeffizienten Mini-PC mit mindestens 32 GB RAM und einer 2 TB SSD.**
 
 Diese einmalige Investition gibt dir **Jahre** lang ein sicheres, schnelles und souveränes Bitcoin-Fundament, das alle fortgeschrittenen Features (wie einen Lightning-Node, eine eigene Mempool.space-Instanz und Indexer) problemlos mitmacht.
 Du umgehst einige Fallstricke und sparst langfristig sogar Stromkosten.
